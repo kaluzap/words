@@ -195,11 +195,11 @@ class Window(Frame):
             print(f"There are {df_dictionary.shape[0]} words left.")
 
         self.active_case = random_case()
-        if (self.active_word["plural"] == "ohne") and (self.active_case == "p"):
+        if (self.active_word["plural"] == "-") and (self.active_case == "p"):
             self.active_case = "s"
         if self.active_word["singular"] == self.active_word["plural"]:
             self.active_case = "sp"
-        if self.active_word["singular"] == "ohne":
+        if self.active_word["singular"] == "-":
             self.active_case = "p"
 
         if self.active_case == "s":
@@ -240,7 +240,7 @@ class Window(Frame):
         else:
             line += "    :(\n"
 
-        line += f"Successes streak: {self.successes_streak} ({self.successes_streak_record})"
+        line += f"Success streak: {self.successes_streak} ({self.successes_streak_record})"
 
         return line
 
