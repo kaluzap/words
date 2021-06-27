@@ -276,18 +276,18 @@ class Window(Frame):
         if self.active_word["singular"] == "-":
             text += "[ohne s.], "
         else:
-            if self.active_word["gender"] == "m":
-                text += "der "
-            elif self.active_word["gender"] == "f":
-                text += "die "
-            else:
-                text += "das "
+            if "m" in self.active_word["gender"]:
+                text += article_texts["m"] + " "
+            if "f" in self.active_word["gender"]:
+                text += article_texts["f"] + " "
+            if "n" in self.active_word["gender"]:
+                text += article_texts["n"] + " "
             text += self.active_word["singular"] + ", "
 
         if self.active_word["plural"] == "-":
             text += "[ohne pl.]"
         else:
-            text += f"die {self.active_word['plural']}"
+            text += f"{article_texts['p']} {self.active_word['plural']}"
         self.text_to_speak = text
         return text
 
