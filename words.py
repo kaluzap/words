@@ -56,7 +56,12 @@ label_properties = {
         "fg": "gray35",
     },
     "label_full_data": {"text": "full data", "font": "Verdana 12 bold", "fg": "green"},
-    "label_points": {"text": "points", "font": "Verdana 8 bold", "fg": "black"},
+    "label_points": {
+        "text": "points",
+        "font": "Verdana 8 bold",
+        "fg": "black",
+        "justify": "left",
+    },
 }
 
 
@@ -72,6 +77,8 @@ class Window(Frame):
         self.count_total_words = 0
         self.already_tested = False
         self.allow_repetitions = IntVar()
+        self.successes_streak = 0
+        self.successes_streak_record = 0
 
         # starting a word
         self.set_new_active_word_and_case()
@@ -229,9 +236,12 @@ class Window(Frame):
             ratio_attempts = self.count_good / self.count_total_clicks
         line += f"Ratio attempts: {self.count_good}/{self.count_total_clicks} = {ratio_attempts:.5f}"
         if ratio_attempts > 0.9:
-            line += "    :)"
+            line += "    :)\n"
         else:
-            line += "    :("
+            line += "    :(\n"
+
+        line += f"Successes streak: {self.successes_streak} ({self.successes_streak_record})"
+
         return line
 
     def update_labels(self):
@@ -263,7 +273,7 @@ class Window(Frame):
 
     def create_string_result(self):
         text = ""
-        if self.active_word["singular"] == "ohne":
+        if self.active_word["singular"] == "-":
             text += "[ohne s.], "
         else:
             if self.active_word["gender"] == "m":
@@ -274,7 +284,7 @@ class Window(Frame):
                 text += "das "
             text += self.active_word["singular"] + ", "
 
-        if self.active_word["plural"] == "ohne":
+        if self.active_word["plural"] == "-":
             text += "[ohne pl.]"
         else:
             text += f"die {self.active_word['plural']}"
@@ -286,15 +296,19 @@ class Window(Frame):
         if self.test_word(gender):
             if not self.already_tested:
                 self.count_good += 1
+                self.successes_streak += 1
             self.disable_article_buttons()
             self.enable_next_button()
             self.count_total_words += 1
+            if self.successes_streak_record < self.successes_streak:
+                self.successes_streak_record = self.successes_streak
             label_properties["label_status"]["text"] = message_status["correct"]
             label_properties["label_word"]["fg"] = gender_color[gender]
             label_properties["label_full_data"]["text"] = self.create_string_result()
             label_properties["label_full_data"]["fg"] = gender_color[gender]
         else:
             label_properties["label_status"]["text"] = message_status["wrong"]
+            self.successes_streak = 0
         label_properties["label_points"]["text"] = self.count_statistics()
         self.already_tested = True
         self.update_labels()
@@ -361,15 +375,14 @@ def main():
     root = Tk()
     app = Window(root)
     root.wm_title("WORDS!")
-    root.geometry("500x275")
+    root.geometry("500x300")
     root.mainloop()
 
 
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
-        description="Words",
-        epilog="Example: python words.py -fd data_nouns_ge_sp.csv",
+        description="Words", epilog="Example: python words.py -fd data_nouns_ge_sp.csv",
     )
 
     parser.add_argument(
