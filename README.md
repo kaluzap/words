@@ -33,8 +33,8 @@ pip install -r requirements.txt
 ## Playing
 ```
 python nouns.py -fd data_nouns_ge_sp.csv 
+```
 
 ## Example
 ![Screenshot](/img/example.png)
 
-```
