@@ -9,6 +9,9 @@ __pycache__/
 #sound
 *.mp3
 
+#images
+*.png
+
 # Distribution / packaging
 .Python
 build/

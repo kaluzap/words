@@ -2,8 +2,10 @@ import argparse
 import pandas as pd
 from numpy import random
 from tkinter import *
+from PIL import Image, ImageTk
 from gtts import gTTS
 import os
+import matplotlib.pyplot as plt
 
 TARGET_LANGUAGE = "de"  # language for dialog controls and sound
 
@@ -77,8 +79,10 @@ class Window(Frame):
         self.count_total_words = 0
         self.already_tested = False
         self.allow_repetitions = IntVar()
-        self.successes_streak = 0
-        self.successes_streak_record = 0
+        self.success_streak = 0
+        self.success_streak_record = 0
+        self.success_streak_history = []
+        self.create_figure()
 
         # starting a word
         self.set_new_active_word_and_case()
@@ -115,6 +119,12 @@ class Window(Frame):
             master=self.frame_texts, **label_properties["label_points"]
         )
         self.label_points.pack(side=TOP, padx="5", pady="5")
+
+        load = Image.open("success_streak.png")
+        render = ImageTk.PhotoImage(load)
+        self.img = Label(master=self.frame_texts, image=render)
+        self.img.image = render
+        self.img.pack(side=TOP, padx="5", pady="5")
 
         # subframe for article buttons
         self.frame_button_articles = Frame(self.master)
@@ -240,7 +250,7 @@ class Window(Frame):
         else:
             line += "    :(\n"
 
-        line += f"Success streak: {self.successes_streak} ({self.successes_streak_record})"
+        line += f"Success streak: {self.success_streak} ({self.success_streak_record})"
 
         return line
 
@@ -252,6 +262,9 @@ class Window(Frame):
         self.label_full_data["text"] = label_properties["label_full_data"]["text"]
         self.label_full_data["fg"] = label_properties["label_full_data"]["fg"]
         self.label_points["text"] = label_properties["label_points"]["text"]
+        img2 = ImageTk.PhotoImage(Image.open("success_streak.png"))
+        self.img.configure(image=img2)
+        self.img.image = img2
 
     def disable_next_button(self):
         self.nextButton["state"] = DISABLED
@@ -296,22 +309,44 @@ class Window(Frame):
         if self.test_word(gender):
             if not self.already_tested:
                 self.count_good += 1
-                self.successes_streak += 1
+                self.success_streak += 1
             self.disable_article_buttons()
             self.enable_next_button()
             self.count_total_words += 1
-            if self.successes_streak_record < self.successes_streak:
-                self.successes_streak_record = self.successes_streak
+            if self.success_streak_record < self.success_streak:
+                self.success_streak_record = self.success_streak
             label_properties["label_status"]["text"] = message_status["correct"]
             label_properties["label_word"]["fg"] = gender_color[gender]
             label_properties["label_full_data"]["text"] = self.create_string_result()
             label_properties["label_full_data"]["fg"] = gender_color[gender]
         else:
             label_properties["label_status"]["text"] = message_status["wrong"]
-            self.successes_streak = 0
+            self.success_streak_history.append(self.success_streak)
+            self.create_figure()
+            self.success_streak = 0
         label_properties["label_points"]["text"] = self.count_statistics()
         self.already_tested = True
         self.update_labels()
+
+    def create_figure(self):
+        plt.rcParams["figure.figsize"] = (4.5, 1.5)
+        plt.ylabel("Times", fontsize=8)
+        plt.xlabel("Success Streak", fontsize=8)
+        plt.rc("xtick", labelsize=6)
+        plt.rc("ytick", labelsize=6)
+        plt.xticks(range(0, self.success_streak_record + 1))
+        if len(self.success_streak_history) != 0:
+            plt.yticks(range(0, max(self.success_streak_history) + 1))
+        else:
+            plt.yticks(range(0, 1))
+        plt.hist(
+            self.success_streak_history,
+            bins=self.success_streak_record + 1,
+            range=(-0.5, self.success_streak_record + 0.5),
+        )
+        plt.savefig("success_streak.png", bbox_inches="tight")
+        plt.clf()
+        plt.close("all")
 
     def test_word(self, gender):
         if ("s" in self.active_case) and (gender in self.active_word["gender"]):
@@ -375,7 +410,7 @@ def main():
     root = Tk()
     app = Window(root)
     root.wm_title("WORDS!")
-    root.geometry("500x300")
+    root.geometry("500x500")
     root.mainloop()
 
 
