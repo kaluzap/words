@@ -2,8 +2,10 @@ import argparse
 import pandas as pd
 from numpy import random
 from tkinter import *
+from PIL import Image, ImageTk
 from gtts import gTTS
 import os
+import matplotlib.pyplot as plt
 
 TARGET_LANGUAGE = "de"  # language for dialog controls and sound
 
@@ -80,6 +82,7 @@ class Window(Frame):
         self.success_streak = 0
         self.success_streak_record = 0
         self.success_streak_history = []
+        self.create_figure()
 
         # starting a word
         self.set_new_active_word_and_case()
@@ -116,6 +119,12 @@ class Window(Frame):
             master=self.frame_texts, **label_properties["label_points"]
         )
         self.label_points.pack(side=TOP, padx="5", pady="5")
+
+        load = Image.open("success_streak.png")
+        render = ImageTk.PhotoImage(load)
+        self.img = Label(master=self.frame_texts, image=render)
+        self.img.image = render
+        self.img.pack(side=TOP, padx="5", pady="5")
 
         # subframe for article buttons
         self.frame_button_articles = Frame(self.master)
@@ -253,6 +262,9 @@ class Window(Frame):
         self.label_full_data["text"] = label_properties["label_full_data"]["text"]
         self.label_full_data["fg"] = label_properties["label_full_data"]["fg"]
         self.label_points["text"] = label_properties["label_points"]["text"]
+        img2 = ImageTk.PhotoImage(Image.open("success_streak.png"))
+        self.img.configure(image=img2)
+        self.img.image = img2
 
     def disable_next_button(self):
         self.nextButton["state"] = DISABLED
@@ -310,11 +322,31 @@ class Window(Frame):
         else:
             label_properties["label_status"]["text"] = message_status["wrong"]
             self.success_streak_history.append(self.success_streak)
-            print(self.success_streak_history)
+            self.create_figure()
             self.success_streak = 0
         label_properties["label_points"]["text"] = self.count_statistics()
         self.already_tested = True
         self.update_labels()
+
+    def create_figure(self):
+        plt.rcParams["figure.figsize"] = (4.5, 1.5)
+        plt.ylabel("Times", fontsize=8)
+        plt.xlabel("Success Streak", fontsize=8)
+        plt.rc("xtick", labelsize=6)
+        plt.rc("ytick", labelsize=6)
+        plt.xticks(range(0, self.success_streak_record + 1))
+        if len(self.success_streak_history) != 0:
+            plt.yticks(range(0, max(self.success_streak_history) + 1))
+        else:
+            plt.yticks(range(0, 1))
+        plt.hist(
+            self.success_streak_history,
+            bins=self.success_streak_record + 1,
+            range=(-0.5, self.success_streak_record + 0.5),
+        )
+        plt.savefig("success_streak.png", bbox_inches="tight")
+        plt.clf()
+        plt.close("all")
 
     def test_word(self, gender):
         if ("s" in self.active_case) and (gender in self.active_word["gender"]):
@@ -378,7 +410,7 @@ def main():
     root = Tk()
     app = Window(root)
     root.wm_title("WORDS!")
-    root.geometry("500x300")
+    root.geometry("500x500")
     root.mainloop()
 
 
