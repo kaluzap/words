@@ -77,8 +77,9 @@ class Window(Frame):
         self.count_total_words = 0
         self.already_tested = False
         self.allow_repetitions = IntVar()
-        self.successes_streak = 0
-        self.successes_streak_record = 0
+        self.success_streak = 0
+        self.success_streak_record = 0
+        self.success_streak_history = []
 
         # starting a word
         self.set_new_active_word_and_case()
@@ -240,7 +241,7 @@ class Window(Frame):
         else:
             line += "    :(\n"
 
-        line += f"Success streak: {self.successes_streak} ({self.successes_streak_record})"
+        line += f"Success streak: {self.success_streak} ({self.success_streak_record})"
 
         return line
 
@@ -296,19 +297,21 @@ class Window(Frame):
         if self.test_word(gender):
             if not self.already_tested:
                 self.count_good += 1
-                self.successes_streak += 1
+                self.success_streak += 1
             self.disable_article_buttons()
             self.enable_next_button()
             self.count_total_words += 1
-            if self.successes_streak_record < self.successes_streak:
-                self.successes_streak_record = self.successes_streak
+            if self.success_streak_record < self.success_streak:
+                self.success_streak_record = self.success_streak
             label_properties["label_status"]["text"] = message_status["correct"]
             label_properties["label_word"]["fg"] = gender_color[gender]
             label_properties["label_full_data"]["text"] = self.create_string_result()
             label_properties["label_full_data"]["fg"] = gender_color[gender]
         else:
             label_properties["label_status"]["text"] = message_status["wrong"]
-            self.successes_streak = 0
+            self.success_streak_history.append(self.success_streak)
+            print(self.success_streak_history)
+            self.success_streak = 0
         label_properties["label_points"]["text"] = self.count_statistics()
         self.already_tested = True
         self.update_labels()
