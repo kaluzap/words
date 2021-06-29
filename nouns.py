@@ -322,8 +322,8 @@ class Window(Frame):
         else:
             label_properties["label_status"]["text"] = message_status["wrong"]
             self.success_streak_history.append(self.success_streak)
-            self.create_figure()
             self.success_streak = 0
+        self.create_figure()
         label_properties["label_points"]["text"] = self.count_statistics()
         self.already_tested = True
         self.update_labels()
@@ -340,7 +340,7 @@ class Window(Frame):
         else:
             plt.yticks(range(0, 1))
         plt.hist(
-            self.success_streak_history,
+            self.success_streak_history + [self.success_streak],
             bins=self.success_streak_record + 1,
             range=(-0.5, self.success_streak_record + 0.5),
         )
