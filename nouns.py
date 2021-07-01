@@ -313,9 +313,10 @@ class Window(Frame):
             self.disable_article_buttons()
             self.enable_next_button()
             self.count_total_words += 1
+            label_properties["label_status"]["text"] = message_status["correct"]
             if self.success_streak_record < self.success_streak:
                 self.success_streak_record = self.success_streak
-            label_properties["label_status"]["text"] = message_status["correct"]
+                label_properties["label_status"]["text"] = message_status["correct"] + "   NEW RECORD"
             label_properties["label_word"]["fg"] = gender_color[gender]
             label_properties["label_full_data"]["text"] = self.create_string_result()
             label_properties["label_full_data"]["fg"] = gender_color[gender]
