@@ -417,9 +417,6 @@ def main():
 
 
 def close_window():
-    global df_dictionary
-    df_dictionary.drop(columns=['active'], inplace=True)
-    df_dictionary.to_csv(data_file_name, index=False, quoting=2)
     print( "Ciao")
     quit()
 
