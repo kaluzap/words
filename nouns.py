@@ -195,10 +195,24 @@ class Window(Frame):
     def set_new_active_word_and_case(self):
         global df_dictionary
         try:
-            df_sample = df_dictionary[df_dictionary['active']==True].sample()
+            if self.allow_repetitions.get():
+                indexes = [x for x in range(0, df_dictionary.shape[0])]
+                total = df_dictionary['mistakes'].sum()
+                if total == 0:
+                    df_dictionary['p'] = df_dictionary.apply(lambda row : 1/len(indexes), axis=1)
+                else:
+                    df_dictionary['p'] = df_dictionary.apply(lambda row : row['mistakes']/total, axis=1)
+                the_index = random.choice(indexes, 1, p=df_dictionary['p'].to_list())[0]
+                #print(df_dictionary['p'].to_list())
+                #print(f"the_index = {the_index}")
+                df_sample = df_dictionary[df_dictionary.index==the_index]
+            else:
+                df_sample = df_dictionary[df_dictionary['active']==True].sample()
+            #print(df_sample.head())
         except ValueError as err:
             print("No hay mas palabras!!!")
             return self.active_word, self.active_case
+        
         self.active_word = df_sample.iloc[0].to_dict()
         self.active_word['index'] = df_sample.index[0]
         df_dictionary.at[self.active_word['index'],'active'] = False
@@ -308,7 +322,12 @@ class Window(Frame):
             if not self.already_tested:
                 self.count_good += 1
                 self.success_streak += 1
+                df_dictionary.at[self.active_word['index'],'mistakes'] -= 1
+                if df_dictionary.at[self.active_word['index'],'mistakes'] < 1:
+                    df_dictionary.at[self.active_word['index'],'mistakes'] = 1
+                #df_dictionary.at[self.active_word['index'],'active'] = False
             else:
+                #df_dictionary.at[self.active_word['index'],'mistakes'] += 1
                 df_dictionary.at[self.active_word['index'],'active'] = True
             self.disable_article_buttons()
             self.enable_next_button()
@@ -324,6 +343,7 @@ class Window(Frame):
             label_properties["label_status"]["text"] = message_status["wrong"]
             self.success_streak_history.append(self.success_streak)
             self.success_streak = 0
+            df_dictionary.at[self.active_word['index'],'mistakes'] += 1
         self.create_figure()
         label_properties["label_points"]["text"] = self.count_statistics()
         self.already_tested = True
@@ -405,6 +425,9 @@ def main():
         print(f'I cannot open the file "{data_file_name}"')
         return
     df_dictionary['active'] = True
+    if 'mistakes' not in df_dictionary.columns:
+        df_dictionary['mistakes'] = 1
+    df_dictionary['p'] = 0
     print(df_dictionary.head())
 
     # initialize tkinter
@@ -418,7 +441,7 @@ def main():
 
 def close_window():
     global df_dictionary
-    df_dictionary.drop(columns=['active'], inplace=True)
+    df_dictionary.drop(columns=['active', 'p'], inplace=True)
     df_dictionary.to_csv(data_file_name, index=False, quoting=2)
     print( "Ciao")
     quit()
