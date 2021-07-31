@@ -19,6 +19,7 @@
 "Adresse","Adressen","f","dirección",1
 "Adverb","Adverbien","n","adverbio",1
 "Ahnung","Ahnungen","f","idea",1
+"Akku","Akkus","m","acumulador, batería",11
 "Akkusativ","Akkusative","m","acusativo",1
 "Aktivität","Aktivitäten","f","actividad",1
 "Aktualität","-","f","actualidad",1
@@ -43,6 +44,7 @@
 "Anmeldung","Anmeldungen","f","aviso, inscripción, declaración",1
 "Anmerkung","Anmerkungen","f","observación, advertencia",1
 "Antenne","Antennen","f","antena",1
+"Antonym","Antonyme","n","antónimo",11
 "Antrag","Anträge","m","solicitud",1
 "Antwort","Antworten","f","respuesta",1
 "Anwalt","Anwälte","m","abogado",1
@@ -96,6 +98,7 @@
 "Banknote","Banknoten","f","billete de banco",1
 "Bar","Bars","f","bar",4
 "Bargeld","-","n","dinero en efectivo",1
+"Batterie","Batterien","f","batería, pila",11
 "Bau","-","m","construcción",1
 "Baum","Bäume","m","árbol",1
 "Bedarf","-","m","necesidad, falta",1
@@ -308,6 +311,7 @@
 "Fläche","Flächen","f","superficie",1
 "Flügel","Flügel","m","ala",1
 "Form","Formen","f","forma, manera",1
+"Formular","Formulare","n","formulario",11
 "Forschung","Forschungen","f","investigación",1
 "Foto","Fotos","n","foto",1
 "Frage","Fragen","f","pregunta",1
@@ -454,6 +458,7 @@
 "Kampagne","Kampagnen","f","campaña",1
 "Kampf","Kämpfe","m","lucha, combate",1
 "Kaninchen","Kaninchen","n","conejo",1
+"Kaninchen","Kaninchen","n","conejo",11
 "Kanne","Kannen","f","jarra",1
 "Kappe","Kappen","f","gorra, tapa, capucha",1
 "Karte","Karten","f","mapa, carta",1
@@ -490,6 +495,7 @@
 "Klotz","Klötze","m","bloque",1
 "Klub","Klubs","m","club",1
 "Kneipe","Kneipen","f","bar",1
+"Knoblauch","-","m","ajo",11
 "Knopf","Knöpfe","m","botón",1
 "Kochtopf","Kochtöpfe","m","olla",1
 "Kohl","-","m","col, repollo",1
@@ -539,6 +545,7 @@
 "Körperhaltung","Körperhaltungen","f","postura",1
 "Küche","Küchen","f","cocina",1
 "Kühlschrank","Kühlschränke","m","heladera",1
+"Kürbis","Kürbisse","m","zapallo",11
 "Küste","Küsten","f","costa",1
 "LKW","LKWs","m","camión",1
 "Label","Label","n","etiqueta, identificación",1
@@ -554,6 +561,7 @@
 "Leben","Leben","n","vida",1
 "Lebensmitte","-","f","mitad de la vida",1
 "Lebensmittel","Lebensmittel","n","comestibles",1
+"Legende","Legenden","f","leyenda, cuento",11
 "Lehrer","Lehrer","m","maestro",1
 "Lehrerin","Lehrerinnen","f","maestra",1
 "Leiter","Leitern","f","escalera",1
@@ -574,6 +582,7 @@
 "Mai","Maie","m","mayo",1
 "Mal","Male","n","vez",1
 "Mann","Männer","m","hombre",1
+"Mannschaft","Mannschaften","f","equipo deportivo, tripulación",11
 "Mantel","Mäntel","m","abrigo",1
 "Mappe","Mappen","f","carpeta",1
 "Marine","Marinen","f","marina",1
@@ -717,6 +726,7 @@
 "Pumpe","Pumpen","f","bomba",1
 "Püree","Pürees","n","puré",2
 "Quittung","Quittungen","f","recibo con validez jurídica",1
+"Rabe","Raben","m","cuervo",11
 "Rad","Räder","n","rueda",1
 "Radarsicht","-","f","visibilidad radar",1
 "Radio","Radios","n","radio",1
@@ -758,6 +768,7 @@
 "Salat","Salate","m","ensalada",1
 "Salon","Salons","m","salón",1
 "Sammelbegriff","Sammelbegriffe","m","concepto genérico",1
+"Sammlung","Sammlungen","f","recaudación, colección",11
 "Samstag","Samstage","m","sabado",1
 "Sand","-","m","arena",1
 "Satellit","Satelliten","m","satélite",1
@@ -812,6 +823,7 @@
 "Schwiegervater","Schwiegerväter","m","suegro",1
 "Schwierigkeit","Schwierigkeiten","f","dificultad",1
 "Schwägerin","Schwägerinnen","f","cuñada",1
+"Schärfe","-","f","picante",11
 "Schönheit","Schönheiten","f","belleza",2
 "Schönsein","-","n","belleza",1
 "Schüssel","Schüsseln","f","fuente",3
@@ -882,6 +894,7 @@
 "Suche","Suchen","f","búsqueda",1
 "Supermarkt","Supermärkte","m","supermercado",1
 "Sympathie","Sympathien","f","simpatía",1
+"Synonym","Synonyme","n","sinónimo",11
 "Süd","-","m","sur",1
 "Süden","-","m","sur",1
 "T-Shirt","T-Shirts","n","camiseta",1
@@ -954,6 +967,7 @@
 "Unterlegscheibe","Unterlegscheiben","f","arandela",1
 "Unterricht","Unterrichte","m","clase, lección",1
 "Unterschied","Unterschiede","m","diferencia",1
+"Unterschrift","Unterschriften","f","firma (escrita)),11
 "Unwetter","Unwetter","n","temporal, tormenta",1
 "Unwissenheit","-","f","ignorancia",1
 "Urlaub","Urlaube","m","vacaciones",1
@@ -974,6 +988,7 @@
 "Verkauf","Verkäufe","m","venta",1
 "Verletzte","Verletzten","mf","herido/a",1
 "Verlust","Verluste","m","pérdida, daño",1
+"Vermögen",""Vermögen","n","bienes, fortuna, patrimonio, capital, capacidad",11
 "Versicherung","Versicherungen","f","seguro",1
 "Versprechen","Versprechen","n","promesa",1
 "Verstärkung","Verstärkungen","f","refuerzo",1
@@ -1083,6 +1098,7 @@
 "Zusammenstoß","Zusammenstöße","m","colisión, choque, altercado, disputa",1
 "Zustand","Zustände","m","estado, situación",1
 "Zwerg","Zwerge","m","enano",1
+"Zwiebel","Zwiebeln","f","cebolla",11
 "Ärztin","Ärztinnen","f","médica",1
 "Ökonomie","Ökonomien","f","economia",2
 "Öl","Öle","n","aceite",1
@@ -1091,3 +1107,9 @@
 "Überschrift","Überschriften","f","título, encabezado",1
 "Übersetzung","Übersetzungen","f","traducción",1
 "Übung","Übungen","f","práctica, ejercicio",1
+
+
+
+
+
+
