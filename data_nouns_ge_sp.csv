@@ -13,6 +13,8 @@
 "Abschied","Abschiede","m","despedida",1
 "Abschiedsfeier","Abschiedsfeiern","f","fiesta de despedida",3
 "Abschiedsfest","Abschiedsfeste","n","fiesta de despedida",1
+"Absender","Absender","m","remitente (m)",11
+"Absenderin","Absenderinnen","f","remitente (f)",11
 "Abstand","Abstände","m","distancia, diferencia",1
 "Absturz","Abstürze","m","caída, accidente aéreo",1
 "Adjektiv","Adjektive","n","adjetivo",1
@@ -75,6 +77,7 @@
 "Ausbildung","Ausbildungen","f","formación",1
 "Ausdruck","-","m","expresión",1
 "Ausfahrt","Ausfahrten","f","salida vehiculo",1
+"Ausführung","Ausführungen","f","realización, ejecución, modelo, versión",11
 "Ausgang","Ausgänge","m","salida",1
 "Ausland","-","n","extranjero (país)",1
 "Auslegung","Auslegungen","f","interpretación, comentario",1
@@ -127,6 +130,8 @@
 "Besteck","Bestecke","n","cubiertos",1
 "Bestellung","Bestellungen","f","encargo, pedido",1
 "Besucher","Besucher","m","visitante",1
+"Betrag","Beträge","m","suma, importe, total",11
+"Betreff","Betreffe","m","asunto",11
 "Betreuung","-","f","asistencia, responsabilidad",1
 "Betrieb","Betriebe","m","empresa, funcionamiento",1
 "Bett","Betten","n","cama",1
@@ -220,6 +225,7 @@
 "Durst","-","m","sed",1
 "Dusche","Duschen","f","ducha",1
 "E-Mail","E-Mail","f","e-mail",1
+"Echtzeit","Echtzeiten","f","tiempo real",11
 "Ecke","Ecken","f","esquina",1
 "Ehe","Ehen","f","matrimonio",1
 "Ehefrau","Ehefrauen","f","esposa",1
@@ -243,6 +249,8 @@
 "Eisenzeit","-","f","edad de hierro",1
 "Elektrizität","-","f","electricidad",1
 "Empfang","Empfänge","m","recepción",1
+"Empfänger","Empfänger","m","destinatario",11
+"Empfängerin","Empfängerinnen","destinataria",11
 "Ende","Enden","n","final, fin, extremo",2
 "Engel","Engel","m","angel",1
 "Englisch","-","n","inglés",1
