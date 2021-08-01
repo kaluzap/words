@@ -153,6 +153,7 @@
 "Bohrmaschine","Bohrmaschinen","f","taladradora",1
 "Bombe","Bomben","f","bomba",1
 "Boot","Boote","n","bote",1
+"Bosheit","Bosheiten","f","maldad, malicia",11
 "Brand","-","m","gangrena, necrosis",1
 "Brand","Brände","m","fuego, incendio, sed",1
 "Brandwunde","Brandwunden","f","quemadura",2
@@ -175,6 +176,7 @@
 "Bundesrepublik Deutschland","-","f","República Federal de Alemania",1
 "Bundeswehr","-","f","ejército alemán",1
 "Bus","Busse","m","autobus",1
+"Butter","-","f","manteca",11
 "Bär","Bäre/Bären","m","oso",1
 "Bücherregal","Bücherregale","n","estantería de libros",1
 "Büro","Büros","n","oficina",1
@@ -187,13 +189,14 @@
 "Cousin","Cousins","m","primo",1
 "Cousine","Cousinen","f","prima",1
 "Currywurst","Currywürste","f","salchicha con curry",1
-"Dach","Dächer","n","techo",1
+"Dach","Dächer","n","techo, toldo",1
 "Damm","Dämme","m","terraplén, dique",1
 "Datenwissenschaft","Datenwissenschaften","f","ciencia de datos",1
 "Dativ","Dative","m","dativo",1
 "Decke","Decken","f","techo interno, manta",1
 "Deklination","Deklinationen","f","declinación",1
 "Demokratie","Demokratien","f","democracia",1
+"Demonstration","Demonstrationen","f","demostración, manifestación",11
 "Design","Designs","n","diseño",4
 "Detail","Details","n","detalle",1
 "Deutsch","-","n","idioma alemán",1
@@ -290,6 +293,7 @@
 "Fernreise","Fernreisen","f","viaje de larga distancia",1
 "Fernseher","Fernseher","m","televisor",1
 "Fest","Feste","n","fiesta, festival",1
+"Fett",""Fette","n","grasa",11
 "Feuchtigkeit","-","f","humedad",1
 "Feuer","-","n","fuego",1
 "Feuerwehr","Feuerwehren","f","bombero",2
@@ -454,6 +458,7 @@
 "Jahr","Jahre","n","año",1
 "Januar","Januare","m","enero",1
 "Job","Jobs","m","trabajo",1
+"Jongleur","Jongleure","m","malabarismo",11
 "Juli","Julis","m","julio",1
 "Junge","Jungen","m","muchacho",1
 "Juni","Junis","m","junio",1
@@ -550,7 +555,7 @@
 "Kunst","Künste","f","arte",1
 "Kunststoff","Kunststoffe","m","plástico",1
 "Kupfer","-","n","cobre",1
-"Kurs","Kurse","m","curso",1
+"Kurs","Kurse","m","curso, rumbo, cotización, cambio",11
 "Kälte","-","f","frío",1
 "Käse","Käse","m","queso",2
 "Körper","Körper","m","cuerpo",1
@@ -630,6 +635,7 @@
 "Mitteilung","Mitteilungen","f","aviso, comunicación, informe",1
 "Mittel","Mittel","n","medio, remedio, recurso",1
 "Mittwoch","Mittwoche","m","miercoles",1
+"Modul","Moduln","m","módulo",11
 "Mole","Molen","f","muelle",2
 "Monat","Monate","m","mes",1
 "Mond","Monde","m","luna",1
@@ -872,6 +878,7 @@
 "Sonne","Sonnen","f","sol",1
 "Sonntag","Sonntage","m","domingo",1
 "Spatz","Spatzen","m","gorrión",1
+"Sperre","Sperren","f","barrera, bloqueo, suspensión",11
 "Sphäre","Sphären","f","esfera",1
 "Spiegel","Spiegel","m","espejo",1
 "Spiel","Spiele","n","juego",1
