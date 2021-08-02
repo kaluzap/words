@@ -1,4 +1,7 @@
-"singular","plural","gender","translation"
-"Bekannte","Bekannten","mfn","conocido"
-"Bekannte","Bekannten","mfn","conocido"
-"Bekannte","Bekannten","mfn","conocido"
+"singular","plural","gender","translation","mistakes"
+"Bekannte","Bekannten","mfn","conocido",1
+"Bekannte","Bekannten","mfn","conocido",2
+"Bekannte","Bekannten","mfn","conocido",1
+"Abend","Abende","m","tarde, noche, velada",1
+"Abendessen","Abendessen","n","cena",1
+"Abhilfe","-","f","remedio, auxilio",1

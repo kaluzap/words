@@ -7,6 +7,7 @@ from gtts import gTTS
 import os
 import matplotlib.pyplot as plt
 
+
 TARGET_LANGUAGE = "de"  # language for dialog controls and sound
 
 df_dictionary = pd.DataFrame()
@@ -190,19 +191,33 @@ class Window(Frame):
             **button_properties["next"],
         )
         self.nextButton.pack(side=LEFT, padx="5")
-
+        
     def set_new_active_word_and_case(self):
         global df_dictionary
         try:
-            df_sample = df_dictionary.sample()
+            if self.allow_repetitions.get():
+                indexes = [x for x in range(0, df_dictionary.shape[0])]
+                total = df_dictionary['mistakes'].sum()
+                if total == 0:
+                    df_dictionary['p'] = df_dictionary.apply(lambda row : 1/len(indexes), axis=1)
+                else:
+                    df_dictionary['p'] = df_dictionary.apply(lambda row : row['mistakes']/total, axis=1)
+                the_index = random.choice(indexes, 1, p=df_dictionary['p'].to_list())[0]
+                #print(df_dictionary['p'].to_list())
+                #print(f"the_index = {the_index}")
+                df_sample = df_dictionary[df_dictionary.index==the_index]
+            else:
+                df_sample = df_dictionary[df_dictionary['active']==True].sample()
+            #print(df_sample.head())
         except ValueError as err:
             print("No hay mas palabras!!!")
             return self.active_word, self.active_case
-
+        
         self.active_word = df_sample.iloc[0].to_dict()
+        self.active_word['index'] = df_sample.index[0]
+        df_dictionary.at[self.active_word['index'],'active'] = False
         if not self.allow_repetitions.get():
-            df_dictionary = df_dictionary.drop(df_sample.index)
-            print(f"There are {df_dictionary.shape[0]} words left.")
+            print(f"There are {df_dictionary[df_dictionary['active']==True].shape[0]} words left.")
 
         self.active_case = random_case()
         if (self.active_word["plural"] == "-") and (self.active_case == "p"):
@@ -239,7 +254,6 @@ class Window(Frame):
             line += "    :)\n"
         else:
             line += "    :(\n"
-
         if not self.count_total_clicks:
             ratio_attempts = 0
         else:
@@ -249,9 +263,7 @@ class Window(Frame):
             line += "    :)\n"
         else:
             line += "    :(\n"
-
         line += f"Success streak: {self.success_streak} ({self.success_streak_record})"
-
         return line
 
     def update_labels(self):
@@ -310,6 +322,13 @@ class Window(Frame):
             if not self.already_tested:
                 self.count_good += 1
                 self.success_streak += 1
+                df_dictionary.at[self.active_word['index'],'mistakes'] -= 1
+                if df_dictionary.at[self.active_word['index'],'mistakes'] < 1:
+                    df_dictionary.at[self.active_word['index'],'mistakes'] = 1
+                #df_dictionary.at[self.active_word['index'],'active'] = False
+            else:
+                #df_dictionary.at[self.active_word['index'],'mistakes'] += 1
+                df_dictionary.at[self.active_word['index'],'active'] = True
             self.disable_article_buttons()
             self.enable_next_button()
             self.count_total_words += 1
@@ -324,6 +343,7 @@ class Window(Frame):
             label_properties["label_status"]["text"] = message_status["wrong"]
             self.success_streak_history.append(self.success_streak)
             self.success_streak = 0
+            df_dictionary.at[self.active_word['index'],'mistakes'] += 1
         self.create_figure()
         label_properties["label_points"]["text"] = self.count_statistics()
         self.already_tested = True
@@ -370,8 +390,8 @@ class Window(Frame):
 
     def clickDataButton(self):
         global df_dictionary
-        df_dictionary = pd.read_csv(data_file_name)
-        print(f"Restarting dictionary. There are {df_dictionary.shape[0]} words.")
+        df_dictionary['active'] = True
+        print(f"Restarting dictionary. There are {df_dictionary[df_dictionary['active']==True].shape[0]} words.")
 
     def clickSoundButton(self):
         self.text_to_speak = self.text_to_speak.replace("[ohne pl.]", "")
@@ -397,7 +417,6 @@ def random_case() -> str:
 
 
 def main():
-
     # load dictionary
     global df_dictionary
     try:
@@ -405,6 +424,10 @@ def main():
     except:
         print(f'I cannot open the file "{data_file_name}"')
         return
+    df_dictionary['active'] = True
+    if 'mistakes' not in df_dictionary.columns:
+        df_dictionary['mistakes'] = 1
+    df_dictionary['p'] = 0
     print(df_dictionary.head())
 
     # initialize tkinter
@@ -412,7 +435,16 @@ def main():
     app = Window(root)
     root.wm_title("WORDS!")
     root.geometry("500x500")
+    root.protocol("WM_DELETE_WINDOW", close_window)
     root.mainloop()
+
+
+def close_window():
+    global df_dictionary
+    df_dictionary.drop(columns=['active', 'p'], inplace=True)
+    df_dictionary.to_csv(data_file_name, index=False, quoting=2)
+    print( "Ciao")
+    quit()
 
 
 if __name__ == "__main__":
