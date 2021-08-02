@@ -6,66 +6,13 @@ from PIL import Image, ImageTk
 from gtts import gTTS
 import os
 import matplotlib.pyplot as plt
+import json
 
 
 TARGET_LANGUAGE = "de"  # language for dialog controls and sound
-
 df_dictionary = pd.DataFrame()
-
-message_status = {"correct": "richtig!!", "wrong": "falsch!!"}
-
-gender_color = {"m": "red", "f": "blue", "n": "green", "p": "dark orange"}
-
-article_texts = {"m": "der", "f": "die", "n": "das", "p": "die"}
-
 data_file_name = ""
-
-button_properties = {
-    "data": {"text": "daten", "font": "Verdana 10 bold", "fg": "black", "width": 7},
-    "article_m": {
-        "text": "der",
-        "font": "Verdana 10 bold",
-        "fg": gender_color["m"],
-        "width": 7,
-    },
-    "article_f": {
-        "text": "die",
-        "font": "Verdana 10 bold",
-        "fg": gender_color["f"],
-        "width": 7,
-    },
-    "article_n": {
-        "text": "das",
-        "font": "Verdana 10 bold",
-        "fg": gender_color["n"],
-        "width": 7,
-    },
-    "article_p": {
-        "text": "die (pl)",
-        "font": "Verdana 10 bold",
-        "fg": gender_color["p"],
-        "width": 7,
-    },
-    "sound": {"text": "hören", "font": "Verdana 10 bold", "fg": "black", "width": 7},
-    "next": {"text": "nächste", "font": "Verdana 10 bold", "fg": "black", "width": 7},
-}
-
-label_properties = {
-    "label_status": {"text": "status", "font": "Verdana 10 bold", "fg": "black"},
-    "label_word": {"text": "Word", "font": "Verdana 20 bold", "fg": "black"},
-    "label_translation": {
-        "text": "translation",
-        "font": "Verdana 10 bold",
-        "fg": "gray35",
-    },
-    "label_full_data": {"text": "full data", "font": "Verdana 12 bold", "fg": "green"},
-    "label_points": {
-        "text": "points",
-        "font": "Verdana 8 bold",
-        "fg": "black",
-        "justify": "left",
-    },
-}
+SYS_DIC = dict()
 
 
 class Window(Frame):
@@ -80,6 +27,7 @@ class Window(Frame):
         self.count_total_words = 0
         self.already_tested = False
         self.allow_repetitions = IntVar()
+        self.allow_repetitions.set(1)
         self.success_streak = 0
         self.success_streak_record = 0
         self.success_streak_history = []
@@ -97,27 +45,27 @@ class Window(Frame):
         self.frame_texts.pack(side="top", padx="5", pady="5")
 
         self.label_status = Label(
-            master=self.frame_texts, **label_properties["label_status"]
+            master=self.frame_texts, **SYS_DIC['label_properties']['label_status']
         )
         self.label_status.pack(side=TOP, padx="5", pady="5")
 
         self.label_word = Label(
-            master=self.frame_texts, **label_properties["label_word"]
+            master=self.frame_texts, **SYS_DIC['label_properties']['label_word']
         )
         self.label_word.pack(side=TOP, padx="5", pady="5")
 
         self.label_translation = Label(
-            master=self.frame_texts, **label_properties["label_translation"]
+            master=self.frame_texts, **SYS_DIC['label_properties']['label_translation']
         )
         self.label_translation.pack(side=TOP, padx="5", pady="5")
 
         self.label_full_data = Label(
-            master=self.frame_texts, **label_properties["label_full_data"]
+            master=self.frame_texts, **SYS_DIC['label_properties']['label_full_data']
         )
         self.label_full_data.pack(side=TOP, padx="5", pady="5")
 
         self.label_points = Label(
-            master=self.frame_texts, **label_properties["label_points"]
+            master=self.frame_texts, **SYS_DIC['label_properties']['label_points']
         )
         self.label_points.pack(side=TOP, padx="5", pady="5")
 
@@ -134,28 +82,28 @@ class Window(Frame):
         self.mButton = Button(
             master=self.frame_button_articles,
             command=self.clickmButton,
-            **button_properties["article_m"],
+            **SYS_DIC['button_properties']["article_m"],
         )
         self.mButton.pack(side=LEFT, padx="5")
 
         self.fButton = Button(
             master=self.frame_button_articles,
             command=self.clickfButton,
-            **button_properties["article_f"],
+            **SYS_DIC['button_properties']["article_f"],
         )
         self.fButton.pack(side=LEFT, padx="5")
 
         self.nButton = Button(
             master=self.frame_button_articles,
             command=self.clicknButton,
-            **button_properties["article_n"],
+            **SYS_DIC['button_properties']["article_n"],
         )
         self.nButton.pack(side=LEFT, padx="5")
 
         self.pButton = Button(
             master=self.frame_button_articles,
             command=self.clickpButton,
-            **button_properties["article_p"],
+            **SYS_DIC['button_properties']["article_p"],
         )
         self.pButton.pack(side=LEFT, padx="5")
 
@@ -173,14 +121,14 @@ class Window(Frame):
         self.dataButton = Button(
             master=self.frame_button_functions,
             command=self.clickDataButton,
-            **button_properties["data"],
+            **SYS_DIC['button_properties']["data"],
         )
         self.dataButton.pack(side=LEFT, padx="5")
 
         self.soundButton = Button(
             master=self.frame_button_functions,
             command=self.clickSoundButton,
-            **button_properties["sound"],
+            **SYS_DIC['button_properties']["sound"],
         )
         self.soundButton.pack(side=LEFT, padx="5")
 
@@ -188,36 +136,42 @@ class Window(Frame):
             master=self.frame_button_functions,
             command=self.clickNextButton,
             state=DISABLED,
-            **button_properties["next"],
+            **SYS_DIC['button_properties']["next"],
         )
         self.nextButton.pack(side=LEFT, padx="5")
-        
+
     def set_new_active_word_and_case(self):
         global df_dictionary
         try:
             if self.allow_repetitions.get():
                 indexes = [x for x in range(0, df_dictionary.shape[0])]
-                total = df_dictionary['mistakes'].sum()
+                total = df_dictionary["mistakes"].sum()
                 if total == 0:
-                    df_dictionary['p'] = df_dictionary.apply(lambda row : 1/len(indexes), axis=1)
+                    df_dictionary["p"] = df_dictionary.apply(
+                        lambda row: 1 / len(indexes), axis=1
+                    )
                 else:
-                    df_dictionary['p'] = df_dictionary.apply(lambda row : row['mistakes']/total, axis=1)
-                the_index = random.choice(indexes, 1, p=df_dictionary['p'].to_list())[0]
-                #print(df_dictionary['p'].to_list())
-                #print(f"the_index = {the_index}")
-                df_sample = df_dictionary[df_dictionary.index==the_index]
+                    df_dictionary["p"] = df_dictionary.apply(
+                        lambda row: row["mistakes"] / total, axis=1
+                    )
+                the_index = random.choice(indexes, 1, p=df_dictionary["p"].to_list())[0]
+                # print(df_dictionary['p'].to_list())
+                # print(f"the_index = {the_index}")
+                df_sample = df_dictionary[df_dictionary.index == the_index]
             else:
-                df_sample = df_dictionary[df_dictionary['active']==True].sample()
-            #print(df_sample.head())
+                df_sample = df_dictionary[df_dictionary["active"] == True].sample()
+            # print(df_sample.head())
         except ValueError as err:
             print("No hay mas palabras!!!")
             return self.active_word, self.active_case
-        
+
         self.active_word = df_sample.iloc[0].to_dict()
-        self.active_word['index'] = df_sample.index[0]
-        df_dictionary.at[self.active_word['index'],'active'] = False
+        self.active_word["index"] = df_sample.index[0]
+        df_dictionary.at[self.active_word["index"], "active"] = False
         if not self.allow_repetitions.get():
-            print(f"There are {df_dictionary[df_dictionary['active']==True].shape[0]} words left.")
+            print(
+                f"There are {df_dictionary[df_dictionary['active']==True].shape[0]} words left."
+            )
 
         self.active_case = random_case()
         if (self.active_word["plural"] == "-") and (self.active_case == "p"):
@@ -232,16 +186,16 @@ class Window(Frame):
         else:
             self.text_to_speak = self.active_word["plural"]
 
-        label_properties["label_status"]["text"] = " "
+        SYS_DIC['label_properties']["label_status"]["text"] = " "
         if self.active_case == "s":
-            label_properties["label_word"]["text"] = self.active_word["singular"]
+            SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["singular"]
         else:
-            label_properties["label_word"]["text"] = self.active_word["plural"]
-        label_properties["label_translation"][
+            SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["plural"]
+        SYS_DIC['label_properties']["label_translation"][
             "text"
         ] = f"({self.active_word['translation']})"
-        label_properties["label_full_data"]["text"] = " "
-        label_properties["label_points"]["text"] = self.count_statistics()
+        SYS_DIC['label_properties']["label_full_data"]["text"] = " "
+        SYS_DIC['label_properties']["label_points"]["text"] = self.count_statistics()
 
     def count_statistics(self):
         line = ""
@@ -267,13 +221,13 @@ class Window(Frame):
         return line
 
     def update_labels(self):
-        self.label_status["text"] = label_properties["label_status"]["text"]
-        self.label_word["text"] = label_properties["label_word"]["text"]
-        self.label_word["fg"] = label_properties["label_word"]["fg"]
-        self.label_translation["text"] = label_properties["label_translation"]["text"]
-        self.label_full_data["text"] = label_properties["label_full_data"]["text"]
-        self.label_full_data["fg"] = label_properties["label_full_data"]["fg"]
-        self.label_points["text"] = label_properties["label_points"]["text"]
+        self.label_status["text"] = SYS_DIC['label_properties']["label_status"]["text"]
+        self.label_word["text"] = SYS_DIC['label_properties']["label_word"]["text"]
+        self.label_word["fg"] = SYS_DIC['label_properties']["label_word"]["fg"]
+        self.label_translation["text"] = SYS_DIC['label_properties']["label_translation"]["text"]
+        self.label_full_data["text"] = SYS_DIC['label_properties']["label_full_data"]["text"]
+        self.label_full_data["fg"] = SYS_DIC['label_properties']["label_full_data"]["fg"]
+        self.label_points["text"] = SYS_DIC['label_properties']["label_points"]["text"]
         img2 = ImageTk.PhotoImage(Image.open("success_streak.png"))
         self.img.configure(image=img2)
         self.img.image = img2
@@ -302,17 +256,17 @@ class Window(Frame):
             text += "[ohne s.], "
         else:
             if "m" in self.active_word["gender"]:
-                text += article_texts["m"] + " "
+                text += SYS_DIC['article_texts']["m"] + " "
             if "f" in self.active_word["gender"]:
-                text += article_texts["f"] + " "
+                text += SYS_DIC['article_texts']["f"] + " "
             if "n" in self.active_word["gender"]:
-                text += article_texts["n"] + " "
+                text += SYS_DIC['article_texts']["n"] + " "
             text += self.active_word["singular"] + ", "
 
         if self.active_word["plural"] == "-":
             text += "[ohne pl.]"
         else:
-            text += f"{article_texts['p']} {self.active_word['plural']}"
+            text += f"{SYS_DIC['article_texts']['p']} {self.active_word['plural']}"
         self.text_to_speak = text
         return text
 
@@ -322,30 +276,30 @@ class Window(Frame):
             if not self.already_tested:
                 self.count_good += 1
                 self.success_streak += 1
-                df_dictionary.at[self.active_word['index'],'mistakes'] -= 1
-                if df_dictionary.at[self.active_word['index'],'mistakes'] < 1:
-                    df_dictionary.at[self.active_word['index'],'mistakes'] = 1
-                #df_dictionary.at[self.active_word['index'],'active'] = False
+                df_dictionary.at[self.active_word["index"], "mistakes"] -= 1
+                if df_dictionary.at[self.active_word["index"], "mistakes"] < 1:
+                    df_dictionary.at[self.active_word["index"], "mistakes"] = 1
             else:
-                #df_dictionary.at[self.active_word['index'],'mistakes'] += 1
-                df_dictionary.at[self.active_word['index'],'active'] = True
+                df_dictionary.at[self.active_word["index"], "active"] = True
             self.disable_article_buttons()
             self.enable_next_button()
             self.count_total_words += 1
-            label_properties["label_status"]["text"] = message_status["correct"]
+            SYS_DIC['label_properties']["label_status"]["text"] = SYS_DIC['message_status']["correct"]
             if self.success_streak_record < self.success_streak:
                 self.success_streak_record = self.success_streak
-                label_properties["label_status"]["text"] = message_status["correct"] + "   NEW RECORD"
-            label_properties["label_word"]["fg"] = gender_color[gender]
-            label_properties["label_full_data"]["text"] = self.create_string_result()
-            label_properties["label_full_data"]["fg"] = gender_color[gender]
+                SYS_DIC['label_properties']["label_status"]["text"] = (
+                    SYS_DIC['message_status']["correct"] + "   NEW RECORD"
+                )
+            SYS_DIC['label_properties']["label_word"]["fg"] = SYS_DIC['gender_color'][gender]
+            SYS_DIC['label_properties']["label_full_data"]["text"] = self.create_string_result()
+            SYS_DIC['label_properties']["label_full_data"]["fg"] = SYS_DIC['gender_color'][gender]
         else:
-            label_properties["label_status"]["text"] = message_status["wrong"]
+            SYS_DIC['label_properties']["label_status"]["text"] = SYS_DIC['message_status']["wrong"]
             self.success_streak_history.append(self.success_streak)
             self.success_streak = 0
-            df_dictionary.at[self.active_word['index'],'mistakes'] += 1
+            df_dictionary.at[self.active_word["index"], "mistakes"] += 1
         self.create_figure()
-        label_properties["label_points"]["text"] = self.count_statistics()
+        SYS_DIC['label_properties']["label_points"]["text"] = self.count_statistics()
         self.already_tested = True
         self.update_labels()
 
@@ -390,8 +344,10 @@ class Window(Frame):
 
     def clickDataButton(self):
         global df_dictionary
-        df_dictionary['active'] = True
-        print(f"Restarting dictionary. There are {df_dictionary[df_dictionary['active']==True].shape[0]} words.")
+        df_dictionary["active"] = True
+        print(
+            f"Restarting dictionary. There are {df_dictionary[df_dictionary['active']==True].shape[0]} words."
+        )
 
     def clickSoundButton(self):
         self.text_to_speak = self.text_to_speak.replace("[ohne pl.]", "")
@@ -402,7 +358,7 @@ class Window(Frame):
 
     def clickNextButton(self):
         self.set_new_active_word_and_case()
-        label_properties["label_word"]["fg"] = "black"
+        SYS_DIC['label_properties']["label_word"]["fg"] = "black"
         self.update_labels()
         self.enable_article_buttons()
         self.disable_next_button()
@@ -417,6 +373,7 @@ def random_case() -> str:
 
 
 def main():
+    
     # load dictionary
     global df_dictionary
     try:
@@ -424,26 +381,26 @@ def main():
     except:
         print(f'I cannot open the file "{data_file_name}"')
         return
-    df_dictionary['active'] = True
-    if 'mistakes' not in df_dictionary.columns:
-        df_dictionary['mistakes'] = 1
-    df_dictionary['p'] = 0
+    df_dictionary["active"] = True
+    if "mistakes" not in df_dictionary.columns:
+        df_dictionary["mistakes"] = 1
+    df_dictionary["p"] = 0
     print(df_dictionary.head())
-
+    
     # initialize tkinter
     root = Tk()
     app = Window(root)
     root.wm_title("WORDS!")
-    root.geometry("500x500")
+    root.geometry("550x500")
     root.protocol("WM_DELETE_WINDOW", close_window)
     root.mainloop()
 
 
 def close_window():
     global df_dictionary
-    df_dictionary.drop(columns=['active', 'p'], inplace=True)
+    df_dictionary.drop(columns=["active", "p"], inplace=True)
     df_dictionary.to_csv(data_file_name, index=False, quoting=2)
-    print( "Ciao")
+    print("Ciao")
     quit()
 
 
@@ -463,14 +420,28 @@ if __name__ == "__main__":
     )
 
     parser.add_argument(
-        "--file_dictionary",
-        "-fd",
-        required=True,
+        "--system_dictionary",
+        "-sd",
+        required=False,
         type=str,
+        default="sys_dict_de.cfg",
+        help=f"System configuration",
+    )
+    
+    parser.add_argument(
+        "--dictionary",
+        "-d",
+        required=False,
+        type=str,
+        default="data_nouns_ge_sp.csv",
         help=f"File with the dictionary",
     )
 
     args = parser.parse_args()
-    data_file_name = args.file_dictionary
+    data_file_name = args.dictionary
     TARGET_LANGUAGE = args.target_language
+    
+    f = open(args.system_dictionary)
+    SYS_DIC = json.load(f)
+        
     main()
