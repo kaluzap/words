@@ -97,6 +97,7 @@
 "Bahn","Bahnen","f","ferrocarril",1
 "Bahnhof","Bahnhöfe","m","estación de tren",1
 "Ball","Bälle","m","pelota, balón",1
+"Ballon","Ballons/Ballone","m","globo aerostático, globo",11
 "Banane","Bananen","f","banana",1
 "Bank","Bänke","f","banco",1
 "Banknote","Banknoten","f","billete de banco",1
@@ -236,6 +237,7 @@
 "Einfahrt","Einfahrten","f","entrada vehiculo",1
 "Eingang","Eingänge","m","entrada",1
 "Eingangsbestätigung","Eingangsbestätigungen","f","acuse de recibo",1
+"Einheit","Einheiten","f","unidad",11
 "Einkommen","Einkommen","n","ingresos",1
 "Einlagensicherung","-","f","garantía de depósito",1
 "Einleger","Einleger","m","depositante",1
@@ -331,6 +333,7 @@
 "Franzose","Franzosen","m","frances",1
 "Französin","Französinnen","f","francesa",1
 "Frau","Frauen","f","mujer",1
+"Freiheit","-","f","libertad",11
 "Freitag","Freitage","m","viernes",1
 "Fremde","Fremden","mf","extranjero, forastero, desconocido",1
 "Freude","-","f","alegría",1
