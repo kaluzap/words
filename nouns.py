@@ -113,7 +113,7 @@ class Window(Frame):
 
         self.CheckbuttonRepetitions = Checkbutton(
             master=self.frame_button_functions,
-            text="Allow repetitions",
+            text=SYS_DIC['checkbuttons']['repetitions'],
             variable=self.allow_repetitions,
         )
         self.CheckbuttonRepetitions.pack(side=LEFT, padx="5")
@@ -203,7 +203,7 @@ class Window(Frame):
             ratio_success = 0
         else:
             ratio_success = self.count_good / self.count_total_words
-        line = f"Ratio success: {self.count_good}/{self.count_total_words} = {ratio_success:.5f}"
+        line = f"{SYS_DIC['statistics']['success_rate']}: {self.count_good}/{self.count_total_words} = {ratio_success:.5f}"
         if ratio_success > 0.9:
             line += "    :)\n"
         else:
@@ -212,12 +212,12 @@ class Window(Frame):
             ratio_attempts = 0
         else:
             ratio_attempts = self.count_good / self.count_total_clicks
-        line += f"Ratio attempts: {self.count_good}/{self.count_total_clicks} = {ratio_attempts:.5f}"
+        line += f"{SYS_DIC['statistics']['attempts_rate']}: {self.count_good}/{self.count_total_clicks} = {ratio_attempts:.5f}"
         if ratio_attempts > 0.9:
             line += "    :)\n"
         else:
             line += "    :(\n"
-        line += f"Success streak: {self.success_streak} ({self.success_streak_record})"
+        line += f"{SYS_DIC['statistics']['success_streak']}: {self.success_streak} ({self.success_streak_record})"
         return line
 
     def update_labels(self):
@@ -253,7 +253,7 @@ class Window(Frame):
     def create_string_result(self):
         text = ""
         if self.active_word["singular"] == "-":
-            text += "[ohne s.], "
+            text += f"[{SYS_DIC['missing_gender']['without_singular']}], "
         else:
             if "m" in self.active_word["gender"]:
                 text += SYS_DIC['article_texts']["m"] + " "
@@ -264,7 +264,7 @@ class Window(Frame):
             text += self.active_word["singular"] + ", "
 
         if self.active_word["plural"] == "-":
-            text += "[ohne pl.]"
+            text += f"[{SYS_DIC['missing_gender']['without_plural']}]"
         else:
             text += f"{SYS_DIC['article_texts']['p']} {self.active_word['plural']}"
         self.text_to_speak = text
@@ -288,7 +288,7 @@ class Window(Frame):
             if self.success_streak_record < self.success_streak:
                 self.success_streak_record = self.success_streak
                 SYS_DIC['label_properties']["label_status"]["text"] = (
-                    SYS_DIC['message_status']["correct"] + "   NEW RECORD"
+                    SYS_DIC['message_status']["correct"] + f"   {SYS_DIC['message_status']['record']}"
                 )
             SYS_DIC['label_properties']["label_word"]["fg"] = SYS_DIC['gender_color'][gender]
             SYS_DIC['label_properties']["label_full_data"]["text"] = self.create_string_result()
@@ -305,8 +305,8 @@ class Window(Frame):
 
     def create_figure(self):
         plt.rcParams["figure.figsize"] = (4.5, 1.5)
-        plt.ylabel("Times", fontsize=8)
-        plt.xlabel("Success Streak", fontsize=8)
+        plt.ylabel(f"{SYS_DIC['figure']['ylabel']}", fontsize=8)
+        plt.xlabel(f"{SYS_DIC['figure']['xlabel']}", fontsize=8)
         plt.rc("xtick", labelsize=6)
         plt.rc("ytick", labelsize=6)
         plt.xticks(range(0, self.success_streak_record + 1))
@@ -350,8 +350,8 @@ class Window(Frame):
         )
 
     def clickSoundButton(self):
-        self.text_to_speak = self.text_to_speak.replace("[ohne pl.]", "")
-        self.text_to_speak = self.text_to_speak.replace("[ohne s.], ", "")
+        self.text_to_speak = self.text_to_speak.replace(f"[{SYS_DIC['missing_gender']['without_singular']}], ", "")
+        self.text_to_speak = self.text_to_speak.replace(f"[{SYS_DIC['missing_gender']['without_plural']}]", "")
         speech = gTTS(self.text_to_speak, lang=TARGET_LANGUAGE, slow=False)
         speech.save("text.mp3")
         os.system("mplayer text.mp3")
