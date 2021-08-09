@@ -97,6 +97,7 @@
 "Bahn","Bahnen","f","ferrocarril",1
 "Bahnhof","Bahnhöfe","m","estación de tren",1
 "Ball","Bälle","m","pelota, balón",1
+"Ballast","Ballaste","m","carga, lastre",11
 "Ballon","Ballons/Ballone","m","globo aerostático, globo",9
 "Banane","Bananen","f","banana",1
 "Bank","Bänke","f","banco",1
@@ -135,6 +136,7 @@
 "Betreff","Betreffe","m","asunto",3
 "Betreuung","-","f","asistencia, responsabilidad",1
 "Betrieb","Betriebe","m","empresa, funcionamiento",1
+"Betrug","-","m","engaño, estafa, fraude, tranpa",11
 "Bett","Betten","n","cama",1
 "Bewegung","Bewegungen","f","movimiento",1
 "Bewohner","Bewohner","m","habitante, ocupante",1
@@ -364,6 +366,7 @@
 "Gefilde","Gefilde","n","campiña, campos",1
 "Gefährlichkeit","-","f","peligrosidad, gravedad, riesgo",1
 "Gefühl","Gefühle","n","sensación, sentimiento",1
+"Gegenteil","Gegenteile","n","lo contrario",11
 "Gegenwart","-","f","actualidad, presente",1
 "Gehalt","Gehälter","n","sueldo, salario",1
 "Gehörsinn","-","m","sentido del oído",1
@@ -391,6 +394,8 @@
 "Gespräch","Gespräche","n","conversación",2
 "Gesundheit","-","f","salud, prosperidad",1
 "Gewehr","Gewehre","n","fusil",1
+"Gewicht","-","n","peso, importancia",11
+"Gewicht","Gewichte","f","pesa",11
 "Gewitter","Gewitter","n","tormenta, temporal",1
 "Gitarre","Gitarren","f","guitarra",1
 "Glas","Gläser","n","vaso",1
