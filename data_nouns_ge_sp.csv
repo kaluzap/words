@@ -13,7 +13,7 @@
 "Abschied","Abschiede","m","despedida",1
 "Abschiedsfeier","Abschiedsfeiern","f","fiesta de despedida",1
 "Abschiedsfest","Abschiedsfeste","n","fiesta de despedida",1
-"Absender","Absender","m","remitente (m)",5
+"Absender","Absender","m","remitente (m)",4
 "Absenderin","Absenderinnen","f","remitente (f)",2
 "Abstand","Abstände","m","distancia, diferencia",1
 "Absturz","Abstürze","m","caída, accidente aéreo",1
@@ -111,6 +111,7 @@
 "Bedeutung","Bedeutungen","f","significado",1
 "Bedienungsanleitung","Bedienungsanleitungen","f","instrucciones de manejo",1
 "Befehl","Befehle","m","orden, mandato, comando",2
+"Beginn","-","m","comienzo, inicio, principio",11
 "Begleiter","Begleiter","m","acompañante",1
 "Behörde","Behörden","f","autoridad, administración",1
 "Bein","Beine","n","pierna",1
@@ -133,7 +134,7 @@
 "Bestellung","Bestellungen","f","encargo, pedido",1
 "Besucher","Besucher","m","visitante",1
 "Betrag","Beträge","m","suma, importe, total",5
-"Betreff","Betreffe","m","asunto",3
+"Betreff","Betreffe","m","asunto",2
 "Betreuung","-","f","asistencia, responsabilidad",1
 "Betrieb","Betriebe","m","empresa, funcionamiento",1
 "Betrug","-","m","engaño, estafa, fraude, tranpa",10
@@ -274,7 +275,7 @@
 "Erlaubnis","Erlaubnisse","f","permiso",9
 "Erläuterung","Erläuterungen","f","explicación, comentario",1
 "Ersatz","-","m","sustitución",1
-"Erwachsener","Erwachsene/Erwachsenen","m","adulto",2
+"Erwachsene","Erwachsenen","mf","adulto",11
 "Erwartung","Erwartungen","f","esperanza, expectativa",1
 "Eröffnung","Eröffnungen","f","apertura, inauguración, publicación",1
 "Esel","Esel","m","burro",1
@@ -498,7 +499,7 @@
 "Keller","Keller","m","sótano",1
 "Kellner","Kellner","m","camarero",1
 "Kellnerin","Kellnerinnen","f","camarera",1
-"Kenntnis","-","f","conocimiento",21
+"Kenntnis","-","f","conocimiento",24
 "Kerze","Kerzen","f","vela",1
 "Kette","Ketten","f","cadena, collar, serie",1
 "Kind","Kinder","n","niño",1
@@ -602,6 +603,9 @@
 "Lied","Lieder","n","canción",1
 "Lieferung","Lieferungen","f","entrega, envio",1
 "Loch","Löcher","n","agujero",1
+"Lokführer","Lokführer","m","maquinista de tren",11
+"Lokführerin","Lokführerinnen","f","maquinista de tren",11
+"Lokomotive","Lokomotiven","f","locomotora",11
 "Losung","Losungen","f","lema, consigna",1
 "Lotterie","Lotterien","f","loteria",1
 "Luft","-","f","aire",1
@@ -762,7 +766,7 @@
 "Pumpe","Pumpen","f","bomba",1
 "Püree","Pürees","n","puré",2
 "Quittung","Quittungen","f","recibo con validez jurídica",1
-"Rabe","Raben","m","cuervo",6
+"Rabe","Raben","m","cuervo",5
 "Rad","Räder","n","rueda",1
 "Radarsicht","-","f","visibilidad radar",1
 "Radiergummi","Radiergummis","mn","goma de borrar",8
@@ -967,7 +971,7 @@
 "Teufel","Teufel","m","diablo",1
 "Theater","Theater","n","teatro",1
 "Thema","Themen","n","tema, asunto",1
-"Theorie","Theorien","f","teoría",3
+"Theorie","Theorien","f","teoría",2
 "Thermometer","Thermometer","n","termómetro",1
 "These","Thesen","f","tesis",2
 "Tiefe","Tiefen","f","profundidad, intensidad",1
@@ -1147,7 +1151,7 @@
 "Zusammenstoß","Zusammenstöße","m","colisión, choque, altercado, disputa",1
 "Zustand","Zustände","m","estado, situación",1
 "Zwerg","Zwerge","m","enano",1
-"Zwiebel","Zwiebeln","f","cebolla",5
+"Zwiebel","Zwiebeln","f","cebolla",4
 "Ärztin","Ärztinnen","f","médica",1
 "Ökonomie","Ökonomien","f","economia",1
 "Öl","Öle","n","aceite",1
