@@ -433,7 +433,7 @@ if __name__ == "__main__":
         "-d",
         required=False,
         type=str,
-        default="data_nouns_ge_sp.csv",
+        default="data/data_nouns_ge_sp.csv",
         help=f"File with the dictionary",
     )
 
