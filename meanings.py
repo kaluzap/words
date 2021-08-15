@@ -154,18 +154,22 @@ class Window(Frame):
                     df_dictionary["p"] = df_dictionary.apply(
                         lambda row: row["mistakes"] / total, axis=1
                     )
-                the_index = random.choice(indexes, 1, p=df_dictionary["p"].to_list())[0]
-                # print(df_dictionary['p'].to_list())
-                # print(f"the_index = {the_index}")
-                df_sample = df_dictionary[df_dictionary.index == the_index]
+                the_indexes = random.choice(indexes, 1, p=df_dictionary["p"].to_list()).tolist()
+                the_indexes += random.choice(indexes, 3).tolist()
+                df_sample = df_dictionary[df_dictionary.index.isin(the_indexes)]
+                df_sample["selected"] = False
+                df_sample.at[the_indexes[0], "selected"] = True
             else:
-                df_sample = df_dictionary[df_dictionary["active"] == True].sample()
-            # print(df_sample.head())
+                df_sample = pd.concat([df_dictionary[df_dictionary["active"] == True].sample(),df_dictionary.sample(3)])
+                df_sample["selected"] = False
+                df_sample.at[df_sample.index[0], "selected"] = True
+                
         except ValueError as err:
             print("No hay mas palabras!!!")
             return self.active_word, self.active_case
 
-        self.active_word = df_sample.iloc[0].to_dict()
+        print(df_sample.head())
+        self.active_word = df_sample[df_sample["selected"]].iloc[0].to_dict()
         self.active_word["index"] = df_sample.index[0]
         df_dictionary.at[self.active_word["index"], "active"] = False
         if not self.allow_repetitions.get():
