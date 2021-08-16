@@ -167,7 +167,8 @@ class Window(Frame):
         except ValueError as err:
             print("No hay mas palabras!!!")
             return self.active_word, self.active_case
-
+        
+        df_sample = df_sample.sample(frac=1)
         print(df_sample.head())
         self.active_word = df_sample[df_sample["selected"]].iloc[0].to_dict()
         self.active_word["index"] = df_sample.index[0]
