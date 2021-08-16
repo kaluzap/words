@@ -29,7 +29,7 @@
 "Albtraum","Albträume","m","pesadilla",1
 "Alkohol","Alkohole","m","alcohol",1
 "Allee","Alleen","f","avenida",1
-"Allergie","Allergien","f","alergia",1
+"Allergie","Allergien","f","alergia",2
 "Alter","-","n","edad",1
 "Ameise","Ameisen","f","hormiga",1
 "Ampel","Ampeln","f","semáforo",1
@@ -104,7 +104,7 @@
 "Banknote","Banknoten","f","billete de banco",1
 "Bar","Bars","f","bar",4
 "Bargeld","-","n","dinero en efectivo",1
-"Batterie","Batterien","f","batería, pila",3
+"Batterie","Batterien","f","batería, pila",2
 "Bau","-","m","construcción",1
 "Baum","Bäume","m","árbol",1
 "Bedarf","-","m","necesidad, falta",1
@@ -377,7 +377,7 @@
 "Gelände","Gelände","n","terreno",1
 "Gemüse","Gemüse","n","verdura",1
 "Genitiv","Genitive","m","genitivo",1
-"Genossenschaft","Genossenschaften","f","cooperativa",1
+"Genossenschaft","Genossenschaften","f","cooperativa",2
 "Genus","Genera","n","género",1
 "Gericht","Gerichte","n","comida, plato, tribunal, juzgado",1
 "Geruchssinn","-","m","olfato",1
@@ -715,7 +715,7 @@
 "Ordner","Ordner","m","archivador, carpeta",1
 "Organisation","-","f","organización",1
 "Ort","Orte","m","lugar",1
-"Ost","-","m","este",1
+"Ost","-","m","este",8
 "Osten","-","m","este",1
 "Ozean","Ozeane","m","oceano",1
 "Paket","Pakete","n","paquete",1
@@ -738,7 +738,7 @@
 "Pilot","Piloten","m","piloto",1
 "Pilsner","Pilsner","n","cerveza pilsen",1
 "Pizza","Pizzas/Pizzen","f","piza",1
-"Plan","Pläne","m","plan, proyecto, intención",11
+"Plan","Pläne","m","plan, proyecto, intención",12
 "Planet","Planeten","m","planeta",1
 "Platz","Plätze","m","plaza",1
 "Politik","Politiken","f","política",1
@@ -971,7 +971,7 @@
 "Teufel","Teufel","m","diablo",1
 "Theater","Theater","n","teatro",1
 "Thema","Themen","n","tema, asunto",1
-"Theorie","Theorien","f","teoría",2
+"Theorie","Theorien","f","teoría",1
 "Thermometer","Thermometer","n","termómetro",1
 "These","Thesen","f","tesis",2
 "Tiefe","Tiefen","f","profundidad, intensidad",1

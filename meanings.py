@@ -177,7 +177,7 @@ class Window(Frame):
             print(
                 f"There are {df_dictionary[df_dictionary['active']==True].shape[0]} words left."
             )
-
+        """
         self.active_case = random_case()
         if (self.active_word["plural"] == "-") and (self.active_case == "p"):
             self.active_case = "s"
@@ -190,7 +190,10 @@ class Window(Frame):
             self.text_to_speak = self.active_word["singular"]
         else:
             self.text_to_speak = self.active_word["plural"]
-
+        """
+        
+        self.text_to_speak = self.active_word["singular"]
+        
         SYS_DIC['label_properties']["label_status"]["text"] = " "
         if self.active_case == "s":
             SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["singular"]
@@ -369,13 +372,13 @@ class Window(Frame):
         self.disable_next_button()
         self.already_tested = False
 
-
+"""
 def random_case() -> str:
     x = random.rand()
     if x < 0.75:
         return "s"
     return "p"
-
+"""
 
 def main():
     
@@ -395,7 +398,7 @@ def main():
     # initialize tkinter
     root = Tk()
     app = Window(root)
-    root.wm_title("WORDS!")
+    root.wm_title("MEANINGS")
     root.geometry("550x500")
     root.protocol("WM_DELETE_WINDOW", close_window)
     root.mainloop()
