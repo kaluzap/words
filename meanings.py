@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import json
 
 
-TARGET_LANGUAGE = "de"  # language for dialog controls and sound
+TARGET_LANGUAGE = "de"  # language for sound
 df_dictionary = pd.DataFrame()
 data_file_name = ""
 SYS_DIC = dict()
@@ -34,7 +34,7 @@ class Window(Frame):
         self.create_figure()
 
         # starting a word
-        self.set_new_active_word_and_case()
+        self.set_new_active_word()
 
         # Windows
         Frame.__init__(self, master)
@@ -79,33 +79,33 @@ class Window(Frame):
         self.frame_button_articles = Frame(self.master)
         self.frame_button_articles.pack(side="top", padx="5", pady="5")
 
-        self.mButton = Button(
+        self.Button1 = Button(
             master=self.frame_button_articles,
-            command=self.clickmButton,
-            **SYS_DIC['button_properties']["article_m"],
+            command=self.clickButton1,
+            **SYS_DIC['button_properties']["word_1"],
         )
-        self.mButton.pack(side=LEFT, padx="5")
+        self.Button1.pack(side=LEFT, padx="5")
 
-        self.fButton = Button(
+        self.Button2 = Button(
             master=self.frame_button_articles,
-            command=self.clickfButton,
-            **SYS_DIC['button_properties']["article_f"],
+            command=self.clickButton2,
+            **SYS_DIC['button_properties']["word_2"],
         )
-        self.fButton.pack(side=LEFT, padx="5")
+        self.Button2.pack(side=LEFT, padx="5")
 
-        self.nButton = Button(
+        self.Button3 = Button(
             master=self.frame_button_articles,
-            command=self.clicknButton,
-            **SYS_DIC['button_properties']["article_n"],
+            command=self.clickButton3,
+            **SYS_DIC['button_properties']["word_3"],
         )
-        self.nButton.pack(side=LEFT, padx="5")
+        self.Button3.pack(side=LEFT, padx="5")
 
-        self.pButton = Button(
+        self.Button4 = Button(
             master=self.frame_button_articles,
-            command=self.clickpButton,
-            **SYS_DIC['button_properties']["article_p"],
+            command=self.clickButton4,
+            **SYS_DIC['button_properties']["word_4"],
         )
-        self.pButton.pack(side=LEFT, padx="5")
+        self.Button4.pack(side=LEFT, padx="5")
 
         # subframe for functions buttons
         self.frame_button_functions = Frame(self.master)
@@ -140,7 +140,7 @@ class Window(Frame):
         )
         self.nextButton.pack(side=LEFT, padx="5")
 
-    def set_new_active_word_and_case(self):
+    def set_new_active_word(self):
         global df_dictionary
         try:
             if self.allow_repetitions.get():
@@ -155,8 +155,9 @@ class Window(Frame):
                         lambda row: row["mistakes"] / total, axis=1
                     )
                 the_indexes = random.choice(indexes, 1, p=df_dictionary["p"].to_list()).tolist()
+                indexes.remove(the_indexes[0])
                 the_indexes += random.choice(indexes, 3).tolist()
-                df_sample = df_dictionary[df_dictionary.index.isin(the_indexes)]
+                df_sample = df_dictionary[df_dictionary.index.isin(the_indexes)].copy()
                 df_sample["selected"] = False
                 df_sample.at[the_indexes[0], "selected"] = True
             else:
@@ -177,33 +178,24 @@ class Window(Frame):
             print(
                 f"There are {df_dictionary[df_dictionary['active']==True].shape[0]} words left."
             )
-        """
-        self.active_case = random_case()
-        if (self.active_word["plural"] == "-") and (self.active_case == "p"):
-            self.active_case = "s"
-        if self.active_word["singular"] == self.active_word["plural"]:
-            self.active_case = "sp"
-        if self.active_word["singular"] == "-":
-            self.active_case = "p"
-
-        if self.active_case == "s":
+        
+        if self.active_word["singular"] != '-':
             self.text_to_speak = self.active_word["singular"]
         else:
             self.text_to_speak = self.active_word["plural"]
-        """
-        
-        self.text_to_speak = self.active_word["singular"]
-        
+            
         SYS_DIC['label_properties']["label_status"]["text"] = " "
-        if self.active_case == "s":
+        if self.active_word["singular"] != '-':
             SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["singular"]
         else:
             SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["plural"]
-        SYS_DIC['label_properties']["label_translation"][
-            "text"
-        ] = f"({self.active_word['translation']})"
+        SYS_DIC['label_properties']["label_translation"]["text"] = ""
         SYS_DIC['label_properties']["label_full_data"]["text"] = " "
         SYS_DIC['label_properties']["label_points"]["text"] = self.count_statistics()
+        n=1
+        for index, row in df_sample.iterrows():
+            SYS_DIC["button_properties"][f"word_{n}"]['text'] = row['translation'].replace(", ","\n")
+            n += 1
 
     def count_statistics(self):
         line = ""
@@ -239,6 +231,12 @@ class Window(Frame):
         img2 = ImageTk.PhotoImage(Image.open("success_streak.png"))
         self.img.configure(image=img2)
         self.img.image = img2
+        
+    def update_button_labels(self):
+        self.Button1['text'] = SYS_DIC["button_properties"]['word_1']['text']
+        self.Button2['text'] = SYS_DIC["button_properties"]['word_2']['text']
+        self.Button3['text'] = SYS_DIC["button_properties"]['word_3']['text']
+        self.Button4['text'] = SYS_DIC["button_properties"]['word_4']['text']
 
     def disable_next_button(self):
         self.nextButton["state"] = DISABLED
@@ -247,16 +245,16 @@ class Window(Frame):
         self.nextButton["state"] = NORMAL
 
     def disable_article_buttons(self):
-        self.mButton["state"] = DISABLED
-        self.fButton["state"] = DISABLED
-        self.nButton["state"] = DISABLED
-        self.pButton["state"] = DISABLED
+        self.Button1["state"] = DISABLED
+        self.Button2["state"] = DISABLED
+        self.Button3["state"] = DISABLED
+        self.Button4["state"] = DISABLED
 
     def enable_article_buttons(self):
-        self.mButton["state"] = NORMAL
-        self.fButton["state"] = NORMAL
-        self.nButton["state"] = NORMAL
-        self.pButton["state"] = NORMAL
+        self.Button1["state"] = NORMAL
+        self.Button2["state"] = NORMAL
+        self.Button3["state"] = NORMAL
+        self.Button4["state"] = NORMAL
 
     def create_string_result(self):
         text = ""
@@ -278,9 +276,9 @@ class Window(Frame):
         self.text_to_speak = text
         return text
 
-    def run_button_gender(self, gender):
+    def run_button_word(self, button_n  : int):
         self.count_total_clicks += 1
-        if self.test_word(gender):
+        if self.test_word(button_n):
             if not self.already_tested:
                 self.count_good += 1
                 self.success_streak += 1
@@ -298,9 +296,10 @@ class Window(Frame):
                 SYS_DIC['label_properties']["label_status"]["text"] = (
                     SYS_DIC['message_status']["correct"] + f"   {SYS_DIC['message_status']['record']}"
                 )
-            SYS_DIC['label_properties']["label_word"]["fg"] = SYS_DIC['gender_color'][gender]
+            SYS_DIC['label_properties']["label_word"]["fg"] = SYS_DIC["button_properties"][f"word_{button_n}"]['fg']
             SYS_DIC['label_properties']["label_full_data"]["text"] = self.create_string_result()
-            SYS_DIC['label_properties']["label_full_data"]["fg"] = SYS_DIC['gender_color'][gender]
+            SYS_DIC['label_properties']["label_full_data"]["fg"] = SYS_DIC["button_properties"][f"word_{button_n}"]['fg']
+            SYS_DIC['label_properties']["label_translation"]["text"] = f"({self.active_word['translation']})"
         else:
             SYS_DIC['label_properties']["label_status"]["text"] = SYS_DIC['message_status']["wrong"]
             self.success_streak_history.append(self.success_streak)
@@ -310,6 +309,7 @@ class Window(Frame):
         SYS_DIC['label_properties']["label_points"]["text"] = self.count_statistics()
         self.already_tested = True
         self.update_labels()
+        self.update_button_labels()
 
     def create_figure(self):
         plt.rcParams["figure.figsize"] = (4.5, 1.5)
@@ -331,24 +331,22 @@ class Window(Frame):
         plt.clf()
         plt.close("all")
 
-    def test_word(self, gender):
-        if ("s" in self.active_case) and (gender in self.active_word["gender"]):
-            return True
-        if gender in self.active_case:
+    def test_word(self, button_n):
+        if SYS_DIC["button_properties"][f"word_{button_n}"]['text'] == self.active_word['translation'].replace(", ","\n"):
             return True
         return False
+     
+    def clickButton1(self):
+        self.run_button_word(1)
 
-    def clickmButton(self):
-        self.run_button_gender("m")
+    def clickButton2(self):
+        self.run_button_word(2)
 
-    def clickfButton(self):
-        self.run_button_gender("f")
+    def clickButton3(self):
+        self.run_button_word(3)
 
-    def clicknButton(self):
-        self.run_button_gender("n")
-
-    def clickpButton(self):
-        self.run_button_gender("p")
+    def clickButton4(self):
+        self.run_button_word(4)
 
     def clickDataButton(self):
         global df_dictionary
@@ -365,20 +363,14 @@ class Window(Frame):
         os.system("mplayer text.mp3")
 
     def clickNextButton(self):
-        self.set_new_active_word_and_case()
+        self.set_new_active_word()
         SYS_DIC['label_properties']["label_word"]["fg"] = "black"
         self.update_labels()
+        self.update_button_labels()
         self.enable_article_buttons()
         self.disable_next_button()
         self.already_tested = False
 
-"""
-def random_case() -> str:
-    x = random.rand()
-    if x < 0.75:
-        return "s"
-    return "p"
-"""
 
 def main():
     
@@ -399,7 +391,7 @@ def main():
     root = Tk()
     app = Window(root)
     root.wm_title("MEANINGS")
-    root.geometry("550x500")
+    root.geometry("700x550")
     root.protocol("WM_DELETE_WINDOW", close_window)
     root.mainloop()
 
