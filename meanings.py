@@ -13,7 +13,7 @@ TARGET_LANGUAGE = "de"  # language for sound
 df_dictionary = pd.DataFrame()
 data_file_name = ""
 SYS_DIC = dict()
-
+dictionary_type = "N"   #nouns
 
 class Window(Frame):
     def __init__(self, master=None):
@@ -144,24 +144,30 @@ class Window(Frame):
         global df_dictionary
         try:
             if self.allow_repetitions.get():
-                indexes = [x for x in range(0, df_dictionary.shape[0])]
+                all_indexes = [x for x in range(0, df_dictionary.shape[0])]
                 total = df_dictionary["mistakes"].sum()
                 if total == 0:
                     df_dictionary["p"] = df_dictionary.apply(
-                        lambda row: 1 / len(indexes), axis=1
+                        lambda row: 1 / len(all_indexes), axis=1
                     )
                 else:
                     df_dictionary["p"] = df_dictionary.apply(
                         lambda row: row["mistakes"] / total, axis=1
                     )
-                the_indexes = random.choice(indexes, 1, p=df_dictionary["p"].to_list()).tolist()
-                indexes.remove(the_indexes[0])
-                the_indexes += random.choice(indexes, 3).tolist()
-                df_sample = df_dictionary[df_dictionary.index.isin(the_indexes)].copy()
+                index_selected_word = random.choice(all_indexes, 1, p=df_dictionary["p"].to_list()).tolist()
+                df1 = df_dictionary[df_dictionary.index.isin(index_selected_word)].copy()
+                df2 = df_dictionary[df_dictionary.index != df1.index[0]].sample(3).copy()
+                #print(f"\nDF1\n{df1.head()}")
+                #print(f"DF2\n{df2.head()}")
+                df_sample = pd.concat([df1, df2])
                 df_sample["selected"] = False
-                df_sample.at[the_indexes[0], "selected"] = True
+                df_sample.at[index_selected_word[0], "selected"] = True
             else:
-                df_sample = pd.concat([df_dictionary[df_dictionary["active"] == True].sample(),df_dictionary.sample(3)])
+                df1 = df_dictionary[df_dictionary["active"] == True].sample().copy()
+                df2 = df_dictionary[df_dictionary.index != df1.index[0]].sample(3).copy()
+                #print("\n",df1.head())
+                #print(df2.head(),"\n")
+                df_sample = pd.concat([df1, df2])
                 df_sample["selected"] = False
                 df_sample.at[df_sample.index[0], "selected"] = True
                 
@@ -169,8 +175,6 @@ class Window(Frame):
             print("No hay mas palabras!!!")
             return self.active_word, self.active_case
         
-        df_sample = df_sample.sample(frac=1)
-        print(df_sample.head())
         self.active_word = df_sample[df_sample["selected"]].iloc[0].to_dict()
         self.active_word["index"] = df_sample.index[0]
         df_dictionary.at[self.active_word["index"], "active"] = False
@@ -179,19 +183,29 @@ class Window(Frame):
                 f"There are {df_dictionary[df_dictionary['active']==True].shape[0]} words left."
             )
         
-        if self.active_word["singular"] != '-':
-            self.text_to_speak = self.active_word["singular"]
-        else:
-            self.text_to_speak = self.active_word["plural"]
+        if dictionary_type == 'N':
+            if self.active_word["singular"] != '-':
+                self.text_to_speak = self.active_word["singular"]
+                SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["singular"]
+            else:
+                self.text_to_speak = self.active_word["plural"]
+                SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["plural"]
+        elif dictionary_type == 'V':
+            self.text_to_speak = self.active_word["infinitive"]
+            SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["infinitive"]
+        elif dictionary_type == 'A':
+            self.text_to_speak = self.active_word["adjective"]
+            SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["adjective"]
+            
             
         SYS_DIC['label_properties']["label_status"]["text"] = " "
-        if self.active_word["singular"] != '-':
-            SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["singular"]
-        else:
-            SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["plural"]
         SYS_DIC['label_properties']["label_translation"]["text"] = ""
         SYS_DIC['label_properties']["label_full_data"]["text"] = " "
         SYS_DIC['label_properties']["label_points"]["text"] = self.count_statistics()
+        
+        #mixing the options to locate them in random buttons
+        df_sample = df_sample.sample(frac=1)
+        print(df_sample.head())
         n=1
         for index, row in df_sample.iterrows():
             SYS_DIC["button_properties"][f"word_{n}"]['text'] = row['translation'].replace(", ","\n")
@@ -258,21 +272,34 @@ class Window(Frame):
 
     def create_string_result(self):
         text = ""
-        if self.active_word["singular"] == "-":
-            text += f"[{SYS_DIC['missing_gender']['without_singular']}], "
-        else:
-            if "m" in self.active_word["gender"]:
-                text += SYS_DIC['article_texts']["m"] + " "
-            if "f" in self.active_word["gender"]:
-                text += SYS_DIC['article_texts']["f"] + " "
-            if "n" in self.active_word["gender"]:
-                text += SYS_DIC['article_texts']["n"] + " "
-            text += self.active_word["singular"] + ", "
+        if dictionary_type == 'N':
+            if self.active_word["singular"] == "-":
+                text += f"[{SYS_DIC['missing_gender']['without_singular']}], "
+            else:
+                if "m" in self.active_word["gender"]:
+                    text += SYS_DIC['article_texts']["m"] + " "
+                if "f" in self.active_word["gender"]:
+                    text += SYS_DIC['article_texts']["f"] + " "
+                if "n" in self.active_word["gender"]:
+                    text += SYS_DIC['article_texts']["n"] + " "
+                text += self.active_word["singular"] + ", "
 
-        if self.active_word["plural"] == "-":
-            text += f"[{SYS_DIC['missing_gender']['without_plural']}]"
-        else:
-            text += f"{SYS_DIC['article_texts']['p']} {self.active_word['plural']}"
+            if self.active_word["plural"] == "-":
+                text += f"[{SYS_DIC['missing_gender']['without_plural']}]"
+            else:
+                text += f"{SYS_DIC['article_texts']['p']} {self.active_word['plural']}"
+        elif dictionary_type == 'V':
+            for x in ['infinitive', 'participle_I', 'participle_II']:
+                if self.active_word[x] != '-':
+                    text += f'"{self.active_word[x]}", '
+            text = text[0:-2]
+        elif dictionary_type == 'A':
+            for x in ["adjective","comparative","superlative"]:
+                if self.active_word[x] != '-':
+                    text += f'"{self.active_word[x]}", '
+            text = text[0:-2]
+            pass
+        
         self.text_to_speak = text
         return text
 
@@ -376,6 +403,7 @@ def main():
     
     # load dictionary
     global df_dictionary
+    global dictionary_type
     try:
         df_dictionary = pd.read_csv(data_file_name)
     except:
@@ -387,6 +415,18 @@ def main():
     df_dictionary["p"] = 0
     print(df_dictionary.head())
     
+    #dictionary_type
+    if "nouns" in data_file_name:
+        dictionary_type = 'N'
+    elif "verbs" in data_file_name:
+        dictionary_type = 'V'
+    elif "adjectives" in data_file_name:
+        dictionary_type = 'A'
+    else:
+        print(f"Error in dictionary type: {data_file_name}")
+        return
+        
+        
     # initialize tkinter
     root = Tk()
     app = Window(root)

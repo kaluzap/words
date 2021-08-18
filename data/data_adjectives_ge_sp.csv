@@ -1,136 +1,136 @@
-"adjective","comparativo","superlativo","translation"
-"abgespannt","","","cansado, fatigado"
-"allein","","","solo, a solas"
-"allgemein","","","general, universal, común"
-"alt","älter","am ältesten","viejo"
-"anstrengend","","","cansador, agotador, duro"
-"anwesend","","","presente, asistente"
-"arm","ärmer","am ärmsten","pobre"
-"behindert","","","minusválido, discapacitado, impedido"
-"beliebt","","","estimado, apreciado"
-"berühmt","","","famoso, célebre"
-"besondere","","","especial, singular, particular"
-"bewusst","","","conciente, intencionado"
-"billig","","","barato"
-"bisschen","","","un poco"
-"bloß","","","descubierto, desnudo, puro"
-"breit","breiter","am breitesten","amplio, ancho"
-"dick","","","grueso, gordo"
-"direkt","","","directo, inmediato"
-"dreckig","","","sucio"
-"dunkel","dunkler","am dunkelsten","oscuro"
-"durchschnittlich","","","medio, promedio"
-"edel","edler","am edelsten","noble"
-"ehrlich","","","sincero"
-"eigen","","","propio"
-"einfach","","","simple, fácil"
-"einsam","","","solo, abandonado, aislado"
-"einzig","","","único, solo"
-"einzigartig","","","único, sin par"
-"erforderlich","erforderlicher","am erforderlichsten","necesario"
-"erschöpft","","","cansado, agotado, fatigado"
-"exakt","","","preciso, exacto"
-"fantastisch","","","fantástico"
-"faul","fauler","am faulsten","perezoso"
-"fern","","","lejos, de lejos"
-"folgend","","","siguiente"
-"frei","","","libre"
-"fremd","","","extraño, ajeno, extranjero"
-"fröhlich","","","alegre"
-"frühzeitig","","","temprano"
-"furchtbar","","","terrible, horrible"
-"ganz","","","todo, entero"
-"gefährlich","","","peligroso"
-"gegenwärtig","","","actual, presente"
-"genug","","","exacto, justo, exactamente"
-"gerade","","","derecho, recto"
-"gerecht","","","justo, merecido"
-"gesamt","","","todo, total"
-"gesetzlich","","","legal, legítimo"
-"gesund","","","sano, saludable"
-"gewiss","","","cierto, seguro"
-"gleich","","","igual, identico"
-"glücklich","","","feliz, afortunado"
-"grausam","","","cruel, brutal"
-"groß","größer","am größten","grande"
-"gut","besser","am besten","bueno"
-"heimisch","","","familiarizado, nacional"
-"heiter","","","alegre, divertido"
-"heiß","","","caliente"
-"hell","","","claro"
-"hoch","höher","am höchsten","alto"
-"hässlich","","","feo"
-"häufig","","","frecuente"
-"höflich","","","cortés, amable"
-"hübsch","hübscher","am hübschesten","lindo"
-"innerhalb","","","dentro"
-"intelligent","","","inteligente"
-"interessant","","","interesante"
-"jung","jünger","am jüngsten","joven"
-"kalt","kälter","am kältesten","frio"
-"klar","","","claro"
-"klein","","","pequeño"
-"klug","klüger","am klügsten","inteligente"
-"korrekt","","","correcto"
-"krank","kränker","am kränksten","enfermo"
-"kräftig","","","fuerte"
-"kurz","kürzer","am kürzesten","corto"
-"lang","länger","am längsten","largo"
-"langsam","langsamer","am langsamsten","lento"
-"laut","","","alto, fuerte"
-"lecker","","","rico"
-"leer","","","vacio"
-"leicht","leichter","am leichtesten","liviano, fácil"
-"letzte","","","último, final"
-"lieb","lieber","am liebsten","querido"
-"link","","","fraudulento, engannoso"
-"möglich","","","posible"
-"müde","","","cansado"
-"mühelos","","","fácil"
-"nah","näher","am nächsten","cerca"
-"neu","","","nuevo"
-"niedrig","","","bajo, humilde"
-"normal","","","normal"
-"notwendig","","","necesario, inevitable"
-"nötig","","","necesario, preciso"
-"nützlich","","","útil, provechoso"
-"perfekt","","","perfecto"
-"recht","","","exacto, verdadero, correcto"
-"reich","","","rico"
-"richtig","","","correcto, apropiado"
-"ruhig","","","tranquilo, quieto"
-"sauber","","","limpio, aseado"
-"schlecht","","","mal"
-"schmutzig","","","sucio"
-"schnell","schneller","am schnellsten","rapido"
-"schrecklich","","","horrible, horroroso"
-"schwierig","","","difícil, complicado"
-"schön","","","bello, hermoso, bonito"
-"sehr","mehr","am meisten","demasiado"
-"sehr","mehr","am meisten","mucho"
-"selten","","","raro, curioso"
-"seltsam","","","extraño, singular"
-"sicher","","","seguro"
-"spät","","","tardío"
-"stark","","","fuerte"
-"still","stiller","am stillsten","tranquilo, silencioso, quieto"
-"stundenlang","","","de varias horas"
-"süß","süßer","am süßesten","dulce"
-"teuer","teurer","am teuersten","caro"
-"tief","","","profundo, hondo, bajo"
-"tot","","","muerto"
-"treffend","","","justo, adecuado"
-"ungefähr","","","casi, aproximadamente"
-"unglücklich","","","infeliz, triste"
-"unmöglich","","","imposible"
-"unterschiedlich","","","diferente, distinto"
-"verrückt","","","loco"
-"viel","","","demasiado, mucho"
-"vollkommen","","","perfecto"
-"wahrscheinlich","","","probable"
-"warm","","","caliente"
-"weit","weiter","am weitesten","extenso, ancho, lejano"
-"wenig","","","poco"
-"wichtig","","","importante"
-"ziemlich","","","bastante"
-"zufrieden","","","contento, satisfecho"
+"adjective","comparative","superlative","translation","mistakes"
+"abgespannt","-","-","cansado, fatigado, , ",1
+"allein","-","-","solo, a solas, , ",1
+"allgemein","-","-","general, universal, común",1
+"alt","älter","am ältesten","viejo",1
+"anstrengend","-","-","cansador, agotador, duro",1
+"anwesend","-","-","presente, asistente",1
+"arm","ärmer","am ärmsten","pobre",1
+"behindert","-","-","minusválido, discapacitado, impedido",1
+"beliebt","-","-","estimado, apreciado",1
+"berühmt","-","-","famoso, célebre",1
+"besondere","-","-","especial, singular, particular",1
+"bewusst","-","-","conciente, intencionado",1
+"billig","-","-","barato",1
+"bisschen","-","-","un poco",1
+"bloß","bloßer","bloßesten","descubierto, desnudo, puro, ",1
+"breit","breiter","am breitesten","amplio, ancho",2
+"dick","-","-","grueso, gordo",1
+"direkt","-","-","directo, inmediato",1
+"dreckig","-","-","sucio",2
+"dunkel","dunkler","am dunkelsten","oscuro",1
+"durchschnittlich","-","-","medio, promedio",1
+"edel","edler","am edelsten","noble",1
+"ehrlich","-","-","sincero",1
+"eigen","-","-","propio",1
+"einfach","-","-","simple, fácil",1
+"einsam","-","-","solo, abandonado, aislado",1
+"einzig","-","-","único, solo",1
+"einzigartig","-","-","único, sin par",1
+"erforderlich","erforderlicher","am erforderlichsten","necesario",1
+"erschöpft","-","-","cansado, agotado, fatigado",1
+"exakt","-","-","preciso, exacto",1
+"fantastisch","-","-","fantástico",1
+"faul","fauler","am faulsten","perezoso",1
+"fern","-","-","lejos, de lejos",1
+"folgend","-","-","siguiente",1
+"frei","-","-","libre",1
+"fremd","-","-","extraño, ajeno, extranjero",1
+"fröhlich","-","-","alegre",1
+"frühzeitig","-","-","temprano",1
+"furchtbar","-","-","terrible, horrible",1
+"ganz","-","-","todo, entero",1
+"gefährlich","-","-","peligroso",1
+"gegenwärtig","-","-","actual, presente",1
+"genug","-","-","exacto, justo, exactamente",1
+"gerade","-","-","derecho, recto",1
+"gerecht","-","-","justo, merecido",1
+"gesamt","-","-","todo, total",3
+"gesetzlich","-","-","legal, legítimo",1
+"gesund","-","-","sano, saludable",1
+"gewiss","-","-","cierto, seguro",5
+"gleich","-","-","igual, identico",1
+"glücklich","-","-","feliz, afortunado",2
+"grausam","-","-","cruel, brutal",1
+"groß","größer","am größten","grande",1
+"gut","besser","am besten","bueno",1
+"heimisch","-","-","familiarizado, nacional",1
+"heiter","-","-","alegre, divertido",1
+"heiß","-","-","caliente",1
+"hell","-","-","claro",1
+"hoch","höher","am höchsten","alto",1
+"hässlich","-","-","feo",1
+"häufig","-","-","frecuente",1
+"höflich","-","-","cortés, amable",1
+"hübsch","hübscher","am hübschesten","lindo",1
+"innerhalb","-","-","dentro",1
+"intelligent","-","-","inteligente",1
+"interessant","-","-","interesante",1
+"jung","jünger","am jüngsten","joven",1
+"kalt","kälter","am kältesten","frio",1
+"klar","-","-","claro",1
+"klein","-","-","pequeño",1
+"klug","klüger","am klügsten","inteligente",1
+"korrekt","-","-","correcto",1
+"krank","kränker","am kränksten","enfermo",1
+"kräftig","-","-","fuerte",1
+"kurz","kürzer","am kürzesten","corto",1
+"lang","länger","am längsten","largo",1
+"langsam","langsamer","am langsamsten","lento",1
+"laut","-","-","alto, fuerte",1
+"lecker","-","-","rico",1
+"leer","-","-","vacio",1
+"leicht","leichter","am leichtesten","liviano, fácil",1
+"letzte","-","-","último, final",1
+"lieb","lieber","am liebsten","querido",1
+"link","-","-","fraudulento, engannoso",1
+"möglich","-","-","posible",1
+"müde","-","-","cansado",1
+"mühelos","-","-","fácil",2
+"nah","näher","am nächsten","cerca",3
+"neu","-","-","nuevo",1
+"niedrig","-","-","bajo, humilde",1
+"normal","-","-","normal",1
+"notwendig","-","-","necesario, inevitable",1
+"nötig","-","-","necesario, preciso",1
+"nützlich","-","-","útil, provechoso",1
+"perfekt","-","-","perfecto",1
+"recht","-","-","exacto, verdadero, correcto",1
+"reich","-","-","rico",1
+"richtig","-","-","correcto, apropiado",1
+"ruhig","-","-","tranquilo, quieto",1
+"sauber","-","-","limpio, aseado",1
+"schlecht","-","-","mal",1
+"schmutzig","-","-","sucio",1
+"schnell","schneller","am schnellsten","rapido",1
+"schrecklich","-","-","horrible, horroroso",2
+"schwierig","-","-","difícil, complicado",1
+"schön","-","-","bello, hermoso, bonito",1
+"sehr","mehr","am meisten","demasiado",1
+"sehr","mehr","am meisten","mucho",1
+"selten","-","-","raro, curioso",1
+"seltsam","-","-","extraño, singular",1
+"sicher","-","-","seguro",1
+"spät","-","-","tardío",1
+"stark","-","-","fuerte",1
+"still","stiller","am stillsten","tranquilo, silencioso, quieto",1
+"stundenlang","-","-","de varias horas",1
+"süß","süßer","am süßesten","dulce",1
+"teuer","teurer","am teuersten","caro",1
+"tief","-","-","profundo, hondo, bajo",1
+"tot","-","-","muerto",1
+"treffend","-","-","justo, adecuado",1
+"ungefähr","-","-","casi, aproximadamente",1
+"unglücklich","-","-","infeliz, triste",1
+"unmöglich","-","-","imposible",1
+"unterschiedlich","-","-","diferente, distinto",1
+"verrückt","-","-","loco",1
+"viel","-","-","demasiado, mucho",1
+"vollkommen","-","-","perfecto",1
+"wahrscheinlich","-","-","probable",1
+"warm","-","-","caliente",1
+"weit","weiter","am weitesten","extenso, ancho, lejano",1
+"wenig","weniger","am wenigsten","poco",1
+"wichtig","-","-","importante",1
+"ziemlich","-","-","bastante",1
+"zufrieden","-","-","contento, satisfecho",1
