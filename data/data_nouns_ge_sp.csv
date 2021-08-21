@@ -22,7 +22,7 @@
 "Adresse","Adressen","f","dirección",1
 "Adverb","Adverbien","n","adverbio",1
 "Ahnung","Ahnungen","f","idea",1
-"Akku","Akkus","m","acumulador, batería",10
+"Akku","Akkus","m","acumulador, batería",9
 "Akkusativ","Akkusative","m","acusativo",1
 "Aktivität","Aktivitäten","f","actividad",1
 "Aktualität","-","f","actualidad",1
@@ -107,7 +107,7 @@
 "Batterie","Batterien","f","batería, pila",1
 "Bau","-","m","construcción",2
 "Baum","Bäume","m","árbol",1
-"Bedarf","-","m","necesidad, falta",1
+"Bedarf","-","m","necesidad, falta",2
 "Bedeutung","Bedeutungen","f","significado",1
 "Bedienungsanleitung","Bedienungsanleitungen","f","instrucciones de manejo",1
 "Befehl","Befehle","m","orden, mandato, comando",2
@@ -137,7 +137,7 @@
 "Betreff","Betreffe","m","asunto",1
 "Betreuung","-","f","asistencia, responsabilidad",1
 "Betrieb","Betriebe","m","empresa, funcionamiento",2
-"Betrug","-","m","engaño, estafa, fraude, tranpa",10
+"Betrug","-","m","engaño, estafa, fraude, tranpa",9
 "Bett","Betten","n","cama",1
 "Bewegung","Bewegungen","f","movimiento",1
 "Bewohner","Bewohner","m","habitante, ocupante",1
@@ -325,7 +325,7 @@
 "Flugleistung","Flugleistungen","f","rendimiento de vuelo",1
 "Flugzeug","Flugzeuge","n","avión",1
 "Fluss","Flüsse","m","río",1
-"Flut","Fluten","f","aluvión, marea alta, raudal",8
+"Flut","Fluten","f","aluvión, marea alta, raudal",7
 "Fläche","Flächen","f","superficie",1
 "Flügel","Flügel","m","ala",1
 "Form","Formen","f","forma, manera",1
@@ -531,7 +531,7 @@
 "Kochtopf","Kochtöpfe","m","olla",1
 "Kohl","-","m","col, repollo",1
 "Kohlensäure","-","f","gas CO2 (agua)",1
-"Kollektiv","Kollektive/Kollektivs","n","colectivo",4
+"Kollektiv","Kollektive/Kollektivs","n","colectivo",3
 "Kommentar","Kommentare","m","comentario",3
 "Kommode","Kommoden","f","cómoda",1
 "Kommunikation","-","f","comunicación",1
@@ -539,7 +539,7 @@
 "Konsonant","Konsonanten","m","consonante",4
 "Kontakt","Kontakte","m","contacto",1
 "Konto","Konten","n","cuenta",1
-"Kontrolle","Kontrollen","f","control",3
+"Kontrolle","Kontrollen","f","control",2
 "Kopf","Köpfe","m","cabeza",1
 "Korrespondenz","Korrespondenzen","f","correspondencia",1
 "Korridor","Korridore","m","pasillo",1
@@ -1050,7 +1050,7 @@
 "Volk","Völker","n","pueblo",1
 "Vordergrund","Vordergründe","m","primer plano, prioridad",1
 "Vorfeld","Vorfelder","n","preludio",7
-"Vorgesetzte","Vorgesetzten","mf","superior jerárquico",3
+"Vorgesetzte","Vorgesetzten","mf","superior jerárquico",2
 "Vorschlag","Vorschläge","m","propuesta",2
 "Vorschulkind","Vorschulkinder","n","niño preescolar",1
 "Vorsorgeuntersuchung","Vorsorgeuntersuchungen","f","chequeo preventivo",1
@@ -1112,7 +1112,7 @@
 "Wolf","Wölfe","m","lobo",1
 "Wolke","Wolken","f","nube",1
 "Wort","Worte/Wörter","n","palabra",1
-"Wortschatz","Wortschätze","m","léxico, vocabulario",11
+"Wortschatz","Wortschätze","m","léxico, vocabulario",10
 "Wunde","Wunden","f","herida",1
 "Wunder","Wunder","n","maravilla, milagro",6
 "Wunsch","Wünsche","m","deseo",1

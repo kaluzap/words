@@ -208,7 +208,10 @@ class Window(Frame):
         print(df_sample.head())
         n=1
         for index, row in df_sample.iterrows():
-            SYS_DIC["button_properties"][f"word_{n}"]['text'] = row['translation'].replace(", ","\n")
+            #button_text = row['translation'].replace(", ","\n")
+            button_text = row['translation'].split(", ") + [" ", " ", " "]
+            button_text = ''.join(f"{e}\n" for e in button_text[0:4])  
+            SYS_DIC["button_properties"][f"word_{n}"]['text'] = button_text 
             n += 1
 
     def count_statistics(self):
@@ -289,7 +292,7 @@ class Window(Frame):
             else:
                 text += f"{SYS_DIC['article_texts']['p']} {self.active_word['plural']}"
         elif dictionary_type == 'V':
-            for x in ['infinitive', 'participle_I', 'participle_II']:
+            for x in ['infinitive', 'participle_II']:
                 if self.active_word[x] != '-':
                     text += f'"{self.active_word[x]}", '
             text = text[0:-2]
@@ -359,7 +362,11 @@ class Window(Frame):
         plt.close("all")
 
     def test_word(self, button_n):
-        if SYS_DIC["button_properties"][f"word_{button_n}"]['text'] == self.active_word['translation'].replace(", ","\n"):
+        
+        text_translation = self.active_word['translation'].split(", ") + [" ", " ", " "]
+        text_translation = ''.join(f"{e}\n" for e in text_translation[0:4])
+        
+        if SYS_DIC["button_properties"][f"word_{button_n}"]['text'] == text_translation:
             return True
         return False
      
