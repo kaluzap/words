@@ -1,159 +1,302 @@
-"infinitive","participle_I","participle_II","translation","mistakes"
-"abbringen von","-","-","apartar de",1
-"abdichten gegen","-","-","aislar contra",1
-"abhängen von","-","-","depender de",1
-"abhärten gegen","-","-","fortalecerse contra",1
-"ablassen von","-","-","desistir de",1
-"ableiten aus","-","-","derivarse de",1
-"abnehmen","abnehmend","abgenommen","quitar",1
-"abschirmen gegen","-","-","proteger contra",1
-"abschreiben von","-","-","copiar de",2
-"absetzen auf","-","-","depositar en",1
-"abstellen für","-","-","enviar a",1
-"abtrocknen","abtrocknend","abgetrocknet","secar",1
-"abweichen von","-","-","desviarse de",1
-"achten auf","-","-","cuidar de",1
-"achtgeben auf","-","-","atender a",1
-"adaptieren für","-","-","adaptar a",1
-"agitieren für","-","-","hacer propaganda por",1
-"agitieren gegen","-","-","hacer propaganda contra",1
-"anbieten","anbietend","angeboten","ofrecer",1
-"annehmen","annehmend","angenommen","aceptar, tomar",1
-"anrufen","anrufend","angerufen","llamar",1
-"anschauen","anschauend","angeschaut","mirar",1
-"anstoßen auf","-","-","brindar por",1
-"anstrengen","anstrengend","angestrengt","cansar",1
-"antworten auf","antwortend","geantwortet","responder a, contestar a",1
-"anzünden","anzündend","angezündet","encender fuego",1
-"arbeiten","arbeitend","gearbeitet","trabajar",1
-"aufgeben","aufgebend","aufgegebenn","rendirse, dejar",1
-"aufheben","aufhebend","aufgehoben","recoger",3
-"aufmachen","aufmachend","aufgemacht","abrir",1
-"aufnehmen","aufnehmend","aufgenommen","asimilar",1
-"aufräumen","aufräumend","aufgeräumt","ordenar",1
-"aufstehen","-","-","levantarse, ponerse de pie",1
-"aufwachen","-","-","dejar de dormir",1
-"aufwecken","-","-","despertar",1
-"aufwärmen","-","-","recalentar",1
-"ausfallen","ausfallend","ausgefallen","llamar la atención",1
-"ausgeben","ausgebend","ausgegeben","distribuir, emitir, dar",1
-"ausgeben","ausgebend","ausgegeben","gastar, dar",1
-"auspacken","auspackend","ausgepackt","desempaquetar",1
-"ausrüsten mit","-","-","equipar con",1
-"ausschalten","ausschaltend","ausgeschaltet","apagar",1
-"ausschlafen","-","-","dormir a gusto",1
-"aussprechen","aussprechend","ausgesprochen","expresar",1
-"aussuchen","aussuchend","ausgesucht","elegir",1
-"ausweichen","ausweichend","ausgewichen","evitar",1
-"ausweisen auf","-","-","expulsar de",1
-"auswählen aus","-","-","escoger de",1
-"ausziehen","ausziehend","ausgezogen","quitarse",1
-"backen","backend","gebacken","cocinar, hornear",1
-"baden","badend","gebadet","bañarse",1
-"bauen","bauend","gebaut","construir",1
-"beachten","beachtend","beachtet","cumplir con",1
-"beantragen","beantragend","beantragt","solicitar",1
-"beantworten","beantwortend","beantwortet","contestar",1
-"bedienen","bedienend","bedient","atender",1
-"befinden","-","befunden","encontrarse",1
-"begegnen","begegnend","begegnet","encontrarse",1
-"beginnen bei","-","-","empezar por",1
-"beginnen mit","-","-","empezar con",1
-"beginnen","beginnend","begonnen","comenzar",1
-"begründen","begründend","begründet","fundamentar",1
-"begrüssen","begrüssend","begrüsst","saludar",1
-"behalten","behaltend","behalten","conservar",1
-"bekleiden","-","-","vestir",1
-"bekommen","bekommend","bekommen","obtener",1
-"bemerken","bemerkend","bemerkt","darse cuenta",1
-"benachrichtigen","benachrichtigend","benachrichtigt","informar",1
-"benutzen","benutzend","benutzt","usar",1
-"beraten","beratend","beraten","aconsejar",1
-"bergen","bergend","geborgen","rescatar",2
-"beruhigen","beruhigend","beruhigt","tranquilizar",1
-"berücksichtigen","berücksichtigend","berücksichtigt","tener en cuenta",1
-"beschreiben","beschreibend","beschrieben","describir",1
-"besichtigen","besichtigend","besichtigt","visitar, examinar",1
-"besitzen","besitzend","besessen","poseer",4
-"bestehen aus","-","-","consistir en, componerse de",1
-"beweisen","-","bewiesen","probar",1
-"bitten um","-","-","pedir",1
-"bleiben bei","-","-","mantenerse en, reafirmarse en",1
-"bürgen für","-","-","avalar a",1
-"denken","denkend","gedacht","pensar",1
-"einbauen in","-","-","insertar en",1
-"einbinden in","-","-","incluir en",1
-"eindecken mit","-","-","abastecerse de",1
-"einschlafen","-","-","qudarse dormir",1
-"einstehen für","-","-","responder por",2
-"entbinden von","-","-","eximir de",1
-"entscheiden","-","-","decidir, resolver",1
-"entschlafen","-","-","fallecer",1
-"entschuldigen bei","-","-","disculparse ante",1
-"entschuldigen für","-","-","disculparse por",1
-"entspringen","entspringend","entsprungen","resultar de",1
-"ermitteln","-","-","determinar, calcular",1
-"erwachsen","erwachsend","erwachsen","crecer",1
-"essen","essend","gegessen","comer",1
-"frühstücken","-","-","desayunar",1
-"geld ausgeben für","ausgebend","ausgegeben","gastar dinero para",1
-"grillen","grillend","gegrillt","asar",1
-"hantieren mit","-","-","ocuparse de",1
-"helfen bei","-","-","ayudar en",1
-"hinzufügen zu","-","-","annadir, agregar",1
-"ignorieren","-","-","ignorar",1
-"impfen","impfend","geimpft","vacunar",1
-"interessieren für","-","-","interesarse por",1
-"kleiden","-","-","vestir",1
-"kochen","kochend","gekocht","cocinar",1
-"kommen aus","-","-","venir de",1
-"kümmern um","-","-","atender a, cuidar de",1
-"laufen","laufend","gelaufen","correr",1
-"machen","machend","gemacht","hacer",1
-"multiplizieren mit","-","-","multiplicar por",1
-"nachdenken über","-","-","reflexionar sobre",1
-"nachfragen bei","-","-","consultar a",1
-"nehmen","nehmend","genommen","tomar, apoderarse",1
-"protestieren gegen","-","-","protestar contra",1
-"protzen mit","-","-","hacer gala de",1
-"rechnen mit","-","-","contar con",1
-"reden mit","-","-","hablar con",1
-"reden über","-","-","hablar sobre",1
-"schlafen","-","-","dormir",1
-"schlafen","schlafend","geschlafen","dormir",1
-"sehen","sehend","gesehen","ver",1
-"sein","seiend","gewesen","ser, estar",1
-"sich entscheiden für","-","-","decidirse por",1
-"sich freuen auf","-","-","alegrarse de",1
-"sich kleiden","-","-","vestirse",1
-"sich treffen mit","-","-","quedar con",1
-"sich umziehen","-","-","cambiarse/mudarse (de ropa)",1
-"sich verhalten","-","-","comportarse, portarse",1
-"sich verlieben in","-","-","enamorarse de",1
-"singen","singend","gesungen","cantar",1
-"sorgen für","-","-","ocuparse de",1
-"spielen","spielend","gespielt","jugar",1
-"sprechen mit","-","-","hablar con",1
-"sprechen","sprechend","gesprochen","hablar",1
-"suchen","suchend","gesucht","buscar",1
-"teilen mit","-","-","compartir con",1
-"teilen","teilend","geteilt","partir, dividir",1
-"tragen","-","-","vestir, llevar, sostener",1
-"trinken","trinkend","getrunken","beber",1
-"tun","tuend","getan","hacer",1
-"umziehen nach","-","-","mudarse a",1
-"vermuten","-","-","suponer, presumir, esperar",1
-"vernetzen","-","-","unir, conectar",1
-"versunken in","-","-","abstraído en",1
-"vertauschen für","-","-","cambiar por",1
-"vertreiben aus","-","-","expulsar de",1
-"wandeln","-","-","cambiar, convertir",1
-"warten auf","-","-","esperar a",1
-"wecken","-","-","despetar",1
-"werden","werdend","geworden","aux.,transformarse",1
-"zerstreiten wegen","-","-","pelearse por",1
-"zerteilen in","-","-","dividir en",1
-"zielen auf","-","-","referirse a",1
-"zurücktreten von","-","-","renunciar a",1
-"zusammenhängen mit","-","-","estar relacionado con",1
-"zuschießen auf","-","-","abalanzarse sobre",1
+"infinitive","participle_II","translation","mistakes"
+"abbringen von","-","apartar de",1
+"abdichten gegen","-","aislar contra",1
+"abhängen von","-","depender de",1
+"abhärten gegen","-","fortalecerse contra",1
+"ablassen von","-","desistir de",1
+"ableiten aus","-","derivarse de",1
+"abnehmen","abgenommen","quitar",1
+"abschirmen gegen","-","proteger contra",1
+"abschreiben von","-","copiar de",2
+"absetzen auf","-","depositar en",1
+"abstellen für","-","enviar a",1
+"abtrocknen","abgetrocknet","secar",1
+"abweichen von","-","desviarse de",1
+"achten auf","-","cuidar de",1
+"achtgeben auf","-","atender a",1
+"adaptieren für","-","adaptar a",1
+"agitieren für","-","hacer propaganda por",1
+"agitieren gegen","-","hacer propaganda contra",1
+"anbieten","angeboten","ofrecer",1
+"annehmen","angenommen","aceptar, tomar",1
+"anrufen","angerufen","llamar",1
+"anschauen","angeschaut","mirar",1
+"anstoßen auf","-","brindar por",1
+"anstrengen","angestrengt","cansar",1
+"antworten auf","geantwortet","responder a, contestar a",1
+"anzünden","angezündet","encender fuego",1
+"arbeiten","gearbeitet","trabajar",1
+"aufgeben","aufgegebenn","rendirse, dejar",1
+"aufheben","aufgehoben","recoger",3
+"aufmachen","aufgemacht","abrir",1
+"aufnehmen","aufgenommen","asimilar",1
+"aufräumen","aufgeräumt","ordenar",1
+"aufstehen","-","levantarse, ponerse de pie",1
+"aufwachen","-","dejar de dormir",1
+"aufwecken","-","despertar",1
+"aufwärmen","-","recalentar",1
+"ausfallen","ausgefallen","llamar la atención",1
+"ausgeben","ausgegeben","distribuir, emitir, dar, gastar",1
+"auspacken","ausgepackt","desempaquetar",1
+"ausrüsten mit","-","equipar con",1
+"ausschalten","ausgeschaltet","apagar",1
+"ausschlafen","-","dormir a gusto",1
+"aussprechen","ausgesprochen","expresar",1
+"aussuchen","ausgesucht","elegir",1
+"ausweichen","ausgewichen","evitar",1
+"ausweisen auf","-","expulsar de",1
+"auswählen aus","-","escoger de",1
+"ausziehen","ausgezogen","quitarse",1
+"backen","gebacken","cocinar, hornear",1
+"baden","gebadet","bañarse",1
+"bauen","gebaut","construir",1
+"beachten","beachtet","cumplir con",1
+"beantragen","beantragt","solicitar",1
+"beantworten","beantwortet","contestar",1
+"bedienen","bedient","atender",1
+"befinden","befunden","encontrarse",1
+"begegnen","begegnet","encontrarse",1
+"beginnen bei","hat begonnen","empezar por",1
+"beginnen mit","hat begonnen","empezar con",1
+"beginnen","hat begonnen","empezar, comenzar",11
+"begründen","begründet","fundamentar",1
+"begrüssen","begrüsst","saludar",1
+"behalten","behalten","conservar",1
+"beißen","hat gebissen","morder",11
+"bekleiden","-","vestir",1
+"bekommen","bekommen","obtener",1
+"bemerken","bemerkt","darse cuenta",1
+"benachrichtigen","benachrichtigt","informar",1
+"benutzen","benutzt","usar",1
+"beraten","beraten","aconsejar",1
+"bergen","hat geborgen","rescatar",11
+"beruhigen","beruhigt","tranquilizar",1
+"berücksichtigen","berücksichtigt","tener en cuenta",1
+"beschreiben","beschrieben","describir",1
+"besichtigen","besichtigt","visitar, examinar",1
+"besitzen","besessen","poseer",4
+"bestehen aus","-","consistir en, componerse de",1
+"betrügen","hat betrogen","engañar",11
+"bewegen","hat bewogen","inducir",11
+"beweisen","hat bewiesen","probar, demostrar",11
+"bewerben","hat beworben","solicitar algo",11
+"biegen","hat/ist gebogen","girar",11
+"bieten","hat geboten","ofrecer",11
+"binden","hat gebunden","atar",11
+"bitten um","hat gebeten","pedir",1
+"bitten","hat gebeten","pedir, rogar",11
+"bleiben bei","ist geblieben","mantenerse en, reafirmarse en",1
+"bleiben","ist geblieben","permanecer",11
+"braten","hat gebraten","freír",11
+"brechen","hat/ist gebrochen","romper",11
+"brennen","hat gebrannt","arder",11
+"bringen","hat gebracht","traer",11
+"bürgen für","-","avalar a",1
+"denken","hat gedacht","pensar",11
+"dringen","hat/ist gedrungen","insistir",11
+"dürfen","hat gedurft","poder (poder de tener permiso)",11
+"einbauen in","-","insertar en",1
+"einbinden in","-","incluir en",1
+"eindecken mit","-","abastecerse de",1
+"einschlafen","-","qudarse dormir",1
+"einstehen für","-","responder por",2
+"empfehlen","hat empfohlen","aconsejar",11
+"entbinden von","-","eximir de",1
+"entscheiden für","-","decidirse por",1
+"entscheiden","-","decidir, resolver",1
+"entschlafen","-","fallecer",1
+"entschuldigen bei","-","disculparse ante",1
+"entschuldigen für","-","disculparse por",1
+"entspringen","entsprungen","resultar de",1
+"erlöschen","ist erloschen","apagarse",11
+"ermitteln","-","determinar, calcular",1
+"erschrecken","hat/ist erschrocken","asustar",11
+"erwachsen","erwachsen","crecer",1
+"essen","hat gegessen","comer",11
+"fahren","hat/ist gefahren","conducir, viajar en coche",11
+"fallen","ist gefallen","caer",11
+"fangen","hat gefangen","coger, atrapar",11
+"finden","hat gefunden","encontrar",11
+"flechten","hat geflochten","trenzar",11
+"fliegen","hat/ist geflogen","volar",11
+"fliehen","ist geflohen","huir",11
+"fließen","ist geflossen","fluir",11
+"fressen","hat gefressen","dar de comer a animales",11
+"freuen auf","-","alegrarse de",1
+"frieren","hat/ist gefroren","tener frío",11
+"frühstücken","-","desayunar",1
+"geben","hat gegeben","dar",11
+"gebären","hat geboren","dar a luz, parir",11
+"gedeihen","ist gediehen","florecer",11
+"gehen","ist gegangen","ir (andando)",11
+"geld ausgeben für","ausgegeben","gastar dinero para",1
+"gelingen","ist gelungen","tener exito",11
+"gelten","hat gegolten","ser válido",11
+"genesen","ist genesen","convalecer",11
+"genießen","hat genossen","disfrutar",11
+"geraten","ist geraten","salir bien",11
+"geschehen","ist geschehen","suceder",11
+"gewinnen","hat gewonnen","ganar",11
+"gießen","hat gegossen","regar",11
+"gleichen","hat geglichen","igualarse",11
+"gleiten","ist geglitten","resbalar",11
+"graben","hat gegraben","cavar",11
+"greifen","hat gegriffen","coger",11
+"grillen","gegrillt","asar",1
+"gären","hat/ist gegoren","fermentar",11
+"haben","hat gehabt","tener, haber",11
+"halten","hat gehalten","mantener, parar",11
+"hantieren mit","-","ocuparse de",1
+"heben","hat gehoben","elevar, levantar",11
+"heißen","hat geheißen","llamarse",11
+"helfen bei","-","ayudar en",1
+"helfen","hat geholfen","ayudar",11
+"hinzufügen zu","-","annadir, agregar",1
+"hängen","hat gehangen","estar colgado",11
+"ignorieren","-","ignorar",1
+"impfen","geimpft","vacunar",1
+"interessieren für","-","interesarse por",1
+"kennen","hat gekannt","conocer",11
+"kleiden","-","vestir",1
+"kleiden","-","vestirse",1
+"klingen","hat geklungen","sonar",11
+"kneifen","hat gekniffen","pellizcar",11
+"kochen","gekocht","cocinar",1
+"kommen aus","ist gekommen","venir de",1
+"kommen","ist gekommen","venir",11
+"kriechen","ist gekrochen","arrastrarse",11
+"können","hat gekonnt","poder (poder de capacidad)",11
+"kümmern um","-","atender a, cuidar de",1
+"laden","hat geladen","cargar",11
+"lassen","hat gelassen","dejar",11
+"laufen","gelaufen","correr",1
+"laufen","ist gelaufen","correr",11
+"leiden","hat gelitten","sufrir, padecer",11
+"leihen","hat geliehen","prestar",11
+"lesen","hat gelesen","leer",11
+"liegen","hat gelegen","estar tumbado",11
+"lügen","hat gelogen","mentir",11
+"machen","hat gemacht","hacer",1
+"mahlen","hat gemahlen","moler",11
+"meiden","hat gemieden","evitar",11
+"melken","hat gemolken","ordeñar",11
+"messen","hat gemessen","medir",11
+"multiplizieren mit","-","multiplicar por",1
+"mögen","hat gemocht","gustar",11
+"müssen","hat gemusst","deber (deber de obligación)",11
+"nachdenken über","-","reflexionar sobre",1
+"nachfragen bei","-","consultar a",1
+"nehmen","hat genommen","coger, tomar, apoderarse",11
+"nennen","hat genannt","nombrar",11
+"pfeifen","hat gepfiffen","silbar",11
+"preisen","hat gepriesen","alabar",11
+"protestieren gegen","-","protestar contra",1
+"protzen mit","-","hacer gala de",1
+"quellen","ist gequollen","manar, fluir, surgir, proceder",11
+"raten","hat geraten","aconsejar",11
+"rechnen mit","-","contar con",1
+"reden mit","-","hablar con",1
+"reden über","-","hablar sobre",1
+"reiben","hat gerieben","frotar",11
+"reiten","hat/ist geritten","cabalgar",11
+"reißen","hat gerissen","arrancar",11
+"rennen","ist gerannt","correr",11
+"riechen","hat gerochen","oler",11
+"ringen","hat gerungen","luchar",11
+"rufen","hat gerufen","llamar",11
+"saufen","hat gesoffen","beber para animales",11
+"saugen","hat gesogen","mamar, absorber",11
+"schaffen","hat geschaffen","crear, trabajar",11
+"scheiden","hat/ist geschieden","separar, partir",11
+"scheinen","hat geschienen","brillar",11
+"scheißen","hat geschissen","cagar",11
+"schieben","hat geschoben","empujar",11
+"schießen","hat geschossen","disparar",11
+"schlafen","hat geschlafen","dormir",11
+"schlagen","hat geschlagen","golpear",11
+"schleifen","hat geschliffen","afilar",11
+"schließen","hat geschlossen","cerrar",11
+"schlingen","hat geschlungen","atar",11
+"schmeißen","hat geschmissen","tirar",11
+"schmelzen","ist geschmolzen","fundirse, derretirse",11
+"schneiden","hat geschnitten","cortar, partir",11
+"schreiben","hat geschrieben","escribir",11
+"schreien","hat geschrien","gritar",11
+"schweigen","hat geschwiegen","callar",11
+"schwellen","ist geschwollen","hincharse",11
+"schwimmen","ist/hat geschwommen","nadar",11
+"schwinden","ist geschwunden","disminuir",11
+"schwingen","hat geschwungen","agitar",11
+"schwören","hat geschworen","jurar",11
+"sehen","hat gesehen","ver",11
+"sein","ist gewesen","ser, estar",11
+"senden","hat gesandt","enviar",11
+"singen","hat gesungen","cantar",11
+"sinken","ist gesunken","hundir",11
+"sinnen","hat gesonnen","meditar",11
+"sitzen","hat gesessen","estar sentado",11
+"sollen","hat gesollt","deber (cumplir una norma)",11
+"sorgen für","-","ocuparse de",1
+"speien","hat gespien","escupir",11
+"spielen","gespielt","jugar",1
+"spinnen","hat gesponnen","hilar",11
+"sprechen mit","-","hablar con",1
+"sprechen","hat gesprochen","hablar",11
+"sprießen","ist gesprossen","brotar",11
+"springen","ist gesprungen","saltar",11
+"stechen","hat gestochen","picar, pinchar",11
+"stehen","hat gestanden","estar de pie",11
+"stehlen","hat gestohlen","robar",11
+"steigen","ist gestiegen","escalar, subir",11
+"sterben","ist gestorben","morir",11
+"stinken","hat gestunken","apestar",11
+"stoßen","hat/ist gestoßen","empujar",11
+"streichen","hat gestrichen","pintar, tachar",11
+"streiten","hat gestritten","pelearse",11
+"suchen","gesucht","buscar",1
+"teilen mit","-","compartir con",1
+"teilen","geteilt","partir, dividir",1
+"tragen","hat getragen","llevar, vestir, sostener",11
+"treffen mit","-","quedar con",1
+"treffen","hat getroffen","encontrarse",11
+"treiben","hat getrieben","practicar, accionar",11
+"treten","hat/ist getreten","pisar, ir",11
+"trinken","hat getrunken","beber",11
+"tun","hat getan","hacer",11
+"umziehen nach","-","mudarse a",1
+"umziehen","-","cambiarse/mudarse (de ropa)",1
+"verderben","hat/ist verdorben","estropearse",11
+"vergessen","hat vergessen","olvidar",11
+"verhalten","-","comportarse, portarse",1
+"verlieben in","-","enamorarse de",1
+"verlieren","hat verloren","perder",11
+"vermuten","-","suponer, presumir, esperar",1
+"vernetzen","-","unir, conectar",1
+"verschwinden","ist verschwunden","desaparecer",11
+"versunken in","-","abstraído en",1
+"vertauschen für","-","cambiar por",1
+"vertreiben aus","-","expulsar de",1
+"verzeihen","hat verziehen","perdonar",11
+"wachsen","ist gewachsen","crecer",11
+"wandeln","-","cambiar, convertir",1
+"warten auf","-","esperar a",1
+"waschen","hat gewaschen","lavar",11
+"weben","hat gewoben","tejer",11
+"wecken","-","despetar",1
+"weichen","ist gewichen","ceder",11
+"wenden","hat gewandt","girar",11
+"werden","ist geworden","llegar a ser, transformarse",11
+"werfen","hat geworfen","arrojar",11
+"wiegen","hat gewogen","pesar",11
+"winden","hat gewunden","torcer",11
+"wissen","hat gewusst","saber",11
+"wollen","hat gewollt","querer",11
+"wringen","hat gewrungen","escurrir",11
+"zerstreiten wegen","-","pelearse por",1
+"zerteilen in","-","dividir en",1
+"ziehen","hat gezogen","tirar, arrastrar",11
+"zielen auf","-","referirse a",1
+"zurücktreten von","-","renunciar a",1
+"zusammenhängen mit","-","estar relacionado con",1
+"zuschießen auf","-","abalanzarse sobre",1
+"zwingen","hat gezwungen","obligar",11
