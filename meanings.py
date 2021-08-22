@@ -193,9 +193,12 @@ class Window(Frame):
         elif dictionary_type == 'V':
             self.text_to_speak = self.active_word["infinitive"]
             SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["infinitive"]
-        elif dictionary_type == 'A':
+        elif dictionary_type == 'AJ':
             self.text_to_speak = self.active_word["adjective"]
             SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["adjective"]
+        elif dictionary_type == 'AV':
+            self.text_to_speak = self.active_word["adverb"]
+            SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["adverb"]
             
             
         SYS_DIC['label_properties']["label_status"]["text"] = " "
@@ -296,12 +299,16 @@ class Window(Frame):
                 if self.active_word[x] != '-':
                     text += f'"{self.active_word[x]}", '
             text = text[0:-2]
-        elif dictionary_type == 'A':
+        elif dictionary_type == 'AJ':
             for x in ["adjective","comparative","superlative"]:
                 if self.active_word[x] != '-':
                     text += f'"{self.active_word[x]}", '
             text = text[0:-2]
-            pass
+        elif dictionary_type == 'AV':
+            for x in ["adverb"]:
+                if self.active_word[x] != '-':
+                    text += f'"{self.active_word[x]}", '
+            text = text[0:-2]    
         
         self.text_to_speak = text
         return text
@@ -329,7 +336,7 @@ class Window(Frame):
             SYS_DIC['label_properties']["label_word"]["fg"] = SYS_DIC["button_properties"][f"word_{button_n}"]['fg']
             SYS_DIC['label_properties']["label_full_data"]["text"] = self.create_string_result()
             SYS_DIC['label_properties']["label_full_data"]["fg"] = SYS_DIC["button_properties"][f"word_{button_n}"]['fg']
-            SYS_DIC['label_properties']["label_translation"]["text"] = f"({self.active_word['translation']})"
+            SYS_DIC['label_properties']["label_translation"]["text"] = f"{self.active_word['translation']}"
         else:
             SYS_DIC['label_properties']["label_status"]["text"] = SYS_DIC['message_status']["wrong"]
             self.success_streak_history.append(self.success_streak)
@@ -425,9 +432,13 @@ def main():
     #dictionary_type
     if "nouns" in data_file_name:
         dictionary_type = 'N'
+    elif "adverbs" in data_file_name:
+        dictionary_type = 'AV'
     elif "verbs" in data_file_name:
         dictionary_type = 'V'
     elif "adjectives" in data_file_name:
+        dictionary_type = 'AJ'
+    elif "all" in data_file_name:
         dictionary_type = 'A'
     else:
         print(f"Error in dictionary type: {data_file_name}")
