@@ -99,7 +99,7 @@
 "Bahnhof","Bahnhöfe","m","estación de tren",1
 "Ball","Bälle","m","pelota, balón",1
 "Ballast","Ballaste","m","carga, lastre",7
-"Ballon","Ballons/Ballone","m","globo aerostático, globo",7
+"Ballon","Ballons/Ballone","m","globo aerostático, globo",6
 "Banane","Bananen","f","banana",1
 "Bank","Bänke","f","banco",1
 "Banknote","Banknoten","f","billete de banco",1
@@ -108,11 +108,11 @@
 "Batterie","Batterien","f","batería, pila",1
 "Bau","-","m","construcción",2
 "Baum","Bäume","m","árbol",1
-"Bedarf","-","m","necesidad, falta",2
+"Bedarf","-","m","necesidad, falta",1
 "Bedeutung","Bedeutungen","f","significado",1
 "Bedienungsanleitung","Bedienungsanleitungen","f","instrucciones de manejo",1
 "Befehl","Befehle","m","orden, mandato, comando",2
-"Beginn","-","m","comienzo, inicio, principio",9
+"Beginn","-","m","comienzo, inicio, principio",8
 "Begleiter","Begleiter","m","acompañante",1
 "Behörde","Behörden","f","autoridad, administración",1
 "Bein","Beine","n","pierna",1
@@ -308,7 +308,7 @@
 "Fernreise","Fernreisen","f","viaje de larga distancia",1
 "Fernseher","Fernseher","m","televisor",1
 "Fest","Feste","n","fiesta, festival",1
-"Fett","Fette","n","grasa",7
+"Fett","Fette","n","grasa",6
 "Feuchtigkeit","-","f","humedad",1
 "Feuer","-","n","fuego",1
 "Feuerwehr","Feuerwehren","f","bombero",1
@@ -570,7 +570,7 @@
 "Kumpel","Kumpel","m","compañero",1
 "Kunde","Kunden","mf","cliente(m), noticia(f)",1
 "Kundenkreis","Kundenkreise","m","clientela",1
-"Kundin","Kundinnen","f","clienta",4
+"Kundin","Kundinnen","f","clienta",3
 "Kunst","Künste","f","arte",3
 "Kunststoff","Kunststoffe","m","plástico",1
 "Kupfer","-","n","cobre",1
@@ -622,7 +622,7 @@
 "Mai","Maie","m","mayo",1
 "Mal","Male","n","vez",1
 "Mann","Männer","m","hombre",1
-"Mannschaft","Mannschaften","f","equipo deportivo, tripulación",8
+"Mannschaft","Mannschaften","f","equipo deportivo, tripulación",7
 "Mantel","Mäntel","m","abrigo",1
 "Mappe","Mappen","f","carpeta",1
 "Marine","Marinen","f","marina",1
@@ -742,7 +742,7 @@
 "Pilot","Piloten","m","piloto",1
 "Pilsner","Pilsner","n","cerveza pilsen",1
 "Pizza","Pizzas/Pizzen","f","piza",1
-"Plan","Pläne","m","plan, proyecto, intención",8
+"Plan","Pläne","m","plan, proyecto, intención",7
 "Planet","Planeten","m","planeta",1
 "Platz","Plätze","m","plaza",1
 "Politik","Politiken","f","política",1
@@ -1116,7 +1116,7 @@
 "Wolf","Wölfe","m","lobo",1
 "Wolke","Wolken","f","nube",1
 "Wort","Worte/Wörter","n","palabra",1
-"Wortschatz","Wortschätze","m","léxico, vocabulario",10
+"Wortschatz","Wortschätze","m","léxico, vocabulario",12
 "Wunde","Wunden","f","herida",1
 "Wunder","Wunder","n","maravilla, milagro",6
 "Wunsch","Wünsche","m","deseo",1
