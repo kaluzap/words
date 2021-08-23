@@ -67,6 +67,7 @@
 "Asylant","Asylanten","m","asilado",1
 "Asylantin","Asylantinnen","f","asilada",1
 "Atmen","-","n","respiración",5
+"Attest","Atteste","n","certificado médico",11
 "Aufenthalt","Aufenthalte","m","residencia",1
 "Aufenthaltstitel","Aufenthaltstitel","m","título de residencia",1
 "Aufgabe","Aufgaben","f","tarea",1
@@ -130,6 +131,7 @@
 "Bescheinigung","Bescheinigungen","f","certificado oficial",1
 "Beschleunigung","Beschleunigungen","f","aceleración",1
 "Beschäftigung","Beschäftigungen","f","ocupación, actividad, trabajo",1
+"Besserung","-","f","mejora, mejoría, restablecimiento",11
 "Besteck","Bestecke","n","cubiertos",1
 "Bestellung","Bestellungen","f","encargo, pedido",1
 "Besucher","Besucher","m","visitante",1
@@ -234,6 +236,7 @@
 "Ehefrau","Ehefrauen","f","esposa",1
 "Ehemann","Ehemänner","m","esposo",1
 "Ei","Eier","n","huevo",1
+"Eiche","Eichen","f","roble",11
 "Eichhörnchen","Eichhörnchen","n","ardilla",1
 "Eilmeldung","Eilmeldungen","f","comunucación urgente",1
 "Eindruck","Eindrücke","m","impresión, sensación, huella",1
@@ -630,6 +633,7 @@
 "Material","Materialien","n","material",1
 "Mauer","Mauern","f","muro",1
 "Maus","Mäuse","f","ratón",1
+"Maß","Maße","n","medida, dimensión",11
 "Maßnahme","Maßnahmen","f","medida",1
 "Mechanik","-","f","física - mecánica",1
 "Medikament","Medikamente","n","medicamento, remedio",3
