@@ -12,7 +12,7 @@
 "Abhilfe","-","f","remedio, auxilio",1
 "Abschied","Abschiede","m","despedida",1
 "Abschiedsfeier","Abschiedsfeiern","f","fiesta de despedida",1
-"Abschiedsfest","Abschiedsfeste","n","fiesta de despedida",1
+"Abschiedsfest","Abschiedsfeste","n","fiesta de despedida",2
 "Absender","Absender","m","remitente (m)",4
 "Absenderin","Absenderinnen","f","remitente (f)",1
 "Abstand","Abstände","m","distancia, diferencia",1
@@ -608,7 +608,7 @@
 "Loch","Löcher","n","agujero",1
 "Lokführer","Lokführer","m","maquinista de tren",9
 "Lokführerin","Lokführerinnen","f","maquinista de tren",9
-"Lokomotive","Lokomotiven","f","locomotora",9
+"Lokomotive","Lokomotiven","f","locomotora",8
 "Losung","Losungen","f","lema, consigna",1
 "Lotterie","Lotterien","f","loteria",1
 "Luft","-","f","aire",3
@@ -742,7 +742,7 @@
 "Pilot","Piloten","m","piloto",1
 "Pilsner","Pilsner","n","cerveza pilsen",1
 "Pizza","Pizzas/Pizzen","f","piza",1
-"Plan","Pläne","m","plan, proyecto, intención",7
+"Plan","Pläne","m","plan, proyecto, intención",6
 "Planet","Planeten","m","planeta",1
 "Platz","Plätze","m","plaza",1
 "Politik","Politiken","f","política",1

@@ -199,6 +199,9 @@ class Window(Frame):
         elif dictionary_type == 'AV':
             self.text_to_speak = self.active_word["adverb"]
             SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["adverb"]
+        elif dictionary_type == 'A':
+            self.text_to_speak = self.active_word["word"]
+            SYS_DIC['label_properties']["label_word"]["text"] = self.active_word["word"]
             
             
         SYS_DIC['label_properties']["label_status"]["text"] = " "
@@ -309,7 +312,12 @@ class Window(Frame):
                 if self.active_word[x] != '-':
                     text += f'"{self.active_word[x]}", '
             text = text[0:-2]    
-        
+        elif dictionary_type == 'A':
+            for x in ["word"]:
+                if self.active_word[x] != '-':
+                    text += f'"{self.active_word[x]}", '
+            text = text[0:-2]
+            
         self.text_to_speak = text
         return text
 
