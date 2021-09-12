@@ -33,17 +33,24 @@
 "achtgeben auf","hat achtgegeben","atender a, prestar atención a, cuidar de",1
 "adaptieren für","hat adaptiert","adaptar a",1
 "sich adaptieren an","hat adaptiert","adaptarse a",1
-"agitieren für","-","hacer propaganda por",1
-"agitieren gegen","-","hacer propaganda contra",1
-"anbieten","angeboten","ofrecer",1
-"annehmen","angenommen","aceptar, tomar",1
-"anrufen","angerufen","llamar",1
-"anschauen","angeschaut","mirar",1
-"anstoßen auf","-","brindar por",1
-"anstrengen","angestrengt","cansar",2
-"antworten auf","geantwortet","responder a, contestar a",1
-"anzünden","angezündet","encender fuego",1
-"arbeiten","gearbeitet","trabajar",1
+"agitieren für","hat agitiert","hacer propaganda por",1
+"agitieren gegen","hat agitiert","hacer propaganda contra",1
+"anbieten","hat angeboten","ofrecer, brindar, ofertar, proponer",1
+"sich anbieten","hat angeboten","ser apropiado",1
+"sich anbieten zu","hat angeboten","brindarse a",1
+"sich anbieten als zu","hat angeboten","ofrecerse como/para/de",1
+"annehmen","hat angenommen","aceptar, tomar, adoptar, contraer",1
+"anrufen","hat angerufen","llamar, pedir, implorar, invocar",1
+"anschauen","hat angeschaut","mirar",1
+"anstoßen","ist angestoßen","empujar",1
+"anstoßen an","ist angestoßen","golpearse en/contra",1
+"anstoßen auf","ist angestoßen","brindar por",1
+"anstrengen","hat angestrengt","cansar, fatigar",2
+"sich anstrengen","hat angestrengt","esforzarse, esmerarse",2
+"antworten auf","hat geantwortet","responder a, contestar a",1
+"anzünden","hat angezündet","encender fuego, encender, prender",1
+"arbeiten","hat gearbeitet","trabajar",1
+"XXXX","XXXX","XXXX",1
 "aufgeben","aufgegebenn","rendirse, dejar",1
 "aufheben","aufgehoben","recoger",2
 "aufmachen","aufgemacht","abrir",1
@@ -216,6 +223,7 @@
 "rechnen mit","-","contar con",1
 "reden mit","-","hablar con",1
 "reden über","-","hablar sobre",1
+"regeln","hat geregelt","regular, fijar, arreglar, reglamentar",11
 "reiben","hat gerieben","frotar",22
 "reiten","hat/ist geritten","cabalgar",11
 "reißen","hat gerissen","arrancar",13

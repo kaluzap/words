@@ -1,6 +1,6 @@
 "singular","plural","gender","translation","mistakes"
 "-","Eltern","p","padres",1
-"-","Ferien","p","vacaciones",6
+"-","Ferien","p","vacaciones",4
 "-","Geschwister","p","hermanos",1
 "-","Kenntnisse","p","conocimientos",2
 "-","Kosten","p","costos",1
@@ -14,7 +14,7 @@
 "Abschiedsfeier","Abschiedsfeiern","f","fiesta de despedida",1
 "Abschiedsfest","Abschiedsfeste","n","fiesta de despedida",2
 "Abschreiben","-","n","transcripción, copia",11
-"Abschreibung","Abschreibungen","f","deducción, amortización, desvalorización",11
+"Abschreibung","Abschreibungen","f","deducción, amortización, desvalorización",10
 "Absender","Absender","m","remitente (m)",4
 "Absenderin","Absenderinnen","f","remitente (f)",1
 "Abstand","Abstände","m","distancia, diferencia",1
@@ -35,7 +35,7 @@
 "Alter","-","n","edad",1
 "Ameise","Ameisen","f","hormiga",1
 "Ampel","Ampeln","f","semáforo",1
-"Amt","Ämter","n","cargo, obligaciones, departamento, central",3
+"Amt","Ämter","n","cargo, obligaciones, departamento, central",4
 "Anfrage","Anfragen","f","pregunta, consulta, interpelación",1
 "Angabe","Angaben","f","dato, indicación",1
 "Angebot","Angebote","n","oferta",2
@@ -48,10 +48,11 @@
 "Anliegen","Anliegen","n","deseo, petición, ruego",1
 "Anmeldung","Anmeldungen","f","aviso, inscripción, declaración",1
 "Anmerkung","Anmerkungen","f","observación, advertencia",1
+"Anruf","Anrufe","m","llamada",11
 "Antenne","Antennen","f","antena",1
-"Antonym","Antonyme","n","antónimo",2
+"Antonym","Antonyme","n","antónimo",1
 "Antrag","Anträge","m","solicitud",1
-"Antwort","Antworten","f","respuesta",2
+"Antwort","Antworten","f","respuesta, contestación",2
 "Anwalt","Anwälte","m","abogado",1
 "Anwohner","Anwohner","m","vecino, residente",1
 "Anwohnerin","Anwohnerinnen","f","vecina, residenta",1
@@ -68,15 +69,15 @@
 "Arzt","Ärzte","m","médico",1
 "Asylant","Asylanten","m","asilado",1
 "Asylantin","Asylantinnen","f","asilada",1
-"Atmen","-","n","respiración",5
-"Attest","Atteste","n","certificado médico",11
+"Atmen","-","n","respiración",7
+"Attest","Atteste","n","certificado médico",12
 "Aufenthalt","Aufenthalte","m","residencia",1
 "Aufenthaltstitel","Aufenthaltstitel","m","título de residencia",1
 "Aufgabe","Aufgaben","f","tarea",1
 "Aufgang","Aufgänge","m","subida, salida",1
 "Aufzug","Aufzüge","m","ascensor, elevador",1
 "Auge","Augen","n","ojo",1
-"August","Auguste","m","agosto",2
+"August","Auguste","m","agosto",1
 "Ausbildung","Ausbildungen","f","formación",1
 "Ausdruck","-","m","expresión",1
 "Ausfahrt","Ausfahrten","f","salida vehiculo",1
@@ -89,7 +90,7 @@
 "Ausländerin","Ausländerinnen","f","extranjera",1
 "Ausmaß","Ausmaße","n","dimensión, magnitud",2
 "Ausweis","Ausweise","m","documento",1
-"Auszug","Auszüge","m","mudanza",1
+"Auszug","Auszüge","m","mudanza",2
 "Auto","Autos","n","auto",1
 "Autor","Autoren","m","autor",1
 "Autorin","Autorinnen","f","autora",1
@@ -100,8 +101,8 @@
 "Bahn","Bahnen","f","ferrocarril",1
 "Bahnhof","Bahnhöfe","m","estación de tren",1
 "Ball","Bälle","m","pelota, balón",1
-"Ballast","Ballaste","m","carga, lastre",7
-"Ballon","Ballons/Ballone","m","globo aerostático, globo",6
+"Ballast","Ballaste","m","carga, lastre",8
+"Ballon","Ballons/Ballone","m","globo aerostático, globo",5
 "Banane","Bananen","f","banana",1
 "Bank","Bänke","f","banco",1
 "Banknote","Banknoten","f","billete de banco",1
@@ -114,7 +115,7 @@
 "Bedeutung","Bedeutungen","f","significado",1
 "Bedienungsanleitung","Bedienungsanleitungen","f","instrucciones de manejo",1
 "Befehl","Befehle","m","orden, mandato, comando",2
-"Beginn","-","m","comienzo, inicio, principio",8
+"Beginn","-","m","comienzo, inicio, principio",7
 "Begleiter","Begleiter","m","acompañante",1
 "Behörde","Behörden","f","autoridad, administración",1
 "Bein","Beine","n","pierna",1
@@ -126,14 +127,14 @@
 "Benzin","Benzine","n","nafta",1
 "Beratung","Beratungen","f","consejo, asesoramiento",1
 "Bereich","Bereiche","m","rango, zona, sector, terreno",1
-"Berg","Berge","m","montaña, monte",2
+"Berg","Berge","m","montaña, monte",1
 "Beruf","Berufe","m","profesión",1
 "Berufserfahrung","Berufserfahrungen","f","experiencia profesional",1
 "Bescheid","Bescheide","m","información, notificación, noticia",2
 "Bescheinigung","Bescheinigungen","f","certificado oficial",1
 "Beschleunigung","Beschleunigungen","f","aceleración",1
 "Beschäftigung","Beschäftigungen","f","ocupación, actividad, trabajo",1
-"Besserung","-","f","mejora, mejoría, restablecimiento",11
+"Besserung","-","f","mejora, mejoría, restablecimiento",9
 "Besteck","Bestecke","n","cubiertos",1
 "Bestellung","Bestellungen","f","encargo, pedido",1
 "Besucher","Besucher","m","visitante",1
@@ -141,7 +142,7 @@
 "Betreff","Betreffe","m","asunto",1
 "Betreuung","-","f","asistencia, responsabilidad",1
 "Betrieb","Betriebe","m","empresa, funcionamiento",2
-"Betrug","-","m","engaño, estafa, fraude, tranpa",9
+"Betrug","-","m","engaño, estafa, fraude, tranpa",8
 "Bett","Betten","n","cama",1
 "Bewegung","Bewegungen","f","movimiento",1
 "Bewohner","Bewohner","m","habitante, ocupante",1
@@ -165,12 +166,12 @@
 "Bohrmaschine","Bohrmaschinen","f","taladradora",1
 "Bombe","Bomben","f","bomba",1
 "Boot","Boote","n","bote",1
-"Bosheit","Bosheiten","f","maldad, malicia",5
+"Bosheit","Bosheiten","f","maldad, malicia",3
 "Brand","-","m","gangrena, necrosis",1
 "Brand","Brände","m","fuego, incendio, sed",1
 "Brandwunde","Brandwunden","f","quemadura",1
 "Bratwurst","Bratwürste","f","salchicha frita",1
-"Brei","Breie","m","papilla, puré",10
+"Brei","Breie","m","papilla, puré",12
 "Brennstoff","Brennstoffe","m","combustible",1
 "Brief","Briefe","m","carta",1
 "Brille","Brillen","f","lentes, gafas",1
@@ -182,7 +183,7 @@
 "Brücke","Brücken","f","puente",1
 "Buch","Bücher","n","libro",1
 "Buchhaltung","-","f","contaduría, teneduría de libros",1
-"Bulle","Bullen","m","toro",1
+"Bulle","Bullen","m","toro",2
 "Bullenkalb","Bullenkälber","n","ternero",1
 "Bundesland","Bundesländer","n","estado federado",1
 "Bundesrepublik Deutschland","-","f","República Federal de Alemania",1
@@ -238,7 +239,7 @@
 "Ehefrau","Ehefrauen","f","esposa",1
 "Ehemann","Ehemänner","m","esposo",1
 "Ei","Eier","n","huevo",1
-"Eiche","Eichen","f","roble",11
+"Eiche","Eichen","f","roble",10
 "Eichhörnchen","Eichhörnchen","n","ardilla",1
 "Eilmeldung","Eilmeldungen","f","comunucación urgente",1
 "Eindruck","Eindrücke","m","impresión, sensación, huella",1
@@ -280,7 +281,7 @@
 "Erlaubnis","Erlaubnisse","f","permiso",10
 "Erläuterung","Erläuterungen","f","explicación, comentario",1
 "Ersatz","-","m","sustitución",1
-"Erwachsene","Erwachsenen","mf","adulto",9
+"Erwachsene","Erwachsenen","mf","adulto",8
 "Erwartung","Erwartungen","f","esperanza, expectativa",1
 "Eröffnung","Eröffnungen","f","apertura, inauguración, publicación",1
 "Esel","Esel","m","burro",1
@@ -300,7 +301,7 @@
 "Farbe","Farben","f","color",1
 "Faulenzer","Faulenzer","m","holgazán",1
 "Faulenzerin","Faulenzerinnen","f","holgazana",1
-"Faust","Fäuste","f","puño",1
+"Faust","Fäuste","f","puño",3
 "Februar","Februare","m","febrero",1
 "Feedback","Feedbacks","n","feedback",1
 "Fehler","Fehler","m","error",1
@@ -310,7 +311,7 @@
 "Fernreise","Fernreisen","f","viaje de larga distancia",1
 "Fernseher","Fernseher","m","televisor",1
 "Fest","Feste","n","fiesta, festival",1
-"Fett","Fette","n","grasa",6
+"Fett","Fette","n","grasa",5
 "Feuchtigkeit","-","f","humedad",1
 "Feuer","-","n","fuego",1
 "Feuerwehr","Feuerwehren","f","bombero",1
@@ -319,7 +320,7 @@
 "Fieber","Fieber","n","fiebre",1
 "Finale","Finale","n","final (competencia)",1
 "Firma","Firmen","f","empresa",1
-"Fisch","Fische","m","pescado",2
+"Fisch","Fische","m","pescado",1
 "Flair","-","m","encanto, ambiente",9
 "Flasche","Flaschen","f","botella",1
 "Fledermaus","Fledermäuse","f","murciélago",1
@@ -332,9 +333,9 @@
 "Fluss","Flüsse","m","río",1
 "Flut","Fluten","f","aluvión, marea alta, raudal",7
 "Fläche","Flächen","f","superficie",1
-"Flügel","Flügel","m","ala",1
+"Flügel","Flügel","m","ala",2
 "Form","Formen","f","forma, manera",1
-"Formular","Formulare","n","formulario",7
+"Formular","Formulare","n","formulario",6
 "Forschung","Forschungen","f","investigación",1
 "Foto","Fotos","n","foto",1
 "Frage","Fragen","f","pregunta",1
@@ -359,12 +360,12 @@
 "Füller","Füller","m","pluma, lapicera",2
 "Gabel","Gabeln","f","tenedor",1
 "Galaxie","Galaxien","f","galaxia",1
-"Gardine","Gardinen","f","cortina",2
+"Gardine","Gardinen","f","cortina",1
 "Garten","Gärten","m","jardín",1
 "Gast","Gäste","m","huesped",1
 "Geburt","Geburten","f","parto",1
 "Geburtstag","Geburtstage","m","cumpleaños",1
-"Gebühr","Gebühren","f","tarifa, taza",1
+"Gebühr","Gebühren","f","tarifa, taza",3
 "Gedanke","Gedanken","m","idea, pensamiento",1
 "Gedeck","Gedecke","n","cubierto (toda la mesa)",1
 "Geduld","-","f","paciencia",1
@@ -397,11 +398,11 @@
 "Gesetz","Gesetze","n","ley",1
 "Gesicht","Gesichter","n","cara",1
 "Gesichtssinn","-","m","sentido de la vista",1
-"Gespräch","Gespräche","n","conversación",2
+"Gespräch","Gespräche","n","conversación",1
 "Gesundheit","-","f","salud, prosperidad",1
 "Gewehr","Gewehre","n","fusil",1
 "Gewicht","-","n","peso, importancia",10
-"Gewicht","Gewichte","f","pesa",11
+"Gewicht","Gewichte","f","pesa",9
 "Gewitter","Gewitter","n","tormenta, temporal",1
 "Gitarre","Gitarren","f","guitarra",1
 "Glas","Gläser","n","vaso",1
@@ -416,8 +417,8 @@
 "Großmutter","Großmütter","f","abuela",1
 "Großvater","Großväter","m","abuelo",1
 "Grund","Gründe","m","suelo, base, fundamento",1
-"Grundschule","Grundschulen","f","escuela primaria",3
-"Grundwissen","-","n","conocimientos básicos",7
+"Grundschule","Grundschulen","f","escuela primaria",2
+"Grundwissen","-","n","conocimientos básicos",5
 "Gymnasium","Gymnasien","n","escuela media, secundaria",1
 "Gürtel","Gürtel","m","cinturón",1
 "Hafen","Häfen","m","puerto",1
@@ -425,14 +426,14 @@
 "Hagelkorn","Hagelkörner","n","granizo (piedra)",4
 "Halt","Halte/Halts","m","apoyo, sostén, parada",9
 "Hamburger","Hamburger","m","hamburguesa",1
-"Hand","Hände","f","mano",1
-"Handschuh","Handschuhe","m","guante",8
+"Hand","Hände","f","mano",3
+"Handschuh","Handschuhe","m","guante",7
 "Handtuch","Handtücher","n","toalla",1
 "Handy","Handys","n","móvil, celular",1
 "Hangar","Hangars","m","hangar",1
 "Haus","Häuser","n","casa",1
 "Haushalt","Haushalte","m","casa, hogar",4
-"Heer","Heere","n","ejército",5
+"Heer","Heere","n","ejército",4
 "Hefe","Hefen","f","levadura",1
 "Heimat","Heimaten","f","patria, país de origen",1
 "Helikopter","Helikopter","m","helicóptero",1
@@ -470,7 +471,7 @@
 "Immigrantin","Immigrantinnen","f","inmigrante",1
 "Impfstoff","Impfstoffe","m","vacuna",1
 "Impfung","Impfungen","f","vacunación",1
-"Injektion","Injektionen","f","inyección",6
+"Injektion","Injektionen","f","inyección",5
 "Innere","-","n","interior",6
 "Insel","Inseln","f","isla",1
 "Institut","Institute","n","instituto",1
@@ -485,19 +486,19 @@
 "Juni","Junis","m","junio",1
 "Jäger","Jäger","m","cazador",1
 "Jägerin","Jägerinnen","f","cazadora",1
-"Kabel","Kabel","n","cable",1
+"Kabel","Kabel","n","cable",2
 "Kaffee","Kaffees","m","café",1
 "Kalb","Kälber","n","ternero/a",1
 "Kampagne","Kampagnen","f","campaña",1
 "Kampf","Kämpfe","m","lucha, combate",1
-"Knabe","Knaben","m","chico, muchacho",11
+"Knabe","Knaben","m","chico, muchacho",12
 "Kaninchen","Kaninchen","n","conejo",1
 "Kanne","Kannen","f","jarra",1
 "Kappe","Kappen","f","gorra, tapa, capucha",1
 "Karte","Karten","f","mapa, carta",1
 "Kartoffel","Kartoffeln","f","patata",1
 "Kasse","Kassen","f","caja (pago)",1
-"Kasten","Kästen","m","caja, cajón",2
+"Kasten","Kästen","m","caja, cajón",1
 "Katastrophe","Katastrophen","f","catástrofe",1
 "Katze","Katzen","f","gato",1
 "Kauf","Käufe","m","compra, adquisición",1
@@ -524,7 +525,7 @@
 "Kleidung","Kleidungen","f","ropa",1
 "Kletterer","Kletterer","m","escalador",1
 "Klettererin","Klettererinnen","f","escaladora",1
-"Klient","Klienten","m","cliente",5
+"Klient","Klienten","m","cliente",4
 "Klientin","Klientinnen","f","clienta",4
 "Klimaveränderung","Klimaveränderungen","f","cambio climático",1
 "Klimawandel","-","m","cambio climático",1
@@ -564,7 +565,7 @@
 "Kröte","Kröten","f","sapo",1
 "Krümel","Krümel","m","miga de pan",1
 "Kuchen","Kuchen","m","torta",1
-"Kugel","Kugeln","f","bola, esfera",1
+"Kugel","Kugeln","f","bola, esfera",2
 "Kugelschreiber","Kugelschreiber","m","bolígrafo",1
 "Kuh","Kühe","f","vaca",1
 "Kuhkalb","Kuhkälber","n","ternera",1
@@ -576,7 +577,7 @@
 "Kunst","Künste","f","arte",3
 "Kunststoff","Kunststoffe","m","plástico",1
 "Kupfer","-","n","cobre",1
-"Kurs","Kurse","m","curso, rumbo, cotización, cambio",5
+"Kurs","Kurse","m","curso, rumbo, cotización, cambio",4
 "Kälte","-","f","frío",1
 "Käse","Käse","m","queso",1
 "Körper","Körper","m","cuerpo",1
@@ -588,7 +589,7 @@
 "LKW","LKWs","m","camión",1
 "Label","Label","n","etiqueta, identificación",1
 "Lage","Lagen","f","sitio, posición, situación",1
-"Lager","Lager","n","almacén, depósito",1
+"Lager","Lager","n","almacén, depósito",2
 "Lamm","Lämmer","n","cordero",1
 "Lampe","Lampen","f","lampara",1
 "Land","Länder","n","país",1
@@ -607,10 +608,11 @@
 "Licht","Lichter","n","luz",1
 "Lied","Lieder","n","canción",1
 "Lieferung","Lieferungen","f","entrega, envio",1
+"Lineal","Lineale","n","regla",11
 "Loch","Löcher","n","agujero",1
-"Lokführer","Lokführer","m","maquinista de tren",9
+"Lokführer","Lokführer","m","maquinista de tren",8
 "Lokführerin","Lokführerinnen","f","maquinista de tren",9
-"Lokomotive","Lokomotiven","f","locomotora",8
+"Lokomotive","Lokomotiven","f","locomotora",7
 "Losung","Losungen","f","lema, consigna",1
 "Lotterie","Lotterien","f","loteria",1
 "Luft","-","f","aire",3
@@ -624,7 +626,7 @@
 "Mai","Maie","m","mayo",1
 "Mal","Male","n","vez",1
 "Mann","Männer","m","hombre",1
-"Mannschaft","Mannschaften","f","equipo deportivo, tripulación",7
+"Mannschaft","Mannschaften","f","equipo deportivo, tripulación",4
 "Mantel","Mäntel","m","abrigo",1
 "Mappe","Mappen","f","carpeta",1
 "Marine","Marinen","f","marina",1
@@ -660,7 +662,7 @@
 "Mitteilung","Mitteilungen","f","aviso, comunicación, informe",1
 "Mittel","Mittel","n","medio, remedio, recurso",1
 "Mittwoch","Mittwoche","m","miercoles",1
-"Modul","Moduln","m","módulo",10
+"Modul","Moduln","m","módulo",9
 "Mole","Molen","f","muelle",1
 "Monat","Monate","m","mes",1
 "Mond","Monde","m","luna",1
@@ -700,7 +702,7 @@
 "Nichte","Nichten","f","sobrina",1
 "Nichts","-","n","nada",1
 "Niederlassung","-","f","establecimiento",1
-"Niederschlag","Niederschläge","m","precipitación",4
+"Niederschlag","Niederschläge","m","precipitación",3
 "Nominativ","Nominative","m","nominativo",1
 "Nord","-","m","norte",1
 "Norden","-","m","norte",1
@@ -775,7 +777,7 @@
 "Rabe","Raben","m","cuervo",3
 "Rad","Räder","n","rueda",1
 "Radarsicht","-","f","visibilidad radar",1
-"Radiergummi","Radiergummis","mn","goma de borrar",7
+"Radiergummi","Radiergummis","mn","goma de borrar",6
 "Radio","Radios","n","radio",1
 "Rakete","Raketen","f","cohete",1
 "Rand","Ränder","m","borde, periferia",1
@@ -804,7 +806,7 @@
 "Ring","Ringe","m","anillo",1
 "Rippe","Rippen","f","costilla",1
 "Risiko","Risikos/Risiken","n","riesgo",1
-"Rubrik","Rubriken","f","categoría",3
+"Rubrik","Rubriken","f","categoría",2
 "Rucksack","Rucksäcke","m","mochila",8
 "Räderwerk","Räderwerke","n","engranaje",1
 "S-Bahn","S-Bahnen","f","metro",1
@@ -824,7 +826,7 @@
 "Satz","Sätze","m","oración",1
 "Scanner","Scanner","m","escáner",1
 "Schaf","Schafe","n","oveja",1
-"Schal","Schals/Schale","m","bufanda",5
+"Schal","Schals/Schale","m","bufanda",7
 "Schatten","Schatten","m","sombra",1
 "Schatz","Schätze","m","tesoro",1
 "Schauer","Schauer","m","aguacero, escalofrío",1
@@ -833,7 +835,7 @@
 "Schicksal","Schicksale","n","destino, plan, suerte",1
 "Schiff","Schiffe","n","barco",1
 "Schildkröte","Schildkröten","f","tortuga",1
-"Schimmel","-","m","moho",8
+"Schimmel","-","m","moho",9
 "Schimmel","Schimmel","m","caballo blanco",1
 "Schinken","Schinken","m","jamón",1
 "Schirm","Schirme","m","paraguas, sombrilla",1
@@ -942,7 +944,7 @@
 "Stuhl","Stühle","m","silla",1
 "Stunde","Stunden","f","hora",1
 "Sturm","Stürme","m","tormenta, teporal",1
-"Stück","Stücke","n","pieza, trozo, pedazo",5
+"Stück","Stücke","n","pieza, trozo, pedazo",6
 "Substantiv","Substantive","n","sustantivo",1
 "Suche","Suchen","f","búsqueda",2
 "Supermarkt","Supermärkte","m","supermercado",1
@@ -971,7 +973,7 @@
 "Teller","Teller","m","plato",1
 "Temperatur","Temperaturen","f","temperatura",1
 "Tempo","Tempos","n","velocidad, tiempo, ritmo",1
-"Teppich","Teppiche","m","alfombra",1
+"Teppich","Teppiche","m","alfombra",2
 "Termin","Termine","m","fecha",1
 "Test","Tests/Teste","m","prueba",1
 "Teufel","Teufel","m","diablo",1
@@ -988,10 +990,10 @@
 "Tod","Tode","m","muerte, fallecimiento, defunción",1
 "Toilette","Toiletten","f","baño",1
 "Tomate","Tomaten","f","tomate",1
-"Topf","Töpfe","m","olla",6
+"Topf","Töpfe","m","olla",5
 "Topfblume","Topfblumen","f","planta de maceta",1
 "Tote","Toten","mf","muerto/a",2
-"Training","Trainings","n","entrenamiento",1
+"Training","Trainings","n","entrenamiento",2
 "Transformator","Transformatoren","m","transformador",1
 "Traube","Trauben","f","uva",1
 "Traum","Träume","m","sueño de soñar",1
@@ -1020,7 +1022,7 @@
 "Unsicherheit","Unsicherheiten","f","inseguridad",1
 "Unterlage","Unterlagen","f","documentos",2
 "Unterlegscheibe","Unterlegscheiben","f","arandela",1
-"Unterricht","Unterrichte","m","clase, lección",1
+"Unterricht","Unterrichte","m","clase, lección",2
 "Unterschied","Unterschiede","m","diferencia",1
 "Unterschrift","Unterschriften","f","firma (escrita)",3
 "Unwetter","Unwetter","n","temporal, tormenta",1
@@ -1037,7 +1039,7 @@
 "Verbrennung","Verbrennungen","f","combustión, quema, quemadura",1
 "Vergangenheit","-","f","pasado, pretérito",1
 "Vergleich","Vergleiche","m","comparación",1
-"Verhalten","-","n","comportamiento, conducta",5
+"Verhalten","-","n","comportamiento, conducta",6
 "Verkauf","Verkäufe","m","venta",1
 "Verletzte","Verletzten","mf","herido/a",1
 "Verlust","Verluste","m","pérdida, daño",1
@@ -1047,11 +1049,11 @@
 "Verstärkung","Verstärkungen","f","refuerzo",1
 "Vertrag","Verträge","m","contrato",1
 "Verwaltung","Verwaltungen","f","administración",1
-"Verwandte","Verwandten","mf","pariente",1
+"Verwandte","Verwandten","mf","pariente",2
 "Virus","Viren","n","virus",1
 "Visum","Visa/Visen","n","visa",1
-"Vogel","Vögel","m","pájaro",1
-"Vokabular","Vokabulare","n","vocabulario",12
+"Vogel","Vögel","m","pájaro",3
+"Vokabular","Vokabulare","n","vocabulario",13
 "Vokal","Vokale","m","vocal",4
 "Volk","Völker","n","pueblo",1
 "Vordergrund","Vordergründe","m","primer plano, prioridad",1
@@ -1060,7 +1062,7 @@
 "Vorschlag","Vorschläge","m","propuesta",2
 "Vorschulkind","Vorschulkinder","n","niño preescolar",1
 "Vorsorgeuntersuchung","Vorsorgeuntersuchungen","f","chequeo preventivo",1
-"Vorstellungsgespräch","Vorstellungsgespräche","n","entrevista de trabajo",1
+"Vorstellungsgespräch","Vorstellungsgespräche","n","entrevista de trabajo",2
 "Vorteil","Vorteile","m","ventaja",1
 "Vulkan","Vulkane","m","volcán",1
 "Waffe","Waffen","f","arma",1
@@ -1080,7 +1082,7 @@
 "Wasserfall","Wasserfälle","m","cascada, catarata",1
 "Wasserklosett","Wasserklosetts/Wasserklosette","n","inodoro",1
 "Weg","Wege","m","camino",2
-"Wehr","Wehre","n","dique, presa",2
+"Wehr","Wehre","n","dique, presa",1
 "Wehr","Wehren","f","defensa",1
 "Wehrmacht","-","f","ejercito aleman 1921 -1945",1
 "Weihnachten","Weihnachten","n","navidad",1
@@ -1104,7 +1106,7 @@
 "Wind","Winde","m","viento",1
 "Winter","Winter","m","invierno",1
 "Wirtschaft","Wirtschaften","f","economia",1
-"Wissen","-","n","saber, conocimientos",9
+"Wissen","-","n","saber, conocimientos",8
 "Wissenschaft","Wissenschaften","f","ciencia",1
 "Wissenschaftler","Wissenschaftler","m","científico",1
 "Wissenschaftlerin","Wissenschaftlerinnen","f","científica",1
@@ -1118,13 +1120,13 @@
 "Wolf","Wölfe","m","lobo",1
 "Wolke","Wolken","f","nube",1
 "Wort","Worte/Wörter","n","palabra",1
-"Wortschatz","Wortschätze","m","léxico, vocabulario",12
+"Wortschatz","Wortschätze","m","léxico, vocabulario",13
 "Wunde","Wunden","f","herida",1
 "Wunder","Wunder","n","maravilla, milagro",6
 "Wunsch","Wünsche","m","deseo",1
 "Wurm","Würmer","m","gusano",1
 "Wurst","Würste","f","embutido, salchicha",1
-"Wut","-","f","rabia, ira, furor",8
+"Wut","-","f","rabia, ira, furor",9
 "Währung","Währungen","f","moneda de un país, divisa",1
 "Wärme","-","f","calor",1
 "Wörterbuch","Wörterbücher","n","diccionario",1
@@ -1147,14 +1149,14 @@
 "Zirkel","Zirkel","m","compás",1
 "Zitat","Zitate","n","cita",1
 "Zoll","Zölle","m","aduana",1
-"Zoff","-","m","pelea",9
+"Zoff","-","m","pelea",7
 "Zoo","Zoos","m","zoológico",1
 "Zucker","Zucker","m","azucar",1
 "Zug","Züge","m","tren",1
 "Zugvogel","Zugvögel","m","ave migratoria",1
 "Zukunft","-","f","futuro, porvenir",1
 "Zusammenfassung","Zusammenfassungen","f","resumen",1
-"Zusammenhang","Zusammenhänge","m","relación, conexión, contexto",11
+"Zusammenhang","Zusammenhänge","m","relación, conexión, contexto",10
 "Zusammenstoß","Zusammenstöße","m","colisión, choque, altercado, disputa",2
 "Zustand","Zustände","m","estado, situación",1
 "Zwerg","Zwerge","m","enano",1
