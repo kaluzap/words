@@ -1,0 +1,135 @@
+"adjective","comparative","superlative","translation","mistakes"
+"abgespannt","abgespannter","am abgespanntesten","cansado, fatigado",1
+"allein","-","-","solo, a solas",1
+"allgemein","allgemeiner","am allgemeinsten","general, universal, común",1
+"alt","älter","am ältesten","viejo, grande (edad)",1
+"anstrengend","anstrengender","am anstrengendsten","cansador, agotador, duro",1
+"anwesend","-","-","presente, asistente",1
+"arm","ärmer","am ärmsten","pobre",1
+"artig","artiger","am artigsten","bueno, obediente",17
+"behindert","behinderter","am behindertsten","minusválido, discapacitado, impedido",1
+"beliebt","beliebter","am beliebtesten","estimado, apreciado",1
+"berühmt","berühmter","am berühmtesten","famoso, célebre",1
+"besondere","-","-","especial, singular, particular",1
+"bewusst","bewusster","am bewusstesten","conciente, intencionado",1
+"billig","billiger","am billigsten","barato",1
+"bloß","bloßer","bloßesten","descubierto, desnudo, puro, ",1
+"breit","breiter","am breitesten","amplio, ancho",1
+"clever","cleverer/clevrer","am cleversten","hábil, astuto, listo, agudo",1
+"dick","dicker","am dicksten","grueso, gordo",1
+"direkt","direkter","am direktesten","directo, inmediato",1
+"dreckig","dreckiger","am dreckigsten","sucio",1
+"dunkel","dunkler/dünkler","am dunkelsten","oscuro",1
+"durchschnittlich","durchschnittlicher","am durchschnittlichsten","medio, promedio",1
+"edel","edler","am edelsten","noble",1
+"ehrlich","ehrlicher","am ehrlichsten","sincero",1
+"eigen","eigener","am eigensten","propio",1
+"einfach","einfacher","am einfachsten","simple, fácil",1
+"einsam","einsamer","am einsamsten","solo, abandonado, aislado",1
+"einzig","-","-","único, solo",1
+"einzigartig","-","-","único, sin par",1
+"erforderlich","erforderlicher","am erforderlichsten","necesario",4
+"erschöpft","erschöpfter","am erschöpftesten","cansado, agotado, fatigado",1
+"exakt","exakter","am exaktesten","preciso, exacto",1
+"fantastisch","fantastischer","am fantastischsten","fantástico",1
+"faul","fauler","am faulsten","perezoso",1
+"fern","ferner","am fernsten","lejos, de lejos",1
+"folgend","-","-","siguiente",1
+"frei","freier","am freiesten/freisten","libre",1
+"fremd","fremder","am fremdesten","extraño, ajeno, extranjero",1
+"fröhlich","fröhlicher","am fröhlichsten","alegre",1
+"früh","früher","am frühesten","temprano",1
+"frühzeitig","-","-","temprano",1
+"furchtbar","furchtbarer","am furchtbarsten","terrible, horrible",1
+"ganz","-","-","todo, entero",1
+"gefährlich","gefährlicher","am gefährlichsten","peligroso",1
+"gegenwärtig","gegenwärtiger","am gegenwärtigsten","actual, presente",1
+"gerade","gerader","am geradesten","derecho, recto",1
+"gerecht","gerechter","am gerechtesten","justo, merecido",1
+"gesamt","-","-","todo, total",1
+"gesetzlich","-","-","legal, legítimo",1
+"gesund","gesunder/gesünder","am gesundesten/gesündesten","sano, saludable",1
+"gewiss","gewisser","am gewissesten","cierto, seguro",3
+"gleich","gleicher","am gleichsten","igual, identico",1
+"glücklich","glücklicher","am glücklichsten","feliz, afortunado",1
+"grausam","grausamer","am grausamsten","cruel, brutal",1
+"groß","größer","am größten","grande",1
+"großartig","großartiger","am großartigsten","grandioso, magnífico, excelente",13
+"gut","besser","am besten","bueno",1
+"heimisch","heimischer","am heimischsten","familiarizado, nacional",1
+"heiter","heiterer/heitrer","am heitersten","alegre, divertido",1
+"heiß","heißer","am heißesten","caliente",1
+"hell","heller","am hellsten","claro",1
+"hoch","höher","am höchsten","alto",1
+"hässlich","hässlicher","am hässlichsten","feo",1
+"häufig","häufiger","am häufigsten","frecuente",1
+"höflich","höflicher","am höflichsten","cortés, amable",5
+"hübsch","hübscher","am hübschesten","lindo",1
+"intelligent","intelligenter","am intelligentesten","inteligente",1
+"interessant","interessanter","am interessantesten","interesante",1
+"jung","jünger","am jüngsten","joven",1
+"kalt","kälter","am kältesten","frio",1
+"klar","klarer","am klarsten","claro",1
+"klein","kleiner","am kleinsten","pequeño",1
+"klug","klüger","am klügsten","inteligente",1
+"korrekt","korrekter","am korrektesten","correcto",1
+"krank","kränker","am kränksten","enfermo",1
+"kräftig","kräftiger","am kräftigsten","fuerte",1
+"kurz","kürzer","am kürzesten","corto",1
+"lang","länger","am längsten","largo",1
+"langsam","langsamer","am langsamsten","lento",1
+"laut","lauter","am lautesten","alto, fuerte",1
+"lecker","leckerer/leckrer","am leckersten","rico, sabroso",1
+"leer","leerer","am leersten","vacio",1
+"leicht","leichter","am leichtesten","liviano, fácil",1
+"letzte","-","-","último, final",1
+"lieb","lieber","am liebsten","querido",1
+"link","linker","am linksten","fraudulento, engañoso",1
+"möglich","möglicher","am möglichsten","posible",1
+"müde","müder","am müdesten","cansado",1
+"mühelos","müheloser","am mühelosesten","fácil",3
+"nah","näher","am nächsten","cerca",1
+"neu","neuer","am neusten/neuesten","nuevo",1
+"niedrig","niedriger","am niedrigsten","bajo, humilde",1
+"normal","normaler","am normalsten","normal",1
+"notwendig","notwendiger","am notwendigsten","necesario, inevitable",1
+"nötig","nötiger","am nötigsten","necesario, preciso",1
+"nützlich","nützlicher","am nützlichsten","útil, provechoso",1
+"perfekt","perfekter","am perfektesten","perfecto",1
+"recht","rechter","am rechtesten","exacto, verdadero, correcto",1
+"reich","reicher","am reichsten","rico, abundante, lujoso, suntuoso",1
+"richtig","richtiger","am richtigsten","correcto, apropiado",1
+"ruhig","ruhiger","am ruhigsten","tranquilo, quieto",1
+"sauber","sauberer/saubrer","am saubersten","limpio, aseado",1
+"schlecht","schlechter","am schlechtesten","mal",1
+"schmutzig","schmutziger","am schmutzigsten","sucio",1
+"schnell","schneller","am schnellsten","rapido",1
+"schrecklich","schrecklicher","am schrecklichsten","horrible, horroroso",2
+"schwierig","schwieriger","am schwierigsten","difícil, complicado",1
+"schön","schöner","am schönsten","bello, hermoso, bonito",1
+"selten","seltener","am seltensten","raro, curioso",1
+"seltsam","seltsamer","am seltsamsten","extraño, singular",1
+"sicher","sicherer/sichrer","am sichersten","seguro",1
+"spät","später","am spätesten","tardío",1
+"stark","stärker","am stärksten","fuerte",1
+"still","stiller","am stillsten","tranquilo, silencioso, quieto",1
+"stundenlang","-","-","de varias horas",1
+"süß","süßer","am süßesten","dulce",1
+"teuer","teurer","am teuersten","caro",1
+"tief","tiefer","am tiefsten","profundo, hondo, bajo",1
+"tot","toter","am totesten","muerto",1
+"treffend","treffender","am treffendsten","justo, adecuado",1
+"ungefähr","-","-","casi, aproximadamente, aproximado, aproximativo",2
+"unglücklich","unglücklicher","am unglücklichsten","infeliz, triste",1
+"unmöglich","unmöglicher","am unmöglichsten","imposible",1
+"unterschiedlich","unterschiedlicher","am unterschiedlichsten","diferente, distinto",1
+"verrückt","verrückter","am verrücktesten","loco",1
+"viel","mehr","am meisten","demasiado, mucho",1
+"vollkommen","vollkommener","am vollkommensten","perfecto, completo, absoluto, total",1
+"wahrscheinlich","wahrscheinlicher","am wahrscheinlichsten","probable",1
+"warm","wärmer","am wärmsten","caliente",1
+"weit","weiter","am weitesten","extenso, ancho, lejano",1
+"wenig","weniger","am wenigsten","poco",1
+"wichtig","wichtiger","am wichtigsten","importante",1
+"ziemlich","ziemlicher","am ziemlichsten","bastante, considerable",1
+"zufrieden","zufriedener","am zufriedensten","contento, satisfecho",1
