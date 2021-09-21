@@ -121,6 +121,7 @@
 "beraten","hat beraten","aconsejar, asesorar",1
 "beraten über","hat beraten","deliberar sobre, discutir",1
 "sich beraten mit","hat beraten","asesorarse con, consultarse con",1
+"bereiten","hat bereitet","preparar, causar, crear",11
 "bergen","hat geborgen","rescatar, recuperar, albergar",10
 "bergen vor","hat geborgen","proteger de",10
 "beruhigen","hat beruhigt","tranquilizar, calmar",1
@@ -149,15 +150,23 @@
 "biegen","hat/ist gebogen","girar, torcer, doblar, declinar",13
 "sich biegen","hat/ist gebogen","curvarse, doblarse",13
 "XXXX","XXXX","XXXX",1
-"bieten","hat geboten","ofrecer",7
-"binden","hat gebunden","atar",11
+
+"bieten","hat geboten","ofrecer, presentar, pujar",7
+"bieten für","hat geboten","ofrecer para",7
+"sich bieten","hat geboten","presentarse",7
+"binden","hat gebunden","atar, sujetar, anudar, vincular",11
+"sich binden an","hat gebunden","comprometerse a, vincular a",11
+"bitten","hat gebeten","pedir, rogar, invitar, suplicar",10
 "bitten um","hat gebeten","pedir",1
-"bitten","hat gebeten","pedir, rogar",10
+"bleiben","ist geblieben","permanecer, quedarse, mantener, continuar",9
 "bleiben bei","ist geblieben","mantenerse en, reafirmarse en",1
-"bleiben","ist geblieben","permanecer",9
-"braten","hat gebraten","freír",10
-"brechen","hat/ist gebrochen","romper",11
+"braten","hat gebraten","asar, freír",10
+"brechen","hat/ist gebrochen","romper, quebrarse, partit, vomitar",11
+"brechen mit","hat/ist gebrochen","romper con",11
+"sich brechen","hat/ist gebrochen","romperse, refractarse",11
+
 "brennen","hat gebrannt","arder",8
+
 "bringen","hat gebracht","traer",10
 "bürgen für","-","avalar a",1
 "denken","hat gedacht","pensar",11
@@ -174,6 +183,11 @@
 "entscheiden für","-","decidirse por",1
 "entscheiden","-","decidir, resolver",1
 "entschlafen","-","fallecer",1
+
+
+
+
+
 "entschuldigen bei","-","disculparse ante",1
 "entschuldigen für","-","disculparse por",1
 "entspringen","entsprungen","resultar de",5
@@ -348,7 +362,7 @@
 "vertreiben aus","-","expulsar de",1
 "verzeihen","hat verziehen","perdonar",12
 "vorbereiten","hat vorbereitet","preparar",11
-"sich vorbereiten auf","hat vorbereitet","prepararse para",9
+"sich vorbereiten auf","hat vorbereitet","prepararse para, aprestarse a",9
 "wachsen","ist gewachsen","crecer",10
 "wandeln","-","cambiar, convertir",1
 "warten auf","-","esperar a",1
@@ -373,6 +387,7 @@
 "ziehen in","hat gezogen","entrar a/en",11
 "ziehen durch","hat gezogen","atravesar, pasar por",11
 "zielen auf","hat gezielt","apuntar a, referirse a, dirigirse a, tener como objetivo",1
+"zubereiten","hat zubereitet","preparar, aderezar, guisar",11
 "zurücktreten","ist zurückgetreten","retroceder, disminuir",1
 "zurücktreten von","ist zurückgetreten","dimitir de, desistir de, renunciar a",1
 "zusammenhängen","hat zusammengehängt","estar unido, estar conectado, estar relacionado",1
