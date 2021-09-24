@@ -109,7 +109,7 @@
 "begründen","hat begründet","fundamentar, justificar",1
 "begründen mit","hat begründet","basar en",1
 "begrüßen","hat begrüßt","saludar, celebrar",1
-"behalten","hat behalten","conservar, guardar, conservar, retener",1
+"behalten","hat behalten","conservar, guardar, retener, mantener",1
 "beißen","hat gebissen","morder, picar",9
 "sich beißen","hat gebissen","desentonar, no armonizar",9
 "bekleiden","hat bekleidet","vestir",1
@@ -149,8 +149,6 @@
 "sich bewerben","hat beworben","postular",15
 "biegen","hat/ist gebogen","girar, torcer, doblar, declinar",13
 "sich biegen","hat/ist gebogen","curvarse, doblarse",13
-"XXXX","XXXX","XXXX",1
-
 "bieten","hat geboten","ofrecer, presentar, pujar",7
 "bieten für","hat geboten","ofrecer para",7
 "sich bieten","hat geboten","presentarse",7
@@ -164,43 +162,57 @@
 "brechen","hat/ist gebrochen","romper, quebrarse, partit, vomitar",11
 "brechen mit","hat/ist gebrochen","romper con",11
 "sich brechen","hat/ist gebrochen","romperse, refractarse",11
-
-"brennen","hat gebrannt","arder",8
-
-"bringen","hat gebracht","traer",10
-"bürgen für","-","avalar a",1
-"denken","hat gedacht","pensar",11
-"dringen","hat/ist gedrungen","insistir",13
-"dürfen","hat gedurft","poder (poder de tener permiso)",11
-"eichen","hat geichen","contrastar, calibrar, marcar, graduar",8
-"einbauen in","-","insertar en",1
-"einbinden in","-","incluir en",1
-"eindecken mit","-","abastecerse de",1
-"einschlafen","-","qudarse dormir",1
-"einstehen für","-","responder por",2
-"empfehlen","hat empfohlen","aconsejar",9
-"entbinden von","-","eximir de",1
-"entscheiden für","-","decidirse por",1
-"entscheiden","-","decidir, resolver",1
-"entschlafen","-","fallecer",1
-
-
-
-
-
-"entschuldigen bei","-","disculparse ante",1
-"entschuldigen für","-","disculparse por",1
-"entspringen","entsprungen","resultar de",5
-"erlöschen","ist erloschen","apagarse",12
-"ermitteln","-","determinar, calcular",1
+"brennen","hat gebrannt","arder, quemarse, encendido, picar",8
+"bringen","hat gebracht","traer, llevar, transportar",10
+"bürgen","hat gebürgt","avalar, garantizar",1
+"bürgen für","hat gebürgt","avalar a, responder por",1
+"denken","hat gedacht","pensar, suponer, reflexionar, razonar",11
+"denken an","hat gedacht","pensar en, acordarse de, recordar",11
+"denken über/von","hat gedacht","pensar de",11
+"dringen","hat/ist gedrungen","atravesar, penetrar, insistir en, exigir algo",13
+"dürfen","hat gedurft","poder, permitir, deber",11
+"eichen","hat geeicht","contrastar, calibrar, marcar, graduar",8
+"einbauen in","hat eingebaut","insertar en, montar en, incorporar en, instalar en",1
+"einbinden","hat eingebunden","encuadernar",1
+"einbinden in","hat eingebunden","incluir en, integrar en",1
+"eindecken mit","hat eingedeckt","abastecer de, colmar de, llenar de",1
+"sich eindecken mit","hat eingedeckt","abastecerse de/con, aprovisionarse de",1
+"einschlafen","ist eingeschlafen","dormirse",1
+"einstehen für","ist eingestanden","responder por, responsabilizarse de",2
+"empfehlen","hat empfohlen","aconsejar, recomendar",9
+"sich empfehlen","hat empfohlen","despedirse",9
+"sich empfehlen als/für","ser apto para",9
+"entbinden","hat entbunden","dar a luz",1
+"entbinden von","hat entbunden","eximir de, desligar de",1
+"entscheiden über","hat entschieden","decidir sobre, resolver",1
+"entscheiden","hat entschieden","decidir, resolver, fallar",1
+"sich entscheiden für","hat entschieden","decidirse por",1
+"sich entscheiden gegen","hat entschieden","decidirse contra",1
+"entschlafen","ist entschlafen","fallecer",1
+"entschuldigen","hat entschuldigt","disculpar, perdonar, justificar",1
+"entschuldigen bei","hat entschuldigt","disculpar ante",1
+"entschuldigen für","hat entschuldigt","disculpar por",1
+"sich entschuldigen bei","hat entschuldigt","disculparse ante",1
+"sich entschuldigen für","hat entschuldigt","pedir excusas por",1
+"entspringen","ist entsprungen","resultar de, originarse en",5
+"entspringen in","ist entsprungen","nacer en",5
+"erfahren","hat erfahren","saber algo",11
+"erlöschen","ist erloschen","apagarse, extinguirse, prescribir, desaparecer",12
+"ermitteln","hat ermittelt","determinar, calcular, averiguar, investigar",1
 "erschrecken","hat/ist erschrocken","asustar",10
-"erwachsen","erwachsen","crecer",1
+"erschrecken über/vor","hat/ist erschrocken","asustarse de, espantarse de",10
+"erwachsen","ist erwachsen","crecer",1
+"erwachsen aus","ist erwachsen","surgir de, originarse de",1
 "essen","hat gegessen","comer",7
-"fahren","hat/ist gefahren","conducir, viajar en coche",9
-"fallen","ist gefallen","caer",10
-"fangen","hat gefangen","coger, atrapar",10
-"finden","hat gefunden","encontrar",5
-"flechten","hat geflochten","trenzar",10
+"fahren","hat/ist gefahren","conducir, viajar, ir en, pasar",9
+"fahren nach","hat/ist gefahren","ir a",9
+"fallen","ist gefallen","caer, bajar, descender",10
+"fallen auf an","ist gefallen","recaer sobre en",10
+"fangen","hat gefangen","coger, atrapar, cazar, pescar",10
+"finden","hat gefunden","encontrar, dar con, opinar",5
+"sich finden","hat gefunden","aparecer, arreglarse",5
+"flechten","hat geflochten","trenzar, tejer",10
+"XXXX","XXXX","XXXX",1
 "fliegen","hat/ist geflogen","volar",10
 "fliehen","ist geflohen","huir",9
 "fließen","ist geflossen","fluir",11

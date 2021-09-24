@@ -198,6 +198,8 @@
 "Butter","-","f","manteca",9
 "Bär","Bäre/Bären","m","oso",1
 "Bücherregal","Bücherregale","n","estantería de libros",1
+"Bürge","Bürgen","m","fiador, garante",11
+"Bürgin","Bürginnen","f","fiadora, garante",11
 "Büro","Büros","n","oficina",2
 "Cafeteria","Cafeterien","f","cafetería",1
 "Chef","Chefs","m","Jefe",1
@@ -217,6 +219,7 @@
 "Deklination","Deklinationen","f","declinación",1
 "Demokratie","Demokratien","f","democracia",1
 "Demonstration","Demonstrationen","f","demostración, manifestación",4
+"Denken","-","n","reflexión, raciocinio, razonamiento, pensamiento",11
 "Design","Designs","n","diseño",3
 "Detail","Details","n","detalle",1
 "Deutsch","-","n","idioma alemán",1
@@ -274,7 +277,7 @@
 "Ente","Enten","f","pato",1
 "Entfernung","Entfernungen","f","distancia, eliminación, alejamiento",1
 "Entfremdung","Entfremdungen","f","distancia",1
-"Entscheidung","Entscheidungen","f","decisión",1
+"Entscheidung","Entscheidungen","f","decisión, resolución, fallo",1
 "Entspannung","Entspannungen","f","relajación, distensión",1
 "Entsprechung","Entsprechungen","f","analogía, concordancia",1
 "Entwickler","Entwickler","m","desarrollador",1
@@ -287,7 +290,9 @@
 "Erklärung","Erklärungen","f","explicación, razón, declaración, comentario",1
 "Erlaubnis","Erlaubnisse","f","permiso",11
 "Erläuterung","Erläuterungen","f","explicación, comentario",1
+"Erlöschen","-","n","extinción, expiración, caducidad",11
 "Ersatz","-","m","sustitución",1
+"Erschrecken","-","n","terror",11
 "Erwachsene","Erwachsenen","mf","adulto",8
 "Erwartung","Erwartungen","f","esperanza, expectativa",1
 "Eröffnung","Eröffnungen","f","apertura, inauguración, publicación",1
