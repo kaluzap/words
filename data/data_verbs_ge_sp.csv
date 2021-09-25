@@ -29,7 +29,7 @@
 "abweichen von","ist abgewichen","desviarse de, apartarse de, diferir de, diverger de",1
 "achten","hat geachtet","estimar, respetar, apreciar, observar",1
 "achten auf","hat geachtet","cuidar de, atender a, fijarse en, prestar atención",1
-"ächten","hat geächtet","proscribir, desterrar, apartar, aislar",11
+"ächten","hat geächtet","proscribir, desterrar, apartar, aislar",13
 "achtgeben auf","hat achtgegeben","atender a, prestar atención a, cuidar de",1
 "adaptieren für","hat adaptiert","adaptar a",1
 "sich adaptieren an","hat adaptiert","adaptarse a",1
@@ -58,7 +58,7 @@
 "aufnehmen","hat aufgenommen","comenzar, retomar, asimilar, pedir",1
 "aufnehmen von","hat aufgenommen","recoger de",1
 "aufnehmen auf","hat aufgenommen","grabar en",1
-"aufnehmen in","hat aufgenommen","ingresar en, admitir en",1
+"aufnehmen in","hat aufgenommen","ingresar en, admitir en",3
 "aufräumen","hat aufgeräumt","ordenar, arreglar",1
 "aufstehen","ist aufgestanden","levantarse, ponerse de pie, madrugar, alzarse",1
 "aufwachen","ist aufgewacht","dejar de dormir",1
@@ -98,7 +98,7 @@
 "beachten","hat beachtet","cumplir con, atender a, fijarse en, observar",1
 "beantragen","hat beantragt","solicitar, pedir",1
 "beantworten","hat beantwortet","contestar, responder",1
-"bedienen","hat bedient","atender, servir, manejar",1
+"bedienen","hat bedient","atender, servir, manejar",3
 "sich befinden","hat befunden","encontrarse, estar",1
 "befinden über","hat befunden","decidir sobre",1
 "befinden für","hat befunden","considerar",1
@@ -121,12 +121,12 @@
 "beraten","hat beraten","aconsejar, asesorar",1
 "beraten über","hat beraten","deliberar sobre, discutir",1
 "sich beraten mit","hat beraten","asesorarse con, consultarse con",1
-"bereiten","hat bereitet","preparar, causar, crear",11
-"bergen","hat geborgen","rescatar, recuperar, albergar",10
-"bergen vor","hat geborgen","proteger de",10
+"bereiten","hat bereitet","preparar, causar, crear",10
+"bergen","hat geborgen","rescatar, recuperar, albergar",9
+"bergen vor","hat geborgen","proteger de",9
 "beruhigen","hat beruhigt","tranquilizar, calmar",1
 "sich beruhigen","hat beruhigt","tranquilizarse, calmarse",1
-"berücksichtigen","hat berücksichtigt","tener en cuenta",1
+"berücksichtigen","hat berücksichtigt","tener en cuenta",2
 "beschreiben","hat beschrieben","describir, ejecutar, escribir en",1
 "besichtigen","hat besichtigt","visitar, examinar",1
 "besitzen","hat besessen","poseer, tener",4
@@ -142,18 +142,18 @@
 "bewegen","hat bewogen","mover, ponerse en marcha, commover, emocionar",12
 "bewegen zu","hat bewogen","inducir a, mover a",12
 "sich bewegen","hat bewogen","moverse",12
-"sich bewegen um","hat bewogen","variar en, girar alrededor de",12
-"beweisen","hat bewiesen","probar, demostrar",11
+"sich bewegen um","hat bewogen","variar en, girar alrededor de",11
+"beweisen","hat bewiesen","probar, demostrar",10
 "bewerben","hat beworben","publicitar, promocionar",15
 "sich bewerben um bei","hat beworben","solicitar, presentarse a",15
-"sich bewerben","hat beworben","postular",15
-"biegen","hat/ist gebogen","girar, torcer, doblar, declinar",13
-"sich biegen","hat/ist gebogen","curvarse, doblarse",13
+"sich bewerben","hat beworben","postular",14
+"biegen","hat/ist gebogen","girar, torcer, doblar, declinar",12
+"sich biegen","hat/ist gebogen","curvarse, doblarse",12
 "bieten","hat geboten","ofrecer, presentar, pujar",7
 "bieten für","hat geboten","ofrecer para",7
-"sich bieten","hat geboten","presentarse",7
-"binden","hat gebunden","atar, sujetar, anudar, vincular",11
-"sich binden an","hat gebunden","comprometerse a, vincular a",11
+"sich bieten","hat geboten","presentarse",6
+"binden","hat gebunden","atar, sujetar, anudar, vincular",10
+"sich binden an","hat gebunden","comprometerse a, vincular a",10
 "bitten","hat gebeten","pedir, rogar, invitar, suplicar",10
 "bitten um","hat gebeten","pedir",1
 "bleiben","ist geblieben","permanecer, quedarse, mantener, continuar",9
@@ -166,12 +166,12 @@
 "bringen","hat gebracht","traer, llevar, transportar",10
 "bürgen","hat gebürgt","avalar, garantizar",1
 "bürgen für","hat gebürgt","avalar a, responder por",1
-"denken","hat gedacht","pensar, suponer, reflexionar, razonar",11
+"denken","hat gedacht","pensar, suponer, reflexionar, razonar",10
 "denken an","hat gedacht","pensar en, acordarse de, recordar",11
-"denken über/von","hat gedacht","pensar de",11
-"dringen","hat/ist gedrungen","atravesar, penetrar, insistir en, exigir algo",13
+"denken über/von","hat gedacht","pensar de",10
+"dringen","hat/ist gedrungen","atravesar, penetrar, insistir en, exigir algo",12
 "dürfen","hat gedurft","poder, permitir, deber",11
-"eichen","hat geeicht","contrastar, calibrar, marcar, graduar",8
+"eichen","hat geeicht","contrastar, calibrar, marcar, graduar",7
 "einbauen in","hat eingebaut","insertar en, montar en, incorporar en, instalar en",1
 "einbinden","hat eingebunden","encuadernar",1
 "einbinden in","hat eingebunden","incluir en, integrar en",1
@@ -180,7 +180,7 @@
 "einschlafen","ist eingeschlafen","dormirse",1
 "einstehen für","ist eingestanden","responder por, responsabilizarse de",2
 "empfehlen","hat empfohlen","aconsejar, recomendar",9
-"sich empfehlen","hat empfohlen","despedirse",9
+"sich empfehlen","hat empfohlen","despedirse",7
 "sich empfehlen als/für","hat empfohlen","ser apto para",9
 "entbinden","hat entbunden","dar a luz",1
 "entbinden von","hat entbunden","eximir de, desligar de",1
@@ -194,17 +194,17 @@
 "entschuldigen für","hat entschuldigt","disculpar por",1
 "sich entschuldigen bei","hat entschuldigt","disculparse ante",1
 "sich entschuldigen für","hat entschuldigt","pedir excusas por",1
-"entspringen","ist entsprungen","resultar de, originarse en",5
-"entspringen in","ist entsprungen","nacer en",5
-"erfahren","hat erfahren","saber algo",11
+"entspringen","ist entsprungen","resultar de, originarse en",4
+"entspringen in","ist entsprungen","nacer en",4
+"erfahren","hat erfahren","saber algo",10
 "erlöschen","ist erloschen","apagarse, extinguirse, prescribir, desaparecer",12
 "ermitteln","hat ermittelt","determinar, calcular, averiguar, investigar",1
-"erschrecken","hat/ist erschrocken","asustar",10
+"erschrecken","hat/ist erschrocken","asustar",9
 "erschrecken über/vor","hat/ist erschrocken","asustarse de, espantarse de",10
 "erwachsen","ist erwachsen","crecer",1
 "erwachsen aus","ist erwachsen","surgir de, originarse de",1
 "essen","hat gegessen","comer",7
-"fahren","hat/ist gefahren","conducir, viajar, ir en, pasar",9
+"fahren","hat/ist gefahren","conducir, viajar, ir en, pasar",7
 "fahren nach","hat/ist gefahren","ir a",9
 "fallen","ist gefallen","caer, bajar, descender",10
 "fallen auf an","ist gefallen","recaer sobre en",10
@@ -212,114 +212,134 @@
 "finden","hat gefunden","encontrar, dar con, opinar",5
 "sich finden","hat gefunden","aparecer, arreglarse",5
 "flechten","hat geflochten","trenzar, tejer",10
-"XXXX","XXXX","XXXX",1
-"fliegen","hat/ist geflogen","volar",10
-"fliehen","ist geflohen","huir",9
-"fließen","ist geflossen","fluir",11
-"fressen","hat gefressen","dar de comer a animales",10
-"freuen auf","-","alegrarse de",1
-"frieren","hat/ist gefroren","tener frío",9
-"frühstücken","-","desayunar",1
-"geben","hat gegeben","dar",10
-"gebären","hat geboren","dar a luz, parir",13
-"gedeihen","ist gediehen","florecer",10
-"gehen","ist gegangen","ir (andando)",8
-"geld ausgeben für","ausgegeben","gastar dinero para",1
-"gelingen","ist gelungen","tener exito",11
-"gelten","hat gegolten","ser válido",12
-"genesen","ist genesen","convalecer",11
-"genießen","hat genossen","disfrutar",11
+"fliegen","hat/ist geflogen","volar, ir en avion",10
+"fliehen vor","ist geflohen","huir de, escaparse de, refugiarse",9
+"fließen","ist geflossen","fluir, correr, salir, surgir",12
+"fressen","hat gefressen","comer (animales), tragar, devorar, alimentar",10
+"freuen","hat gefreut","alegrar, complacer",1
+"sich freuen","hat gefreut","alegrarse",1
+"frieren","hat/ist gefroren","tener frío, helarse, helar",8
+"frühstücken","hat gefrühstückt","desayunar",1
+"geben","hat gegeben","dar, entregar, regalar, repartir",9
+"gebären","hat geboren","dar a luz, parir, alumbrar",13
+"gedeihen","ist gediehen","crecer, darse bien, avanzar, prosperar",9
+"gehen","hat/ist gegangen","ir, andar, caminar, irse",8
+"gelingen","ist gelungen","tener exito, lograr, conseguir",11
+"gelten","hat gegolten","ser válido, estar vigente, ser aplicable, referirse a",12
+"gelten für","hat gegolten","valer para",12
+"gelten als","hat gegolten","pasar por, ser considerado como",12
+"genesen von","ist genesen","convalecer, sanar de, restablecerse",10
+"genießen","hat genossen","disfrutar de, gozar de, saborear",11
 "geraten","ist geraten","salir bien",9
-"geschehen","ist geschehen","suceder",10
-"gewinnen","hat gewonnen","ganar",11
-"gießen","hat gegossen","regar",11
-"gleichen","hat geglichen","igualarse",10
-"gleiten","ist geglitten","resbalar",9
-"graben","hat gegraben","cavar",8
-"greifen","hat gegriffen","coger",8
-"grillen","gegrillt","asar",1
-"gären","hat/ist gegoren","fermentar",10
+"geraten nach","ist geraten","llegar a, ir a parar a",9
+"geschehen","ist geschehen","suceder, pasar, ocurrir",10
+"gewinnen","hat gewonnen","ganar, obtener, vencer",11
+"gießen","hat gegossen","regar, fundir, moldear, servir",11
+"gleichen","hat geglichen","igualarse, parecerse a",9
+"gleiten","hat/ist geglitten","resbalar, planear, deslizarse",9
+"gleiten über","hat/ist geglitten","resbalar por/sobre, pasar por, deslizarse por",9
+"graben","hat gegraben","cavar, buscar, extraer, abrir",8
+"greifen","hat gegriffen","coger, asir, agarrar, adherir",6
+"grillen","hat gegrillt","asar",1
+"gären","hat/ist gegoren/gegärt","fermentar, cocer",10
 "haben","hat gehabt","tener, haber",10
-"halten","hat gehalten","mantener, parar",9
-"hantieren mit","-","ocuparse de",1
-"heben","hat gehoben","elevar, levantar",6
-"heißen","hat geheißen","llamarse",7
-"helfen bei","-","ayudar en",1
-"helfen","hat geholfen","ayudar",9
-"hinzufügen zu","-","añadir, agregar",1
-"hängen","hat gehangen","estar colgado",7
-"ignorieren","-","ignorar",1
-"impfen","geimpft","vacunar",1
-"interessieren für","-","interesarse por",1
-"kennen","hat gekannt","conocer",8
-"kleiden","-","vestir",1
-"kleiden","-","vestirse",1
-"klingen","hat geklungen","sonar",10
-"kneifen","hat gekniffen","pellizcar",11
-"kochen","gekocht","cocinar",1
-"kommen aus","ist gekommen","venir de",1
-"kommen","ist gekommen","venir",9
-"kriechen","ist gekrochen","arrastrarse",14
-"können","hat gekonnt","poder (capacidad)",7
-"kümmern um","-","atender a, cuidar de",1
-"laden","hat geladen","cargar",8
+"halten","hat gehalten","mantener, parar, detener, sostener",9
+"hantieren mit","hat hantiert","ocuparse de, trabajar con",1
+"heben","hat gehoben","elevar, levantar, alzar, aumentar",5
+"sich heben","hat gehoben","levantarse",5
+"heißen","hat geheißen","llamarse, significar, decir, llamar",7
+"helfen bei","hat geholfen","ayudar en",1
+"helfen gegen","hat geholfen","ser bueno para",1
+"helfen","hat geholfen","ayudar, auxiliar, asistir, servir",8
+"hinzufügen zu","hat hinzugefügt","añadir, agregar",1
+"hängen","hat gehangen","colgar, fijar, enganchar, ahorcar",7
+"hängen an","hat gehangen","colgar de/en, pender de",7
+"ignorieren","hat ignoriert","ignorar",1
+"impfen","hat geimpft","vacunar, vacunarse",1
+"interessieren","hat interessiert","interesar",1
+"interessieren für","hat interessiert","interesarse por",1
+"kennen","hat gekannt","conocer, saber",8
+"kleiden","hat gekleidet","vestir, vestirse",1
+"klingen","hat geklungen","sonar",8
+"kneifen","hat gekniffen","apretar",11
+"kneifen in","hat gekniffen","pellizcar",11
+"kochen","hat gekocht","cocinar, hervir, guisar, cocer",1
+"kommen","ist gekommen","venir, llegar, suceder, pasar",9
+"kommen aus","ist gekommen","venir de, ser de",1
+"kommen von","ist gekommen","volver de",1
+"kommen zu","ist gekommen","acercarse a, acudir a",1
+"kriechen","hat/ist gekrochen","arrastrarse, reptar, deslizarse",14
+"können","hat gekonnt","poder(capacidad), ser posible, poder (hacer)",6
+"kümmern","hat gekümmert","importar, interesar",1
+"sich kümmern","hat gekümmert","encargarse, responsabilizarse, atender, resolver",1
+"sich kümmern um","hat gekümmert","cuidar de, mirar por, preocuparse de, ocuparse de",1
+"laden","hat geladen","cargar",7
 "lassen","hat gelassen","dejar",7
-"laufen","gelaufen","correr",1
-"laufen","ist gelaufen","correr",9
+"laufen","hat/ist gelaufen","correr, andar, caminar, funcionar",1
 "leiden","hat gelitten","sufrir, padecer",10
 "leihen","hat geliehen","prestar",15
 "lesen","hat gelesen","leer",10
-"liegen","hat gelegen","estar tumbado",8
+"liegen","hat gelegen","estar tumbado, estar acostado, yacer",7
 "lügen","hat gelogen","mentir",8
-"machen","hat gemacht","hacer",1
+"machen","hat/ist gemacht","hacer, realizar, organizar, llevar a cabo",1
 "mahlen","hat gemahlen","moler",10
-"meiden","hat gemieden","evitar",12
+"meiden","hat gemieden","evitar, rehuir",13
 "melken","hat gemolken","ordeñar",13
-"messen","hat gemessen","medir",7
-"multiplizieren mit","-","multiplicar por",1
-"mögen","hat gemocht","gustar",10
-"müssen","hat gemusst","deber (obligación)",9
-"nachdenken über","-","reflexionar sobre",1
-"nachfragen bei","-","consultar a",1
+"messen","hat gemessen","medir",6
+"sich messen","hat gemessen","medirse",6
+"multiplizieren mit","hat multipliziert","multiplicar por",1
+"mögen","hat gemocht","gustar, querer, desear, preferir",9
+"müssen","hat gemusst","deber(obligación), tener que, hay que",9
+"nachdenken über","hat nachgedacht","reflexionar sobre, pensar en",1
+"nachfragen","hat nachgefragt","solicitar, preguntar, demandar",1
+"nachfragen wegen","hat nachgefragt","preguntar por",1
 "nehmen","hat genommen","coger, tomar, apoderarse",9
-"nennen","hat genannt","nombrar",7
-"pfeifen","hat gepfiffen","silbar",10
-"preisen","hat gepriesen","alabar",11
-"protestieren gegen","-","protestar contra",1
-"protzen mit","-","hacer gala de",1
+"nennen","hat genannt","nombrar, llamar, decir,mencionar",7
+"pfeifen","hat gepfiffen","silbar",9
+"preisen","hat gepriesen","alabar, elogiar, ensalzar",11
+"protestieren","hat protestiert","protestar",1
+"protzen mit","hat geprotzt","presumir de",1
 "quellen","ist gequollen","manar, fluir, surgir, proceder",10
-"raten","hat geraten","aconsejar",10
-"rechnen mit","-","contar con",1
-"reden mit","-","hablar con",1
-"reden über","-","hablar sobre",1
+"raten","hat geraten","aconsejar, recomendar, adivinar, sugerir",9
+"rechnen","hat gerechnet","calcular, economizar",1
+"rechnen mit/auf","hat gerechnet","contar con",1
+"reden","hat geredet","hablar",1
+"reden mit","hat geredet","hablar con",1
+"reden über","hat geredet","hablar sobre",1
 "regeln","hat geregelt","regular, fijar, arreglar, reglamentar",10
-"reiben","hat gerieben","frotar",22
-"reiten","hat/ist geritten","cabalgar",11
-"reißen","hat gerissen","arrancar",13
+"reiben","hat gerieben","frotar, restregar, untar, rallar",21
+"sich reiben","hat gerieben","arañarse",21
+"reiten","hat/ist geritten","cabalgar, montar, ",10
+"reißen","hat gerissen","romperse, desgarrarse, tirar, arrastrar",13
 "rennen","ist gerannt","correr",9
 "riechen","hat gerochen","oler",12
-"ringen","hat gerungen","luchar",12
-"rufen","hat gerufen","llamar",9
-"saufen","hat gesoffen","beber (animales)",9
-"saugen","hat gesogen","mamar, absorber",7
-"schaffen","hat geschaffen","crear, trabajar",9
-"scheiden","hat/ist geschieden","separar, partir",11
-"scheinen","hat geschienen","brillar",7
+"riechen nach","hat gerochen","oler a",12
+"ringen","hat gerungen","luchar, pelear",10
+"rufen","hat gerufen","llamar, gritar",8
+"saufen","hat gesoffen","beber",9
+"saugen","hat gesogen","mamar, absorber, chupar, aspirar",7
+"schaffen","hat geschafft","crear, trabajar, desarrollar, conseguir",9
+"scheiden","hat/ist geschieden","separar, partir, divorciar, diferir",11
+"scheinen","hat geschienen","brillar, parecer",6
 "scheißen","hat geschissen","cagar",9
-"schieben","hat geschoben","empujar",11
-"schießen","hat geschossen","disparar",9
+"schieben","hat geschoben","empujar, arrastrar",11
+"schieben in","hat geschoben","meter en",11
+"schießen","hat geschossen","disparar, tirar, lanzar",8
 "schlafen","hat geschlafen","dormir",9
-"schlagen","hat geschlagen","golpear",11
-"schleifen","hat geschliffen","afilar",10
-"schließen","hat geschlossen","cerrar",7
-"schlingen","hat geschlungen","atar",11
-"schmeißen","hat geschmissen","tirar",11
+"schlagen","hat geschlagen","golpear, clavar, latir",10
+"schleifen","hat/ist geschleift","afilar, lijar, pulir, rozar",9
+"schließen","hat geschlossen","cerrar, terminar",6
+"schlingen","hat geschlungen","tragar, zampar",11
+"schlingen um","hat geschlungen","atar alrededor de",11
+"sich schlingen um","hat geschlungen","trepar por",11
+"schmeißen","hat geschmissen","tirar, lanzar, dejarm abandonar",11
 "schmelzen","ist geschmolzen","fundirse, derretirse",11
+"XXXX","XXXX","XXXX",1
 "schneiden","hat geschnitten","cortar, partir",8
 "schreiben","hat geschrieben","escribir",9
 "schreien","hat geschrien","gritar",11
 "schweigen","hat geschwiegen","callar",11
-"schwellen","ist geschwollen","hincharse",12
+"schwellen","ist geschwollen","hincharse",11
 "schwimmen","ist/hat geschwommen","nadar",8
 "schwinden","ist geschwunden","disminuir",11
 "schwingen","hat geschwungen","agitar",10
@@ -340,14 +360,14 @@
 "sprechen","hat gesprochen","hablar",7
 "sprießen","ist gesprossen","brotar",10
 "springen","ist gesprungen","saltar",7
-"stechen","hat gestochen","picar, pinchar",14
+"stechen","hat gestochen","picar, pinchar",13
 "stehen","hat gestanden","estar de pie",9
-"stehlen","hat gestohlen","robar",10
+"stehlen","hat gestohlen","robar",9
 "steigen","ist gestiegen","escalar, subir",10
 "sterben","ist gestorben","morir",9
 "stinken","hat gestunken","apestar",9
 "stoßen","hat/ist gestoßen","empujar",12
-"streichen","hat gestrichen","pintar, tachar",12
+"streichen","hat gestrichen","pintar, tachar",15
 "streiten","hat gestritten","pelearse",10
 "suchen","gesucht","buscar",1
 "teilen mit","-","compartir con",1
@@ -356,13 +376,13 @@
 "treffen mit","-","quedar con",1
 "treffen","hat getroffen","encontrarse",8
 "treiben","hat getrieben","practicar, accionar",7
-"treten","hat/ist getreten","pisar, ir",9
+"treten","hat/ist getreten","pisar, ir",8
 "trinken","hat getrunken","beber",10
-"tun","hat getan","hacer",7
+"tun","hat getan","hacer",4
 "umziehen nach","-","mudarse a",1
 "umziehen","-","cambiarse (ropa)",1
 "verderben","hat/ist verdorben","estropearse",10
-"vergessen","hat vergessen","olvidar",8
+"vergessen","hat vergessen","olvidar",7
 "verhalten","-","comportarse, portarse",2
 "verlieben in","-","enamorarse de",1
 "verlieren","hat verloren","perder",9
@@ -372,9 +392,9 @@
 "versunken in","-","abstraído en",1
 "vertauschen für","-","cambiar por",1
 "vertreiben aus","-","expulsar de",1
-"verzeihen","hat verziehen","perdonar",12
-"vorbereiten","hat vorbereitet","preparar",11
-"sich vorbereiten auf","hat vorbereitet","prepararse para, aprestarse a",9
+"verzeihen","hat verziehen","perdonar",13
+"vorbereiten","hat vorbereitet","preparar",10
+"sich vorbereiten auf","hat vorbereitet","prepararse para, aprestarse a",8
 "wachsen","ist gewachsen","crecer",10
 "wandeln","-","cambiar, convertir",1
 "warten auf","-","esperar a",1
@@ -385,19 +405,19 @@
 "wenden","hat gewandt","girar",6
 "werden","ist geworden","llegar a ser, transformarse",9
 "werfen","hat geworfen","arrojar",8
-"wiegen","hat gewogen","pesar",10
+"wiegen","hat gewogen","pesar",9
 "winden","hat gewunden","torcer",9
-"wissen","hat gewusst","saber",9
-"wollen","hat gewollt","querer",10
-"wringen","hat gewrungen","escurrir",9
+"wissen","hat gewusst","saber",8
+"wollen","hat gewollt","querer",9
+"wringen","hat gewrungen","escurrir",8
 "zerstreiten wegen","-","pelearse por",1
 "zerteilen in","-","dividir en",1
-"ziehen","hat gezogen","tirar de, arrastrar, remolcar, estirar",11
+"ziehen","hat gezogen","tirar de, arrastrar, remolcar, estirar",10
 "ziehen aus","hat gezogen","sacar de, arrancar de",11
 "ziehen an/auf","hat gezogen","acercar (tirando)  a, arrimar a",11
 "ziehen zu/nach","hat gezogen","caminar a, marchar a",11
 "ziehen in","hat gezogen","entrar a/en",11
-"ziehen durch","hat gezogen","atravesar, pasar por",11
+"ziehen durch","hat gezogen","atravesar, pasar por",10
 "zielen auf","hat gezielt","apuntar a, referirse a, dirigirse a, tener como objetivo",1
 "zubereiten","hat zubereitet","preparar, aderezar, guisar",11
 "zurücktreten","ist zurückgetreten","retroceder, disminuir",1
@@ -405,6 +425,6 @@
 "zusammenhängen","hat zusammengehängt","estar unido, estar conectado, estar relacionado",1
 "zusammenhängen mit","hat zusammengehängt","tener relación con",1
 "zuschießen","hat zugeschossen","tirar, lanzar, contribuir con",11
-"zuschießen auf","hat zugeschossen","abalanzarse sobre, precipitarse",11
-"zwingen zu","hat gezwungen","obligar a",12
-"sich zwingen zu","hat gezwungen","obligarse a",11
+"zuschießen auf","hat zugeschossen","abalanzarse sobre, precipitarse",10
+"zwingen zu","hat gezwungen","obligar a",11
+"sich zwingen zu","hat gezwungen","obligarse a",10

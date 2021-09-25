@@ -375,6 +375,7 @@
 "Gardine","Gardinen","f","cortina",1
 "Garten","Gärten","m","jardín",1
 "Gast","Gäste","m","huesped",1
+"Gebaren","-","n","comportamiento, conducta",11
 "Geburt","Geburten","f","parto",1
 "Geburtstag","Geburtstage","m","cumpleaños",1
 "Gebühr","Gebühren","f","tarifa, taza",3
@@ -393,6 +394,7 @@
 "Geld","-","n","dinero",1
 "Gelegenheit","Gelegenheiten","f","oportunidad",1
 "Gelände","Gelände","n","terreno",1
+"Gelingen","-","n","éxito",11
 "Gemüse","Gemüse","n","verdura",1
 "Genitiv","Genitive","m","genitivo",1
 "Genossenschaft","Genossenschaften","f","cooperativa",1
@@ -400,6 +402,7 @@
 "Gericht","Gerichte","n","comida, plato, tribunal, juzgado",1
 "Geruchssinn","-","m","olfato",1
 "Gerät","Geräte","n","aparato, instrumento, utensillo",2
+"Geschehen","Geschehen","n","sucesos, acontecimientos",11
 "Geschenk","Geschenke","n","regalo",1
 "Geschichte","-","f","historia",1
 "Geschirr","Geschirre","n","vajilla",1
@@ -422,6 +425,7 @@
 "Gleichgewicht","-","n","equilibrio",6
 "Glück","-","n","suerte",1
 "Glühbirne","Glühbirnen","f","foco",1
+"Graben","Gräben","m","zanja, acequia, cuneta, foso", 12
 "Grammatik","Grammatiken","f","gramática",1
 "Grashüpfer","Grashüpfer","m","saltamontes",2
 "Grenze","Grenzen","f","frontera",1
@@ -634,6 +638,7 @@
 "Löffel","Löffel","m","cuchara",1
 "Lösung","Lösungen","f","solución",1
 "Löwe","Löwen","m","león",1
+"Lüge","Lügen","f","mentira",11
 "Macht","Mächte","f","poder, potencia",1
 "Mahnung","Mahnungen","f","amonestación, recordatorio, requerimiento",3
 "Mai","Maie","m","mayo",1
@@ -777,6 +782,7 @@
 "Prospekt","Prospekte","mn","folleto, prospecto",1
 "Protokoll","Protokolle","n","protocolo, acta",1
 "Prototyp","Prototypen","m","prototipo",3
+"Protz","Protze","m","fanfarrón, presumido",11
 "Prozess","Prozesse","m","proceso",1
 "Präsens","Präsentia/Präsenzien","n","presente (tiempo verbal)",5
 "Präsentation","Präsentationen","f","presentación",1
