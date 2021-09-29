@@ -295,6 +295,8 @@
 "Erschrecken","-","n","terror",8
 "Erwachsene","Erwachsenen","mf","adulto",7
 "Erwartung","Erwartungen","f","esperanza, expectativa",1
+"Erzieher","Erzieher","m","educador, pedagogo, maestro",11
+"Erzieherin","Erzieherinnen","f","educadora, pedagoga, maestra",11
 "Eröffnung","Eröffnungen","f","apertura, inauguración, publicación",1
 "Esel","Esel","m","burro",1
 "Eselin","Eselinnen","f","burra",1
@@ -607,6 +609,7 @@
 "Label","Label","n","etiqueta, identificación",1
 "Lage","Lagen","f","sitio, posición, situación",1
 "Lager","Lager","n","almacén, depósito",1
+"Laden","Läden","m","tienda, negocio, carga",11
 "Lamm","Lämmer","n","cordero",1
 "Lampe","Lampen","f","lampara",1
 "Land","Länder","n","país",1
@@ -828,6 +831,7 @@
 "Rubrik","Rubriken","f","categoría",2
 "Rucksack","Rucksäcke","m","mochila",6
 "Ruine","Ruinen","f","ruina",16
+"Runde","Runden","f","reunión, tertulia, vuelta, ronda",11
 "Räderwerk","Räderwerke","n","engranaje",1
 "S-Bahn","S-Bahnen","f","metro",1
 "Sachbearbeiter","Sachbearbeiter","m","oficial encargado",1
@@ -988,6 +992,7 @@
 "Tastsinn","-","m","sentido del tacto",1
 "Tat","Taten","f","hecho, acción, acto",1
 "Taube","Tauben","f","paloma",1
+"Tausch","Tausche","m","cambio, trueque",11
 "Team","Teams","n","equipo",1
 "Tee","Tees","m","té, infusión",1
 "Teil","Teile","mn","pieza, parte",1

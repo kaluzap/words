@@ -39,6 +39,8 @@
 "sich anbieten","hat angeboten","ser apropiado",1
 "sich anbieten zu","hat angeboten","brindarse a",1
 "sich anbieten als zu","hat angeboten","ofrecerse como/para/de",1
+"anmelden","hat angemeldet","matricular, inscribir, presentar, avisar",11 
+"sich anmelden","hat angemeldet","matricularse, inscribirse, presentarse, registrarse",11
 "annehmen","hat angenommen","aceptar, tomar, adoptar, contraer",1
 "anrufen","hat angerufen","llamar, pedir, implorar, invocar",1
 "anschauen","hat angeschaut","mirar",1
@@ -197,6 +199,7 @@
 "entspringen","ist entsprungen","resultar de, originarse en",7
 "entspringen in","ist entsprungen","nacer en",4
 "erfahren","hat erfahren","saber algo",10
+"erlauben","hat erlaubt","permitir, autorizar",11
 "erlöschen","ist erloschen","apagarse, extinguirse, prescribir, desaparecer",11
 "ermitteln","hat ermittelt","determinar, calcular, averiguar, investigar",1
 "erschrecken","hat/ist erschrocken","asustar",9
@@ -215,6 +218,7 @@
 "fliegen","hat/ist geflogen","volar, ir en avion",9
 "fliehen vor","ist geflohen","huir de, escaparse de, refugiarse",9
 "fließen","ist geflossen","fluir, correr, salir, surgir",11
+"freischalten","hat freigeschaltet","conectar, activar, dar de alta",11
 "fressen","hat gefressen","comer (animales), tragar, devorar, alimentar",10
 "freuen","hat gefreut","alegrar, complacer",1
 "sich freuen","hat gefreut","alegrarse",1
@@ -251,6 +255,7 @@
 "helfen bei","hat geholfen","ayudar en",1
 "helfen gegen","hat geholfen","ser bueno para",1
 "helfen","hat geholfen","ayudar, auxiliar, asistir, servir",8
+"hinterlegen","hat hinterlegt","depositar",11
 "hinzufügen zu","hat hinzugefügt","añadir, agregar",1
 "hängen","hat gehangen","colgar, fijar, enganchar, ahorcar",6
 "hängen an","hat gehangen","colgar de/en, pender de",5
@@ -381,6 +386,8 @@
 "streichen","hat gestrichen","pintar, tachar, suprimir, anular",15
 "streiten","hat gestritten","pelearse, discutir, debatir",10
 "suchen","hat gesucht","buscar",1
+"tauschen für/gegen","hat getauscht","cambiar por",11
+"täuschen","hat getäuscht","engañar",11
 "teilen","hat geteilt","partir, dividir",1
 "teilen mit","hat geteilt","compartir con",1
 "tragen","hat getragen","llevar, vestir, sostener",7
