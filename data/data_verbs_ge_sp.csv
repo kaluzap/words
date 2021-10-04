@@ -207,6 +207,7 @@
 "erwachsen","ist erwachsen","crecer",1
 "erwachsen aus","ist erwachsen","surgir de, originarse de",1
 "essen","hat gegessen","comer",6
+"existieren","hat existiert","existir",11
 "fahren","hat/ist gefahren","conducir, viajar, ir en, pasar",7
 "fahren nach","hat/ist gefahren","ir a",9
 "fallen","ist gefallen","caer, bajar, descender",9
@@ -399,6 +400,7 @@
 "tun","hat getan","hacer",4
 "sich umziehen","hat/ist umgezogen","cambiarse (ropa)",1
 "umziehen nach","hat/ist umgezogen","mudarse a, trasladarse a",1
+"verbessern","hat verbessert","mejorar, perfeccionar, corregir, batir (record)",11
 "verderben","hat/ist verdorben","estropearse",10
 "vergessen","hat vergessen","olvidar",7
 "sich verhalten","hat verhalten","comportarse, portarse",2
@@ -408,8 +410,14 @@
 "sich verlieben in","hat verloren","perderse en, enamorarse de",1
 "vermuten","hat vermutet","suponer, presumir, esperar",1
 "vernetzen","hat vernetzt","unir, conectar",1
+"versprechen","hat versprochen","prometer",11
+"sich versprechen","hat versprochen","equivocarse al hablar",11
 "verschwinden","ist verschwunden","desaparecer",9
 "versinken in","ist versunken","sumergirse en, hundirse en, perderse en, absorto",1
+"versuchen","hat versucht","probar, intentar",11
+"verstanden","hat verstanden","entender, comprender, captar, saber",11
+"sich verstanden","hat verstanden","entenderse, llevarse bien",11
+"verstanden unter","hat verstanden","entender por",11
 "vertauschen gegen/mit","hat vertauscht","cambiar por, canjear por, confundir con",1
 "vertreiben","hat vertrieben","ahuyentar, quitar, vender, desaparecer",1
 "vertreiben aus","hat vertrieben","expulsar de, echar de",1

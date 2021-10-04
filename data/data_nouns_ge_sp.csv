@@ -821,7 +821,8 @@
 "Reichstag","-","m","parlamento alemán",1
 "Reis","-","m","arroz",1
 "Reise","Reisen","f","viaje",1
-"Reiseziel","Reiseziele","n","punto de destino",1
+"Reiseziel","Reiseziele","n","destino",1
+"Rekord","Rekorde","m","récord",11
 "Rente","Renten","f","pensión",1
 "Restaurant","Restaurants","n","restaurante",1
 "Richtung","Richtungen","f","dirección",1
@@ -1077,6 +1078,7 @@
 "Versicherung","Versicherungen","f","seguro",1
 "Versprechen","Versprechen","n","promesa",1
 "Verstärkung","Verstärkungen","f","refuerzo",1
+"Versuch","Versuche","m","intento, tentativa, experimento, ensayo",11
 "Vertrag","Verträge","m","contrato",1
 "Verwaltung","Verwaltungen","f","administración",1
 "Verwandte","Verwandten","mf","pariente",1
