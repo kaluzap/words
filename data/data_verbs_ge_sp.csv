@@ -11,6 +11,7 @@
 "sich ableiten aus/von","hat abgeleitet","derivarse de",1
 "ableiten","hat abgeleitet","desviar, transvasar, eliminar, ",1
 "abnehmen","hat abgenommen","declinar, adelgazar, quitar, ampuntar",1
+"absagen","hat abgesagt","excusarse, anular, cancelar",11
 "abschirmen gegen","hat abgeschirmt","proteger de/contra",1
 "abschirmen","hat abgeschirmt","matizar, proteger",1
 "abschreiben","hat abgeschrieben","transcribir, amortizar",2
@@ -313,6 +314,7 @@
 "reden mit","hat geredet","hablar con",1
 "reden über","hat geredet","hablar sobre",1
 "regeln","hat geregelt","regular, fijar, arreglar, reglamentar",10
+"regnen","hat geregnet","llover",11
 "reiben","hat gerieben","frotar, restregar, untar, rallar",21
 "sich reiben","hat gerieben","arañarse",21
 "reiten","hat/ist geritten","cabalgar, montar, ",10
@@ -410,6 +412,9 @@
 "sich verlieben in","hat verloren","perderse en, enamorarse de",1
 "vermuten","hat vermutet","suponer, presumir, esperar",1
 "vernetzen","hat vernetzt","unir, conectar",1
+"verschieben","hat verschoben","desplazar, mover, correr, cambiar de sitio",11
+"verschieben auf","hat verschoben","aplazar para, dejar para",11
+"sich verschieben","hat verschoben","correrse, aplazarse, retrasarse",11
 "versprechen","hat versprochen","prometer",11
 "sich versprechen","hat versprochen","equivocarse al hablar",11
 "verschwinden","ist verschwunden","desaparecer",9
@@ -424,6 +429,9 @@
 "verzeihen","hat verziehen","perdonar, disculpar",16
 "vorbereiten","hat vorbereitet","preparar",10
 "sich vorbereiten auf","hat vorbereitet","prepararse para, aprestarse a",7
+"vorschlagen","hat vorgeschlagen","proponer, recomendar",11
+"vorschlagen für","hat vorgeschlagen","recomendar para",11
+"vorschlagen als","hat vorgeschlagen","recomendar como",11
 "wachsen","hat	gewachst","crecer, aumentar",10
 "wandeln","hat/ist gewandelt","cambiar, convertir",1
 "warten","hat gewartet","esperar",1
