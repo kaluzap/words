@@ -178,7 +178,7 @@
 "Brand","-","m","gangrena, necrosis",1.0
 "Brand","Brände","m","fuego, incendio, sed",1.0
 "Brandwunde","Brandwunden","f","quemadura",1.0
-"Braten","Braten","m","asado",10.0
+"Braten","Braten","m","asado",9.0
 "Bratwurst","Bratwürste","f","salchicha frita",1.0
 "Brei","Breie","m","papilla, puré",12.0
 "Brennstoff","Brennstoffe","m","combustible",1.0
@@ -203,7 +203,7 @@
 "Bücherregal","Bücherregale","n","estantería de libros",1.0
 "Bürge","Bürgen","m","fiador, garante",11.0
 "Bürgin","Bürginnen","f","fiadora, garante",9.0
-"Büro","Büros","n","oficina",2.0
+"Büro","Büros","n","oficina",3.0
 "Cafeteria","Cafeterien","f","cafetería",1.0
 "Chef","Chefs","m","Jefe",1.0
 "Chefin","Chefinnen","f","Jefa",1.0
@@ -289,16 +289,16 @@
 "Erde","-","f","planeta tierra",1.0
 "Erfahrung","Erfahrungen","f","experiencia",1.0
 "Erfolg","Erfolge","m","éxito, resultado",1.0
-"Ergebnis","Ergebnisse","n","resultado, consecuencia",4.0
+"Ergebnis","Ergebnisse","n","resultado, consecuencia",6.0
 "Erklärung","Erklärungen","f","explicación, razón, declaración, comentario",1.0
-"Erlaubnis","Erlaubnisse","f","permiso",9.0
+"Erlaubnis","Erlaubnisse","f","permiso",6.0
 "Erläuterung","Erläuterungen","f","explicación, comentario",1.0
 "Erlöschen","-","n","extinción, expiración, caducidad",10.0
 "Ersatz","-","m","sustitución",1.0
 "Erschrecken","-","n","terror",8.0
 "Erwachsene","Erwachsenen","mf","adulto",7.0
 "Erwartung","Erwartungen","f","esperanza, expectativa",1.0
-"Erzieher","Erzieher","m","educador, pedagogo, maestro",11.0
+"Erzieher","Erzieher","m","educador, pedagogo, maestro",10.0
 "Erzieherin","Erzieherinnen","f","educadora, pedagoga, maestra",11.0
 "Eröffnung","Eröffnungen","f","apertura, inauguración, publicación",1.0
 "Esel","Esel","m","burro",1.0
@@ -391,7 +391,7 @@
 "Gefilde","Gefilde","n","campiña, campos",1.0
 "Gefährlichkeit","-","f","peligrosidad, gravedad, riesgo",1.0
 "Gefühl","Gefühle","n","sensación, sentimiento",1.0
-"Gegenteil","Gegenteile","n","lo contrario",6.0
+"Gegenteil","Gegenteile","n","lo contrario",5.0
 "Gegenwart","-","f","actualidad, presente",1.0
 "Gehalt","Gehälter","n","sueldo, salario",1.0
 "Gehörsinn","-","m","sentido del oído",1.0
@@ -430,7 +430,7 @@
 "Gleichgewicht","-","n","equilibrio",5.0
 "Glück","-","n","suerte",1.0
 "Glühbirne","Glühbirnen","f","foco",1.0
-"Graben","Gräben","m","zanja, acequia, cuneta, foso",10.0
+"Graben","Gräben","m","zanja, acequia, cuneta, foso",11.0
 "Grammatik","Grammatiken","f","gramática",1.0
 "Grashüpfer","Grashüpfer","m","saltamontes",2.0
 "Grenze","Grenzen","f","frontera",1.0
@@ -503,7 +503,7 @@
 "Jahr","Jahre","n","año",1.0
 "Januar","Januare","m","enero",1.0
 "Job","Jobs","m","trabajo",1.0
-"Jongleur","Jongleure","m","malabarismo",4.0
+"Jongleur","Jongleure","m","malabarismo",3.0
 "Juli","Julis","m","julio",1.0
 "Junge","Jungen","m","muchacho",1.0
 "Juni","Junis","m","junio",1.0
@@ -614,7 +614,7 @@
 "Label","Label","n","etiqueta, identificación",1.0
 "Lage","Lagen","f","sitio, posición, situación",1.0
 "Lager","Lager","n","almacén, depósito",1.0
-"Laden","Läden","m","tienda, negocio, carga",11.0
+"Laden","Läden","m","tienda, negocio, carga",13.0
 "Lamm","Lämmer","n","cordero",1.0
 "Lampe","Lampen","f","lampara",1.0
 "Land","Länder","n","país",1.0
@@ -625,7 +625,7 @@
 "Leben","Leben","n","vida",1.0
 "Lebensmitte","-","f","mitad de la vida",1.0
 "Lebensmittel","Lebensmittel","n","comestibles",1.0
-"Legende","Legenden","f","leyenda, cuento",2.0
+"Legende","Legenden","f","leyenda, cuento",1.0
 "Lehrer","Lehrer","m","maestro",1.0
 "Lehrerin","Lehrerinnen","f","maestra",1.0
 "Leiter","Leitern","f","escalera",1.0
@@ -663,7 +663,7 @@
 "Material","Materialien","n","material",1.0
 "Mauer","Mauern","f","muro",1.0
 "Maus","Mäuse","f","ratón",1.0
-"Maß","Maße","n","medida, dimensión",11.0
+"Maß","Maße","n","medida, dimensión",13.0
 "Maßnahme","Maßnahmen","f","medida",2.0
 "Mechanik","-","f","física - mecánica",1.0
 "Medikament","Medikamente","n","medicamento, remedio",6.0
@@ -837,7 +837,7 @@
 "Rubrik","Rubriken","f","categoría",2.0
 "Rucksack","Rucksäcke","m","mochila",6.0
 "Ruine","Ruinen","f","ruina",16.0
-"Runde","Runden","f","reunión, tertulia, vuelta, ronda",11.0
+"Runde","Runden","f","reunión, tertulia, vuelta, ronda",10.0
 "Räderwerk","Räderwerke","n","engranaje",1.0
 "S-Bahn","S-Bahnen","f","metro",1.0
 "Sachbearbeiter","Sachbearbeiter","m","oficial encargado",1.0
@@ -1061,7 +1061,7 @@
 "Unterricht","Unterrichte","m","clase, lección",2.0
 "Unterschied","Unterschiede","m","diferencia",1.0
 "Unterschrift","Unterschriften","f","firma (escrita)",3.0
-"Unwetter","Unwetter","n","temporal, tormenta",1.0
+"Unwetter","Unwetter","n","temporal, tormenta",3.0
 "Unwissenheit","-","f","ignorancia",1.0
 "Urlaub","Urlaube","m","vacaciones",1.0
 "Vampir","Vampire","m","vampiro",1.0
@@ -1158,7 +1158,7 @@
 "Wolf","Wölfe","m","lobo",1.0
 "Wolke","Wolken","f","nube",1.0
 "Wort","Worte/Wörter","n","palabra",1.0
-"Wortschatz","Wortschätze","m","léxico, vocabulario",10.0
+"Wortschatz","Wortschätze","m","léxico, vocabulario",9.0
 "Wunde","Wunden","f","herida",1.0
 "Wunder","Wunder","n","maravilla, milagro",5.0
 "Wunsch","Wünsche","m","deseo",1.0
@@ -1188,14 +1188,14 @@
 "Zitat","Zitate","n","cita",1.0
 "Zoll","Zölle","m","aduana",1.0
 "Zoff","-","m","pelea",4.0
-"Zoo","Zoos","m","zoológico",2.0
+"Zoo","Zoos","m","zoológico",1.0
 "Zubereitung","Zubereitungen","f","preparación, aderezo",9.0
 "Zucker","Zucker","m","azucar",1.0
 "Zug","Züge","m","tren",1.0
 "Zugvogel","Zugvögel","m","ave migratoria",1.0
 "Zukunft","-","f","futuro, porvenir",1.0
 "Zusammenfassung","Zusammenfassungen","f","resumen",1.0
-"Zusammenhang","Zusammenhänge","m","relación, conexión, contexto",9.0
+"Zusammenhang","Zusammenhänge","m","relación, conexión, contexto",8.0
 "Zusammenstoß","Zusammenstöße","m","colisión, choque, altercado, disputa",1.0
 "Zustand","Zustände","m","estado, situación",1.0
 "Zwerg","Zwerge","m","enano",1.0
@@ -1205,7 +1205,7 @@
 "Öl","Öle","n","aceite",1.0
 "Überbau","Überbaue/Überbauten","m","superstructura, voladizo",1.0
 "Übergang","Übergänge","m","paso, traspaso, transición",1.0
-"Überraschung","Überraschungen","f","sorpresa",2.0
+"Überraschung","Überraschungen","f","sorpresa",1.0
 "Überschrift","Überschriften","f","título, encabezado",1.0
 "Übersetzung","Übersetzungen","f","traducción",1.0
 "Übung","Übungen","f","práctica, ejercicio",1.0
