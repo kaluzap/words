@@ -41,6 +41,7 @@
 "Angabe","Angaben","f","dato, indicación",1.0
 "Angebot","Angebote","n","oferta",2.0
 "Angehörige","Angehörigen","mf","pariente, miembro, militante",1.0
+"Angelegenheit","Angelegenheiten","f","asunto, cuestión",11
 "Angst","Ängste","f","miedo",1.0
 "Anhang","Anhänge","m","apéndice, adjunto",1.0
 "Ankunft","-","f","llegada",1.0
@@ -73,6 +74,7 @@
 "Atmen","-","n","respiración",7.0
 "Attest","Atteste","n","certificado médico",12.0
 "Aufenthalt","Aufenthalte","m","residencia",1.0
+"Aufenthaltsangelegenheit","Aufenthaltsangelegenheiten","f","asunto de residencia",11
 "Aufenthaltstitel","Aufenthaltstitel","m","título de residencia",1.0
 "Aufgabe","Aufgaben","f","tarea",1.0
 "Aufgang","Aufgänge","m","subida, salida",1.0
@@ -264,6 +266,7 @@
 "Einlagensicherung","-","f","garantía de depósito",1.0
 "Einleger","Einleger","m","depositante",1.0
 "Einlegerin","Einlegerinnen","f","depositante",1.0
+"Einwanderung","Einwanderungen","f","inmigración",10.0
 "Einzug","Einzüge","m","recaudación, entrada, ingreso",1.0
 "Eis","-","n","hielo",1.0
 "Eisbär","Eisbären","m","oso polar",1.0
@@ -618,6 +621,7 @@
 "Lamm","Lämmer","n","cordero",1.0
 "Lampe","Lampen","f","lampara",1.0
 "Land","Länder","n","país",1.0
+"Landesamt","Landesämter","n","oficina estatal",10.0
 "Landkreis","Landkreise","m","distrito administrativo",1.0
 "Landschaft","Landschaften","f","paisaje",1.0
 "Laser","Laser","m","láser",1.0
@@ -728,6 +732,7 @@
 "Nichte","Nichten","f","sobrina",1.0
 "Nichts","-","n","nada",1.0
 "Niederlassung","-","f","establecimiento",1.0
+"Niederlassungserlaubnis","Niederlassungserlaubnisse","f","permiso de residencia permanente",10.0
 "Niederschlag","Niederschläge","m","precipitación",3.0
 "Nominativ","Nominative","m","nominativo",1.0
 "Nord","-","m","norte",1.0
@@ -795,7 +800,7 @@
 "Präsens","Präsentia/Präsenzien","n","presente (tiempo verbal)",4.0
 "Präsentation","Präsentationen","f","presentación",1.0
 "Präteritum","Präterita","n","pretérito, pasado (tiempo verbal)",1.0
-"Prüfung","Prüfungen","f","examen",1.0
+"Prüfung","Prüfungen","f","examen, control",1.0
 "Publikation","Publikationen","f","publicación",1.0
 "Publikum","-","n","público",1.0
 "Pumpe","Pumpen","f","bomba",1.0
@@ -1096,9 +1101,11 @@
 "Vordergrund","Vordergründe","m","primer plano, prioridad",1.0
 "Vorfeld","Vorfelder","n","preludio",4.0
 "Vorgesetzte","Vorgesetzten","mf","superior jerárquico",2.0
+"Vorlage","Vorlagen","f","presentación, proyecto",11.0
 "Vorschlag","Vorschläge","m","propuesta",2.0
 "Vorschulkind","Vorschulkinder","n","niño preescolar",1.0
 "Vorsorgeuntersuchung","Vorsorgeuntersuchungen","f","chequeo preventivo",1.0
+"Vorsprechen","-","n","audición",11.0
 "Vorstellungsgespräch","Vorstellungsgespräche","n","entrevista de trabajo",1.0
 "Vorteil","Vorteile","m","ventaja",2.0
 "Vulkan","Vulkane","m","volcán",1.0
